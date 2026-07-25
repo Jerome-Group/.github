@@ -1,0 +1,16 @@
+# Blank issues are off so that every issue arrives on `needs-triage` carrying the fields triage
+# needs — a blank issue would bypass both.
+#
+# Contact links take a literal URL and cannot know which repository they are being shown in, so
+# they point at the organisation-wide documents. A repository's own glossary is named inside the
+# forms instead.
+blank_issues_enabled: false
+
+contact_links:
+  - name: How work flows in this organisation
+    url: https://github.com/Jerome-Group/.github/blob/main/CONTRIBUTING.md
+    about: Issue first, one change per pull request, squash merges, AI disclosed. Read this before filing.
+
+  - name: Reporting a vulnerability
+    url: https://github.com/Jerome-Group/.github/blob/main/SECURITY.md
+    about: Security problems go privately to security@jeromegroup.org, never into a public issue.
