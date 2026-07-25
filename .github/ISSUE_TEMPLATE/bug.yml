@@ -1,0 +1,38 @@
+name: Bug
+description: Something is behaving wrongly.
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Found a **security** problem? Close this and email security@jeromegroup.org instead — a
+        vulnerability in a public issue is a disclosure.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, and what you got. Paste the error or the output rather than describing it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release, tag, or commit you saw this on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime version, and anything else that might matter.
