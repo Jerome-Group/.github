@@ -1,6 +1,10 @@
 # Blank issues are off so that every issue arrives on `needs-triage` carrying the fields triage
 # needs — a blank issue would bypass both.
 #
+# "Off" means off for contributors, not for everyone: the chooser still offers a maintainer
+# "Blank issue", tagged `Maintainers only`. That tag is how you can tell the setting took effect
+# at all — seeing an untagged blank issue is the failure, not seeing none (#11).
+#
 # Contact links take a literal URL and cannot know which repository they are being shown in, so
 # they point at the organisation-wide documents. A repository's own glossary is named inside the
 # forms instead.
