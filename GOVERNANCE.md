@@ -27,9 +27,11 @@ an ADR says why the alternative was rejected. This is what stops a decision from
 reversed six months later by the same person who made it.
 
 **Changes go through a pull request, including the Owner's.** The default branch of every
-repository blocks direct pushes and force-pushes, requires a pull request, and requires the
-automated check to pass. Zero approvals are required, because a required approval with one
-maintainer is theatre; the check is the reviewer that is actually guaranteed.
+repository blocks direct pushes and force-pushes, requires a pull request, requires a linear
+history, and requires every review comment to be resolved. Zero approvals are required, because
+a required approval with one maintainer is theatre. A repository additionally requires its CI
+check to pass, once it has one worth requiring — that part is per repository, because a required
+check that does not exist protects nothing.
 
 The Owner holds a break-glass bypass on those rules. It exists so a misconfigured rule cannot
 lock the organisation out of its own repositories, and using it for convenience would defeat the
