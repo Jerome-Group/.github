@@ -37,8 +37,10 @@ The default branch of every repository here is protected the same way:
 - **A pull request is required.** Nobody pushes to it directly.
 - **Zero approvals are required, and that is not an oversight** — the organisation has one
   maintainer, so a required approval would be a second reviewer who does not exist. The pull
-  request itself is the review surface, and the automated check is the reviewer you are
-  guaranteed.
+  request itself is the review surface.
+- **A repository with CI requires its check to pass.** That is set per repository, once there is
+  a check worth requiring, so whether it applies to yours is visible on the pull request rather
+  than promised here.
 - **Merges are squashes, and history is linear.** Your branch does not need to be tidy; it needs
   to be one coherent change. If it is two changes, send two pull requests.
 - **Every review comment must be resolved before merge**, including your own.
