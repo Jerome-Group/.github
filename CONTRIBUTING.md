@@ -80,6 +80,7 @@ describing a layout that no longer exists.
 
 ## Conduct and security
 
-Behaviour is governed by the [Code of Conduct](CODE_OF_CONDUCT.md) —
+Behaviour is governed by the
+[Code of Conduct](https://github.com/Jerome-Group/.github/blob/main/CODE_OF_CONDUCT.md) —
 conduct@jeromegroup.org. Vulnerabilities go to security@jeromegroup.org and never into a public
-issue; see [SECURITY](SECURITY.md).
+issue; see [SECURITY](https://github.com/Jerome-Group/.github/blob/main/SECURITY.md).
