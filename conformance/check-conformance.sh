@@ -3,7 +3,12 @@
 # the tree in front of it and the manifest beside it are the whole input, which is what lets the
 # fixtures in the management hub exercise its failing paths.
 #
-#   sh conformance/check-conformance.sh <tree>
+#   sh conformance/check-conformance.sh <tree> [repository]
+#
+# `repository` is the `owner/name` the tree belongs to, and the only thing it decides is whether
+# this tree is the one the mirrored documents *live* in rather than a copy of them (ADR-0034).
+# Omitted means "not that repository", which is the answer for every fixture and every caller but
+# one.
 #
 # Through the interpreter, always, and never `./`: this file reaches the repository it is served
 # from through the Contents API, which writes a plain blob and has no way to set the executable
@@ -18,12 +23,13 @@ set -eu
 # Spelled out rather than `${1:?…}`, which exits 1 in some shells and 2 in others — and 1 is the
 # status this script reserves for a tree that genuinely does not conform. A caller that could not
 # tell a missing argument from a violation would report the wrong thing.
-if [ $# -ne 1 ]; then
-  printf 'usage: sh conformance/check-conformance.sh <tree>\n' >&2
+if [ $# -lt 1 ] || [ $# -gt 2 ]; then
+  printf 'usage: sh conformance/check-conformance.sh <tree> [repository]\n' >&2
   exit 2
 fi
 
 tree=$1
+repository=${2:-}
 
 [ -d "$tree" ] || {
   printf 'No such tree: %s\n' "$tree" >&2
@@ -47,7 +53,13 @@ mirrored_rule='mirrored-files-match-the-organisations-copy'
 skeleton_rule='skeleton-files-keep-their-required-headings'
 ceiling_rule='documents-stay-under-their-line-ceiling'
 
+# The repository the mirrored documents are authored in, declared by the manifest rather than
+# written here: the generator knows which tree it read them out of, and a name repeated in two
+# files is a name that eventually disagrees with itself.
+originals_repository=$(awk -F'\t' '$1 == "originals" {print $2}' "$manifest")
+
 failures=0
+mirrored_skipped=
 
 fail() {
   rule=$1
@@ -121,7 +133,19 @@ file_hash() {
 # health files, and a manifest that failed on their absence would fail every private repository
 # in the Organisation for holding exactly what it was seeded with. Whether a file should be there
 # at all is the seed's question, and `bin/audit` already asks it.
+#
+# The one tree this rule must not run against is the repository the originals live in, where the
+# same file is the source rather than a copy. Held to a hash pinned beside the checker, that
+# repository could never edit its own documents: the hash only moves when the hub is republished,
+# which happens after a merge the red check would prevent. The manifest names the repository that
+# owns them and the caller says which repository it is holding, so the two can be compared
+# (ADR-0034).
 check_mirrored_files_match_the_organisations_copy() {
+  if [ -n "$repository" ] && [ "$repository" = "$originals_repository" ]; then
+    mirrored_skipped=yes
+    return
+  fi
+
   records=$(manifest_records mirrored)
 
   while IFS="$tab" read -r _ path expected; do
@@ -237,6 +261,14 @@ if [ "$failures" -gt 0 ]; then
   exit 1
 fi
 
+# A skipped rule is reported as skipped, never as `ok`. The two mean different things — one is
+# "asked and answered", the other is "not asked" — and a run that printed the same word for both
+# would let a rule quietly stop running without the output changing.
 for rule in "$map_rule" "$mirrored_rule" "$skeleton_rule" "$ceiling_rule"; do
-  printf 'ok    %s\n' "$rule"
+  if [ "$rule" = "$mirrored_rule" ] && [ -n "$mirrored_skipped" ]; then
+    printf 'skip  %s  %s holds these documents; it does not copy them\n' \
+      "$rule" "$originals_repository"
+  else
+    printf 'ok    %s\n' "$rule"
+  fi
 done
