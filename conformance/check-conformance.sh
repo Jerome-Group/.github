@@ -15,7 +15,15 @@
 # it does not, 2 when the arguments are wrong — a usage mistake is not a conformance finding.
 set -eu
 
-tree=${1:?usage: sh conformance/check-conformance.sh <tree>}
+# Spelled out rather than `${1:?…}`, which exits 1 in some shells and 2 in others — and 1 is the
+# status this script reserves for a tree that genuinely does not conform. A caller that could not
+# tell a missing argument from a violation would report the wrong thing.
+if [ $# -ne 1 ]; then
+  printf 'usage: sh conformance/check-conformance.sh <tree>\n' >&2
+  exit 2
+fi
+
+tree=$1
 
 [ -d "$tree" ] || {
   printf 'No such tree: %s\n' "$tree" >&2
@@ -65,8 +73,9 @@ check_map_covers_top_level_directories() {
 
     # `grep -F`, so a name carrying a regular-expression character — `.github` again — is matched
     # as the literal it is rather than as a pattern that would also match `xgithub`. The backtick
-    # and the trailing slash are what make the match a path in the entry-point column and not a
-    # word that happens to appear in a description.
+    # and the trailing slash are what make it a path rather than a word: `docs` in a sentence is
+    # not a row, and `docs/` written as a path is. Any cell of the row counts — which column a map
+    # puts the path in is the map's business, and the rule is about coverage, not layout.
     printf '%s\n' "$rows" | grep -qF "\`$name/" ||
       fail "$map_rule" "$name/ has no row in MAP.md"
   done
