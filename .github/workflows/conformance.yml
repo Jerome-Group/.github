@@ -1,0 +1,37 @@
+name: Conformance
+
+# The Organisation's conformance check, served from here so that agreeing a convention once makes
+# it true everywhere: a repository calls this workflow, and a rule added here reaches every caller
+# as a pin bump rather than as N edits nobody remembers to make (#73).
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  # The caller reports this as `<its job id> / check`, which is the context its ruleset must
+  # require. Renaming this job renames that context in every repository at once.
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # The caller's tree, into a subdirectory rather than the workspace root: the checker walks
+      # the top-level directories of what it is given, and a second checkout beside them would be
+      # a directory the repository never wrote and could not have a `MAP.md` row for.
+      # Actions are pinned to a commit, not a tag, so a moved tag cannot change what runs here.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: tree
+
+      # The checker itself, at the commit this workflow was called at rather than at whatever
+      # `main` holds by the time the job starts. The caller pins the workflow; without this the
+      # rules it runs would still float, and the pin would guarantee nothing.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Jerome-Group/.github
+          ref: ${{ github.job_workflow_sha }}
+          path: dot-github
+
+      # Through `sh` because the Contents API cannot commit an executable blob — see the header of
+      # the script itself.
+      - run: sh dot-github/conformance/check-conformance.sh tree
