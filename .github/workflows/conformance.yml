@@ -34,4 +34,9 @@ jobs:
 
       # Through `sh` because the Contents API cannot commit an executable blob — see the header of
       # the script itself.
-      - run: sh dot-github/conformance/check-conformance.sh tree
+      #
+      # The caller's repository is passed because one of them — the hub the mirrored documents are
+      # authored in — holds those files rather than copying them, and holding a source to a hash
+      # pinned beside the checker would stop it ever editing its own documents (ADR-0034). GitHub
+      # sets `github.repository`; a repository cannot claim to be another one.
+      - run: sh dot-github/conformance/check-conformance.sh tree "${{ github.repository }}"
