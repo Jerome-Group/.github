@@ -8,6 +8,9 @@ Closes #
 - [ ] A decision changed → an ADR in `docs/adr/` records it; no decision changed → nothing to add
 - [ ] `MAP.md` matches the top-level layout after this change
 - [ ] The commits and this body end with the attribution trailers (`CONTRIBUTING.md`)
+- [ ] Every acceptance criterion on the linked issue is ticked, or a not-doing line below names
+      the issue, the criterion and the reason (`docs/agents/acceptance-criteria.md`)
+- [ ] The drift block is in this body — collapsed to one line if there is nothing to report
 
 <!-- The attribution trailers go here, as the LAST lines of this body — nothing after them:
 
