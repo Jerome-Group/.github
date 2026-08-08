@@ -19,9 +19,14 @@ jobs:
       # the top-level directories of what it is given, and a second checkout beside them would be
       # a directory the repository never wrote and could not have a `MAP.md` row for.
       # Actions are pinned to a commit, not a tag, so a moved tag cannot change what runs here.
+      #
+      # `fetch-depth: 0` because the trailer step below reads the pull request's own commits, and
+      # the whole range between base and head has to be reachable rather than just the head
+      # commit (ADR-0018).
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           path: tree
+          fetch-depth: 0
 
       # The checker itself, at the commit this workflow was called at rather than at whatever
       # `main` holds by the time the job starts. The caller pins the workflow; without this the
@@ -40,3 +45,21 @@ jobs:
       # pinned beside the checker would stop it ever editing its own documents (ADR-0034). GitHub
       # sets `github.repository`; a repository cannot claim to be another one.
       - run: sh dot-github/conformance/check-conformance.sh tree "${{ github.repository }}"
+
+      # The attribution trailers, for every repository rather than only the one that built the
+      # check (#75, ADR-0032). The rule is inherited by every repository through `CONTRIBUTING.md`
+      # and its `AGENTS.md`; until this step existed, its enforcement was not.
+      #
+      # A step of this job rather than a job of its own: the caller's ruleset requires
+      # `<job id> / check`, so a second job here would be a second context every repository in the
+      # Organisation has to add to its ruleset before its merges stop hanging on a check that is
+      # required and never reported.
+      #
+      # Guarded on the event because the range is the pull request's own commits — base to head,
+      # by SHA rather than `HEAD`, which on a `pull_request` event is a synthetic merge commit
+      # whose trailers are GitHub's. A caller that runs this workflow on a push has no such range,
+      # and inventing one would check commits that are already on the default branch, where a
+      # squash has moved the contributor's trailers out of the final block (ADR-0018).
+      - if: github.event_name == 'pull_request'
+        working-directory: tree
+        run: sh ../dot-github/conformance/check-trailers.sh "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
