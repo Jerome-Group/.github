@@ -1,6 +1,6 @@
 name: Task
 description: Something should work differently.
-labels: ["needs-triage"]
+labels: ["needs-triage", "task"]
 body:
   - type: markdown
     attributes:
