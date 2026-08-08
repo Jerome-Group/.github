@@ -52,6 +52,9 @@ map_rule='map-covers-top-level-directories'
 mirrored_rule='mirrored-files-match-the-organisations-copy'
 skeleton_rule='skeleton-files-keep-their-required-headings'
 ceiling_rule='documents-stay-under-their-line-ceiling'
+adr_filename_rule='decision-records-are-named-for-their-number'
+adr_number_rule='no-two-decision-records-share-a-number'
+supersession_rule='supersession-is-recorded-in-both-records'
 
 # The repository the mirrored documents are authored in, declared by the manifest rather than
 # written here: the generator knows which tree it read them out of, and a name repeated in two
@@ -252,9 +255,136 @@ EOF
 # Seed-only files are named by the manifest and checked by nothing, which is a decision rather
 # than an omission: a `.gitignore` or a starting ADR is a gift, not a contract (ADR-0031).
 
+# The decision records of the tree, by filename. `docs/adr/` at the root and nowhere else: that is
+# where every repository in this Organisation keeps them, and it is what `docs/agents/domain.md`
+# tells an agent to read. A context-scoped set under `src/<context>/docs/adr/` is a layout nothing
+# here has, and a rule that swept for it would be enforcing a shape on repositories that never
+# chose one — see ADR-0033 for what happens on the day one does.
+#
+# Markdown only, because a record is Markdown; a `.keep` holding an empty directory open is not a
+# record and neither is a stray note.
+decision_records() {
+  for record in "$tree"/docs/adr/*.md; do
+    [ -f "$record" ] || continue
+    printf '%s\n' "${record##*/}"
+  done
+}
+
+# The number a record's filename claims, or nothing if the name does not claim one — which the
+# filename rule has already reported, so the two later rules simply pass over it rather than
+# guessing at a number and reporting the same file twice.
+record_number() {
+  printf '%s' "$1" | sed -n 's/^\([0-9][0-9][0-9][0-9]\)-.*/\1/p'
+}
+
+# All three record rules are structural, and a record's *body* is held to nothing: no required
+# section, no required heading, no minimum. A record may be one paragraph, and requiring a section
+# produces records carrying an empty one that reads "None", which passes and teaches nobody. The
+# house style is prose guidance in `docs/agents/domain.md` instead (ADR-0033).
+
+# `NNNN-hyphenated-title.md`, and the shape is the whole rule. It is checked because every
+# reference in every record is `ADR-NNNN` and every link beside it is the filename: a record whose
+# name does not carry its number is unreachable by both (ADR-0033).
+#
+# Four literal digit classes rather than an interval expression, and `LC_ALL=C` on the range, for
+# the same portability reason the heading reader avoids intervals — this script runs on whatever
+# `sh` and whatever `grep` a caller's runner has.
+check_decision_records_are_named_for_their_number() {
+  records=$(decision_records)
+
+  while IFS= read -r name; do
+    [ -n "$name" ] || continue
+
+    printf '%s' "$name" |
+      LC_ALL=C grep -qE '^[0-9][0-9][0-9][0-9]-[a-z0-9]+(-[a-z0-9]+)*\.md$' ||
+      fail "$adr_filename_rule" \
+        "docs/adr/$name is not named NNNN-hyphenated-title.md"
+  done <<EOF
+$records
+EOF
+}
+
+# Uniqueness, and deliberately not contiguity (ADR-0033). A gap in the numbering costs a reader
+# nothing, whereas a number used twice makes every `ADR-NNNN` in the repository ambiguous — and
+# contiguity would fail a pull request that has done nothing wrong, merely because another one
+# merged first.
+#
+# The failure names the number that is taken and the records that take it, because the fix is to
+# renumber one of them and the author needs to know which two are in play.
+check_no_two_decision_records_share_a_number() {
+  records=$(decision_records)
+
+  duplicates=$(printf '%s\n' "$records" | sed -n 's/^\([0-9][0-9][0-9][0-9]\)-.*/\1/p' |
+    LC_ALL=C sort | uniq -d)
+
+  while IFS= read -r number; do
+    [ -n "$number" ] || continue
+
+    sharing=$(printf '%s\n' "$records" | grep "^$number-" | paste -sd' ' -)
+    fail "$adr_number_rule" "$number is taken twice in docs/adr/, by $sharing"
+  done <<EOF
+$duplicates
+EOF
+}
+
+# A record that supersedes another requires the one it supersedes to point forward at it. The
+# defect this closes is a navigation one and it is real: a reader searching a topic lands on the
+# *earlier* record, which is the one that still reads as current, and nothing on the page says it
+# has been overtaken (ADR-0033).
+#
+# A claim is a line that says `supersed…` and names `ADR-NNNN` on the same line. Line-scoped
+# rather than file-scoped because records discuss supersession in the abstract — "a decision that
+# no longer holds is superseded by a new record" — and a file-scoped rule would read every
+# reference in such a record as a claim about it.
+#
+# The pointer back is any mention of `ADR-NNNN` anywhere in the superseded record: what the reader
+# needs is the forward link, and where it sits and how it is worded is the record's business. That
+# also makes the rule symmetric — the record carrying `Superseded by [ADR-NNNN]` states a claim of
+# its own, and the pair satisfies it from the other side.
+#
+# A number no record here has is passed over rather than failed. It is a reference to another
+# repository's record or to one not yet written, and this rule is about the link between two
+# records that both exist, not about dangling references.
+check_supersession_is_recorded_in_both_records() {
+  records=$(decision_records)
+
+  while IFS= read -r name; do
+    [ -n "$name" ] || continue
+
+    number=$(record_number "$name")
+    [ -n "$number" ] || continue
+
+    # One reference per line before any is read, because a claim may name two records — `tr` on
+    # the characters that can precede one, then a `sed` that keeps only the lines that are one.
+    # `grep -o` would say this in a word and is not POSIX; the whole point of this script is that
+    # it runs on whatever `grep` a caller's runner has.
+    claimed=$(grep -i 'supersed' "$tree/docs/adr/$name" | tr ' \t([<*_`' '\n\n\n\n\n\n\n\n' |
+      sed -n 's/^ADR-\([0-9][0-9][0-9][0-9]\).*/\1/p' | LC_ALL=C sort -u || true)
+
+    while IFS= read -r other; do
+      [ -n "$other" ] || continue
+      [ "$other" != "$number" ] || continue
+
+      superseded=$(printf '%s\n' "$records" | grep "^$other-" | head -n 1)
+      [ -n "$superseded" ] || continue
+
+      grep -q "ADR-$number" "$tree/docs/adr/$superseded" ||
+        fail "$supersession_rule" \
+          "docs/adr/$name supersedes ADR-$other, which does not point forward to ADR-$number"
+    done <<CLAIMED
+$claimed
+CLAIMED
+  done <<EOF
+$records
+EOF
+}
+
 check_map_covers_top_level_directories
 check_mirrored_files_match_the_organisations_copy
 check_skeleton_files_keep_their_required_headings
+check_decision_records_are_named_for_their_number
+check_no_two_decision_records_share_a_number
+check_supersession_is_recorded_in_both_records
 
 if [ "$failures" -gt 0 ]; then
   printf '\n%d conformance violation(s) in %s.\n' "$failures" "$tree" >&2
@@ -264,7 +394,8 @@ fi
 # A skipped rule is reported as skipped, never as `ok`. The two mean different things — one is
 # "asked and answered", the other is "not asked" — and a run that printed the same word for both
 # would let a rule quietly stop running without the output changing.
-for rule in "$map_rule" "$mirrored_rule" "$skeleton_rule" "$ceiling_rule"; do
+for rule in "$map_rule" "$mirrored_rule" "$skeleton_rule" "$ceiling_rule" \
+  "$adr_filename_rule" "$adr_number_rule" "$supersession_rule"; do
   if [ "$rule" = "$mirrored_rule" ] && [ -n "$mirrored_skipped" ]; then
     printf 'skip  %s  %s holds these documents; it does not copy them\n' \
       "$rule" "$originals_repository"
