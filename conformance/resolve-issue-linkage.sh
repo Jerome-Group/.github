@@ -6,8 +6,9 @@
 # It writes, and writes nothing else:
 #
 #   <case>/pull-request-body.md
+#   <case>/pull-request-author            the login that opened it
 #   <case>/issues/<number>.md
-#   <case>/issues/<number>.labels        one label per line
+#   <case>/issues/<number>.labels         one label per line
 #
 # Split from the check for one reason: this half cannot be exercised without GitHub and the other
 # half must be exercised without it (ADR-0035). Everything that decides whether a pull request
@@ -64,6 +65,7 @@ linkage=$(gh api graphql \
       repository(owner: $owner, name: $name) {
         pullRequest(number: $number) {
           body
+          author { login }
           closingIssuesReferences(first: 20) {
             nodes {
               number
@@ -89,6 +91,13 @@ printf '%s' "$linkage" | jq -e '.data.repository.pullRequest != null' >/dev/null
 
 printf '%s' "$linkage" |
   jq -r '.data.repository.pullRequest.body // ""' >"$case_dir/pull-request-body.md"
+
+# Who opened it, because a bot cannot open an issue and the check has to know that before it holds
+# a pull request to one. `author` is null for a deleted account, which is written out as the empty
+# string and is on no exemption list — the right answer for a pull request nobody can be asked
+# about.
+printf '%s' "$linkage" |
+  jq -r '.data.repository.pullRequest.author.login // ""' >"$case_dir/pull-request-author"
 
 # One file per issue, named for its number, because that is how the checker finds them: the
 # absence of any is what it reads as "this pull request closes no issue".
