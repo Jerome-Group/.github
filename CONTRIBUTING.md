@@ -83,3 +83,14 @@ describing a layout that no longer exists.
 Behaviour is governed by our Code of Conduct — conduct@jeromegroup.org. Vulnerabilities go to
 security@jeromegroup.org and never into a public issue. GitHub publishes both documents on this
 repository, whether it carries its own copies or inherits the Organisation's.
+
+Never commit a credential. The conformance check scans every pull request for one and fails on a
+hit — but it runs **after** the push, which is the whole thing to understand about it: by the time
+it goes red, the credential has reached GitHub's servers, the Actions log and any clone taken
+since. A force-push takes it off the branch and out of nothing else.
+
+So the response to that check failing is, in order: **rotate or revoke the credential**, then take
+it out of the code, then rewrite the branch. The first step is the fix and the other two are
+tidying up. If the value is not a credential at all — a fixture, a documented example — say so on
+the line itself with a `# gitleaks:allow` comment, which is an assertion that the value opens
+nothing, so make sure it does.
