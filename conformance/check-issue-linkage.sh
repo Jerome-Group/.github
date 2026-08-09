@@ -10,8 +10,9 @@
 # file:
 #
 #   <case>/pull-request-body.md
+#   <case>/pull-request-author            the login that opened it
 #   <case>/issues/<number>.md
-#   <case>/issues/<number>.labels        one label per line
+#   <case>/issues/<number>.labels         one label per line
 #
 # Resolution and judgement are two scripts because only one of them can be exercised offline
 # (ADR-0035). Everything below reads that directory and nothing else, which is what lets the
@@ -66,6 +67,37 @@ over_delivery_rule='over-delivery-is-annotated-never-blocked'
 states='needs-triage needs-info ready-for-agent ready-for-human wontfix'
 categories='task decision bug'
 wayfinder_prefix='wayfinder:'
+
+# Authors whose pull requests cannot carry a linked issue, because they cannot open one.
+# Dependabot's pull requests auto-merge (ADR-0010), so every rule below would hold every dependency
+# update in the Organisation on a required check that no human could satisfy — the merge does not
+# go red, it sits pending forever. The same list, for the same reason, as `check-trailers.sh`.
+#
+# Matched on the login GitHub gives the bot, which a human account does not wear. Both spellings,
+# because GitHub has two: GraphQL's `Bot` node calls it `dependabot` and REST's `user.login` calls
+# it `dependabot[bot]`, and the same bot answering to two names is the sort of thing a check
+# written against one API and read against the other gets silently wrong. The resolver beside this
+# file asks GraphQL, so the first is the live answer — the second is there so that a caller who
+# built the case from REST is not quietly unprotected.
+bot_authors='dependabot dependabot[bot]'
+
+# A case that names no author is a human one. That is every fixture but one, and it is what the
+# resolver wrote before this rule existed, so the absent file is the ordinary answer rather than a
+# missing input.
+author=$(cat "$case_dir/pull-request-author" 2>/dev/null || true)
+
+for bot in $bot_authors; do
+  if [ "$author" = "$bot" ]; then
+    # Reported as skipped, never as `ok` — the convention `check-conformance.sh` keeps for the one
+    # rule it can decline to run. "Asked and answered" and "not asked" are different facts, and a
+    # run that printed the same word for both would let a rule quietly stop running without the
+    # output changing.
+    for rule in "$linked_rule" "$boxes_rule" "$drift_rule" "$labels_rule" "$over_delivery_rule"; do
+      printf 'skip  %s  %s opened this; a bot cannot open an issue to link\n' "$rule" "$author"
+    done
+    exit 0
+  fi
+done
 
 failures=0
 
