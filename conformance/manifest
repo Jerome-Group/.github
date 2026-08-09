@@ -26,7 +26,7 @@ heading	CODING_STANDARDS.md	## 6. Repo-specific standards
 heading	CODING_STANDARDS.md	## 7. Evolution — what is rigid, what moves
 skeleton	CONTEXT.md	-
 heading	CONTEXT.md	## Language
-mirrored	CONTRIBUTING.md	a0c6476e5c2aaad189ec1c200af151dfd3b5128f4fc917d00206d0682759b4b3
+mirrored	CONTRIBUTING.md	ea2e7f4c6ced32a2881b82bf1d6708f2aa7c37582a465a318fb6c2a570a1cb22
 mirrored	GOVERNANCE.md	daa7f8ca10fb9db0ae5611867899ddf86699d41571e07d00f2ecc8c4afc2edb5
 seed-only	LICENSE
 seed-only	MAP.md
