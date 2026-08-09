@@ -6,6 +6,13 @@
 #
 #   sh conformance/check-trailers.sh <range>     e.g. sh …/check-trailers.sh origin/main..HEAD
 #
+# The range is a pull request's own commits, and only ever that — `base.sha..head.sha`, which is
+# what the central workflow hands it. Pointed at the default branch it reports every squash commit
+# there as failing, and that is the tool being misused rather than a finding: GitHub appends its
+# own aggregated `Co-authored-by:` block when it squashes, so the contributor's trailers stop being
+# the final lines at the moment of a merge nobody can edit (#93, ADR-0040). Nothing on `main` is a
+# contributor's commit any more, and the rule is about the commits a contributor writes.
+#
 # Served from `Jerome-Group/.github` beside the conformance checker rather than inside it, and run
 # by the same central workflow, so that every repository enforces the rule its `AGENTS.md` states
 # rather than only the one repository that happened to build the check (#75, ADR-0032). Beside
@@ -52,6 +59,15 @@ fail() {
   failures=$((failures + 1))
 }
 
+# Said out loud, for the reason the linkage check beside this one says its own: a skipped commit
+# and a checked one both leave the run green, so the printed word is the only thing that tells an
+# exemption from a pass. An exemption nobody can see is an exemption nobody notices widening.
+skip() {
+  sha=$1
+  reason=$2
+  printf 'skip  %s  %s\n' "$sha" "$reason"
+}
+
 # Captured before the loop, not piped into it: a `while read` on the right of a pipe runs in a
 # subshell and would discard every failure it counted (the mistake ADR-0017 records catching).
 commits=$(git rev-list "$range")
@@ -60,11 +76,39 @@ for sha in $commits; do
   short=$(git rev-parse --short "$sha")
   author=$(git show -s --format='%an' "$sha")
 
-  skip=
-  for bot in $bot_authors; do
-    [ "$author" = "$bot" ] && skip=yes
+  # More than one parent is a merge commit, and a merge commit in a pull request's range is the
+  # platform's rather than the contributor's: `strict_required_status_checks_policy = true` means a
+  # branch behind `main` must be updated before it can merge, and the **Update branch** button
+  # writes a `Merge branch 'main' into …` whose message GitHub composes and nobody can edit
+  # (#93, ADR-0040). Held to the rule, it blocked live merges in two repositories over text no
+  # contributor wrote — and the bot exemption below does not reach it, because that commit is
+  # authored by whoever pressed the button.
+  #
+  # Two parents rather than the message text, which is the narrower and more honest test: a
+  # contributor's commit cannot accidentally acquire a second parent, but it can very easily
+  # mention a branch merge in its subject line.
+  #
+  # Parentage alone is not enough, though, and this is the half a first cut got wrong. A merge
+  # commit can carry content of its own — a conflict resolved by hand, `-s ours`, `--no-commit`
+  # and then an edit — and a skip on parentage alone would wave that content through undisclosed,
+  # with no allowlist applied to any `Co-authored-by:` on it either. So the skip asks the combined
+  # diff, which is empty exactly when the merge took its content from its parents and added
+  # nothing: an ordinary Update-branch merge is skipped, and a merge somebody actually wrote into
+  # is held to the rule like anything else they wrote.
+  if [ "$(git show -s --format='%P' "$sha" | wc -w)" -gt 1 ] &&
+    [ -z "$(git diff-tree --cc --name-only --no-commit-id "$sha")" ]; then
+    skip "$short" "merge commit adding nothing of its own — its message is the platform's"
+    continue
+  fi
+
+  bot=
+  for candidate in $bot_authors; do
+    [ "$author" = "$candidate" ] && bot=$candidate
   done
-  [ -n "$skip" ] && continue
+  if [ -n "$bot" ]; then
+    skip "$short" "$bot is a bot — its commits are generated and cannot carry a trailer"
+    continue
+  fi
 
   # `--parse` returns only lines that form the trailing trailer block, so an `Assisted-by:` buried
   # in the body with prose after it is not seen here — which is exactly the "as its last lines"
