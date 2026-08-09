@@ -49,6 +49,7 @@ tab=$(printf '\t')
 # Rules are named, not numbered: the name is what a failing run prints, what the fixture runner
 # asserts against, and what someone greps for. A renamed rule is therefore a visible change.
 map_rule='map-covers-top-level-directories'
+presence_rule='documents-every-repository-owes-are-present'
 mirrored_rule='mirrored-files-match-the-organisations-copy'
 skeleton_rule='skeleton-files-keep-their-required-headings'
 ceiling_rule='documents-stay-under-their-line-ceiling'
@@ -61,8 +62,16 @@ supersession_rule='supersession-is-recorded-in-both-records'
 # files is a name that eventually disagrees with itself.
 originals_repository=$(awk -F'\t' '$1 == "originals" {print $2}' "$manifest")
 
+# Whether this tree is that repository rather than one holding copies. Two rules turn on it, so it
+# is answered once: a rule that decided it for itself is a rule that can drift from the other.
+# Omitted means "not that repository", which is the answer for every fixture and every caller but
+# one.
+checking_the_originals=
+if [ -n "$repository" ] && [ "$repository" = "$originals_repository" ]; then
+  checking_the_originals=yes
+fi
+
 failures=0
-mirrored_skipped=
 
 fail() {
   rule=$1
@@ -127,15 +136,56 @@ file_hash() {
   fi | cut -d' ' -f1
 }
 
+# The documents every repository in the Organisation carries, held to being there at all. Every
+# other rule here binds a file only where the file is present, which left the Organisation with a
+# rule set every repository runs and no rule that a repository *has* the documents that rule set
+# is about: all three repositories that predate the seed were missing two of the `docs/agents/`
+# documents their own `AGENTS.md` points at, and every rule was green about it (#112).
+#
+# Which documents those are is the seed's answer rather than this rule's. The manifest records one
+# as `required` exactly when the *private* template seeds it, so the four health files owned only
+# by a public repository are never asked for and a private repository still passes carrying
+# exactly what it was seeded with (ADR-0038).
+#
+# The failure names where the document comes from, the way the mirrored failure does: the path
+# beside the record is the file's home in the Organisation's own tree, which is what somebody
+# restoring it needs — `CONTRIBUTING.md` is published from `dot-github/CONTRIBUTING.md` and
+# `AGENTS.md` written at `templates/base/AGENTS.md`.
+#
+# Skipped in the repository the documents are authored in, where those two paths are where the
+# files actually live and the destination path is a layout that tree does not have (ADR-0034).
+# What this rule catches is a *copy* going missing where nobody chose it; in the hub, dropping a
+# document is dropping it from the seed, which changes the manifest `bin/test-conformance`
+# regenerates and compares on every run.
+check_documents_every_repository_owes_are_present() {
+  [ -z "$checking_the_originals" ] || return 0
+
+  records=$(manifest_records required)
+
+  while IFS="$tab" read -r _ path origin; do
+    [ -n "$path" ] || continue
+
+    authored_at="$origin in $originals_repository"
+
+    [ -f "$tree/$path" ] ||
+      fail "$presence_rule" \
+        "$path is missing — every repository carries it; it is seeded from $authored_at"
+  done <<EOF
+$records
+EOF
+}
+
 # A mirrored file is a copy of an Organisation document that the next seed silently overwrites,
 # so any difference is drift by definition and there is nothing to weigh: the edit is already
 # lost, and the only useful thing the failure can do is say where the text actually lives
 # (ADR-0031).
 #
-# Only files that are present are checked. A private repository carries none of the four public
-# health files, and a manifest that failed on their absence would fail every private repository
-# in the Organisation for holding exactly what it was seeded with. Whether a file should be there
-# at all is the seed's question, and `bin/audit` already asks it.
+# Only files that are present are checked, which is the right reading of *this* rule and used to
+# be the whole answer: a private repository carries none of the four public health files, and a
+# hash check that failed on their absence would fail every private repository in the Organisation
+# for holding exactly what it was seeded with. Whether a document should be there at all is asked
+# above instead, by the rule that knows which documents every repository owes — so a missing one
+# is reported once, as an absence, rather than twice (ADR-0038).
 #
 # The one tree this rule must not run against is the repository the originals live in, where the
 # same file is the source rather than a copy. Held to a hash pinned beside the checker, that
@@ -144,10 +194,7 @@ file_hash() {
 # owns them and the caller says which repository it is holding, so the two can be compared
 # (ADR-0034).
 check_mirrored_files_match_the_organisations_copy() {
-  if [ -n "$repository" ] && [ "$repository" = "$originals_repository" ]; then
-    mirrored_skipped=yes
-    return
-  fi
+  [ -z "$checking_the_originals" ] || return 0
 
   records=$(manifest_records mirrored)
 
@@ -380,6 +427,7 @@ EOF
 }
 
 check_map_covers_top_level_directories
+check_documents_every_repository_owes_are_present
 check_mirrored_files_match_the_organisations_copy
 check_skeleton_files_keep_their_required_headings
 check_decision_records_are_named_for_their_number
@@ -394,10 +442,15 @@ fi
 # A skipped rule is reported as skipped, never as `ok`. The two mean different things — one is
 # "asked and answered", the other is "not asked" — and a run that printed the same word for both
 # would let a rule quietly stop running without the output changing.
-for rule in "$map_rule" "$mirrored_rule" "$skeleton_rule" "$ceiling_rule" \
+for rule in "$map_rule" "$presence_rule" "$mirrored_rule" "$skeleton_rule" "$ceiling_rule" \
   "$adr_filename_rule" "$adr_number_rule" "$supersession_rule"; do
-  if [ "$rule" = "$mirrored_rule" ] && [ -n "$mirrored_skipped" ]; then
+  if [ -z "$checking_the_originals" ]; then
+    printf 'ok    %s\n' "$rule"
+  elif [ "$rule" = "$mirrored_rule" ]; then
     printf 'skip  %s  %s holds these documents; it does not copy them\n' \
+      "$rule" "$originals_repository"
+  elif [ "$rule" = "$presence_rule" ]; then
+    printf 'skip  %s  %s keeps these documents where it publishes them from\n' \
       "$rule" "$originals_repository"
   else
     printf 'ok    %s\n' "$rule"
