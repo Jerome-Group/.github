@@ -4,6 +4,7 @@ originals	Jerome-Group/org
 seed-only	.editorconfig
 seed-only	.github/dependabot.yml
 seed-only	.github/workflows/ci.yml
+seed-only	.github/workflows/conformance.yml
 seed-only	.gitignore
 skeleton	AGENTS.md	200
 heading	AGENTS.md	## What this repo is
