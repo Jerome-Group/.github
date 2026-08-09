@@ -6,6 +6,7 @@ seed-only	.github/dependabot.yml
 seed-only	.github/workflows/ci.yml
 seed-only	.github/workflows/conformance.yml
 seed-only	.gitignore
+required	AGENTS.md	templates/base/AGENTS.md
 skeleton	AGENTS.md	200
 heading	AGENTS.md	## What this repo is
 heading	AGENTS.md	## Getting it running
@@ -17,6 +18,7 @@ heading	AGENTS.md	## Agent skills
 heading	AGENTS.md	## Repository notes
 seed-only	CLAUDE.md
 mirrored	CODE_OF_CONDUCT.md	2fd08a98026c87a4cb01f4228230a57700e6106494782d97c7161b65157d4279
+required	CODING_STANDARDS.md	templates/base/CODING_STANDARDS.md
 skeleton	CODING_STANDARDS.md	-
 heading	CODING_STANDARDS.md	## 1. The principle: the code explains itself
 heading	CODING_STANDARDS.md	## 2. What the code must do
@@ -25,20 +27,29 @@ heading	CODING_STANDARDS.md	## 4. `MAP.md` is required
 heading	CODING_STANDARDS.md	## 5. What CI must prove
 heading	CODING_STANDARDS.md	## 6. Repo-specific standards
 heading	CODING_STANDARDS.md	## 7. Evolution — what is rigid, what moves
+required	CONTEXT.md	templates/base/CONTEXT.md
 skeleton	CONTEXT.md	-
 heading	CONTEXT.md	## Language
+required	CONTRIBUTING.md	dot-github/CONTRIBUTING.md
 mirrored	CONTRIBUTING.md	ea2e7f4c6ced32a2881b82bf1d6708f2aa7c37582a465a318fb6c2a570a1cb22
 mirrored	GOVERNANCE.md	daa7f8ca10fb9db0ae5611867899ddf86699d41571e07d00f2ecc8c4afc2edb5
 seed-only	LICENSE
 seed-only	MAP.md
+required	README.md	templates/base/README.md
 skeleton	README.md	-
 heading	README.md	## Status
 mirrored	SECURITY.md	6eee82396c8554a1b2e5196ded77ad1bc47108cc0954718b589f3eb3abc5821c
 mirrored	SUPPORT.md	48a76d2b4028c23cda6832e81c960e6becd567e98cf8168268a946df6dc64460
 seed-only	docs/adr/0001-decisions-are-recorded-as-adrs.md
+required	docs/agents/acceptance-criteria.md	docs/agents/acceptance-criteria.md
 mirrored	docs/agents/acceptance-criteria.md	f048d5e755ce26d635bf54cb9ea32b4d5c82b05f2b01f1020dae43be8d98c7d4
+required	docs/agents/dependencies.md	docs/agents/dependencies.md
 mirrored	docs/agents/dependencies.md	02827d76b67390a27ad2ac2520f74761034793fe51d80a3808eea60695d0cd10
+required	docs/agents/domain.md	docs/agents/domain.md
 mirrored	docs/agents/domain.md	f28d9074027475fa39c73faef4b4fc808ba4f4512dcabc3e62abe38bb5d654d8
+required	docs/agents/issue-tracker.md	docs/agents/issue-tracker.md
 mirrored	docs/agents/issue-tracker.md	f0c574d759b29712993332ac6a68f7833c4bde256a85ec8edac87f38996d477f
+required	docs/agents/triage-labels.md	templates/base/docs/agents/triage-labels.md
 seed-only	docs/agents/triage-labels.md
+required	docs/agents/workflow.md	docs/agents/workflow.md
 mirrored	docs/agents/workflow.md	a1ccfec34163f7cb5224dfddfbada469d752b948e461ee9a4d310645710f1959
