@@ -70,6 +70,35 @@ jobs:
         working-directory: tree
         run: sh ../dot-github/conformance/check-trailers.sh "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
 
+      # The secret scanner, pinned and checksum-verified rather than fetched fresh, because a
+      # tool this workflow hands a repository's whole history to is one more thing that has to be
+      # the thing we pinned (#77, ADR-0036).
+      #
+      # Its own step rather than a line inside the scan below, so the two failures cannot be
+      # confused: red here is the toolchain, red there is a credential. `runner.temp` because the
+      # binary belongs to the run and not to either checked-out tree — `tree/` is held to
+      # containing only what the caller committed.
+      - if: github.event_name == 'pull_request'
+        run: sh dot-github/conformance/install-gitleaks.sh "$RUNNER_TEMP/scanners"
+
+      # Every repository including the private ones, which is the whole point: public
+      # repositories already have GitHub's secret scanning and push protection free through the
+      # Public baseline, private ones have neither and are not being licensed, and so this is
+      # their only control (ADR-0036).
+      #
+      # Guarded on the event and ranged base-to-head for the reasons the trailer step above gives.
+      # It matters more here: the range is what makes the scan read the commits the pull request
+      # added rather than the tree they produced, so a credential added and later deleted on the
+      # same branch is still found — it is on GitHub's servers either way.
+      #
+      # A step of this job, again, so the Organisation gains a rule rather than a second required
+      # context every repository's ruleset has to grow before its merges stop hanging.
+      - if: github.event_name == 'pull_request'
+        working-directory: tree
+        env:
+          GITLEAKS: ${{ runner.temp }}/scanners/gitleaks
+        run: sh ../dot-github/conformance/check-secrets.sh "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
+
       # The pull request read against the issue it came from: the acceptance boxes ticked or
       # explained, the drift block present, the issue triaged onto both label axes (#76).
       #
