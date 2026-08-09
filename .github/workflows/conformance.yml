@@ -6,8 +6,14 @@ name: Conformance
 on:
   workflow_call:
 
+# `issues` and `pull-requests` are here for the linkage step at the foot of this job, which reads
+# the pull request against the issue it closes (#76, ADR-0035). A called workflow may only narrow
+# what its caller granted, so a repository whose own workflow grants less than this cannot call
+# this one at all — which is why the rollout (#78) carries the caller-side grant with it.
 permissions:
   contents: read
+  issues: read
+  pull-requests: read
 
 jobs:
   # The caller reports this as `<its job id> / check`, which is the context its ruleset must
@@ -63,3 +69,23 @@ jobs:
       - if: github.event_name == 'pull_request'
         working-directory: tree
         run: sh ../dot-github/conformance/check-trailers.sh "${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
+
+      # The pull request read against the issue it came from: the acceptance boxes ticked or
+      # explained, the drift block present, the issue triaged onto both label axes (#76).
+      #
+      # Two commands rather than one because they are two scripts, and they are two scripts
+      # because only the second can be exercised offline — the fixtures in the hub drive every
+      # rule, and nothing drives a `gh api` call (ADR-0035). The case directory is written beside
+      # the two checkouts rather than inside `tree/`, which is a tree the caller's repository is
+      # held to and must contain only what it committed.
+      #
+      # A step of this job, and guarded on the event, for the two reasons the trailer step above
+      # is: a second job would be a second required context in every repository's ruleset, and a
+      # caller running this workflow on a push has no pull request to read.
+      - if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sh dot-github/conformance/resolve-issue-linkage.sh \
+            "${{ github.repository }}" "${{ github.event.pull_request.number }}" linkage
+          sh dot-github/conformance/check-issue-linkage.sh linkage
