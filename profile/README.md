@@ -12,7 +12,7 @@ was written down and reviewed.
 - Repositories are born from a template already carrying the conventions, so a new one is
   consistent from its first commit rather than after a cleanup.
 - AI assistance is disclosed. Every commit and pull request names the model that helped in its
-  trailers.
+  trailers — and says so when none did, so silence is never the answer.
 
 **Contributing**
 
