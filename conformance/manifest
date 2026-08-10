@@ -31,7 +31,7 @@ required	CONTEXT.md	templates/base/CONTEXT.md
 skeleton	CONTEXT.md	-
 heading	CONTEXT.md	## Language
 required	CONTRIBUTING.md	dot-github/CONTRIBUTING.md
-mirrored	CONTRIBUTING.md	8f1a0f95afe2731840be0fe6c1292e72370272cf634f442024b1af16beecac1a
+mirrored	CONTRIBUTING.md	8a4019d9f0b76f53359f7e0d68d48f17ba34a1a98cab13400b18ac767ee018d8
 mirrored	GOVERNANCE.md	daa7f8ca10fb9db0ae5611867899ddf86699d41571e07d00f2ecc8c4afc2edb5
 seed-only	LICENSE
 seed-only	MAP.md
