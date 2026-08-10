@@ -70,7 +70,10 @@ is known to be real: Claude (`noreply@anthropic.com`), Codex (`noreply@openai.co
 (`198982749+Copilot@users.noreply.github.com`). Anything else gets `Assisted-by:` alone, because
 a guessed address credits a stranger.
 
-Wrote it yourself? Then there are no trailers to add. This is a disclosure rule, not a ritual.
+Wrote it yourself? Then it is `Assisted-by: none`, and no second trailer. **Every** commit says who
+helped, including the ones where the answer is nobody — because a rule where silence sometimes
+means "a human wrote this" and sometimes means "somebody forgot" discloses nothing either time
+(ADR-0041). It costs a word, and it is the only word this rule has ever asked you to invent.
 
 **The commits GitHub writes are not yours, and the rule does not reach them.** It writes two, both
 after every check has passed and neither editable by anybody: the *squash* commit that lands on
