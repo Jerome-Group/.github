@@ -118,3 +118,27 @@ jobs:
           sh dot-github/conformance/resolve-issue-linkage.sh \
             "${{ github.repository }}" "${{ github.event.pull_request.number }}" linkage
           sh dot-github/conformance/check-issue-linkage.sh linkage
+
+      # The repository's own workflows held against its own required status checks (#82,
+      # ADR-0044). Every other rule in this job is the Organisation asking the same thing of every
+      # repository; this one asks a repository about itself, which is why it needs a read of the
+      # repository's rules before it can ask anything at all.
+      #
+      # Two commands for the reason the pair above is two: only the second can be exercised
+      # offline, and the fixtures in the hub drive it (ADR-0035). The resolver reads with the
+      # `contents: read` the caller already grants, and exits 2 rather than writing an empty file
+      # if it cannot — a read that could not happen must never reach the checker as "nothing is
+      # required", which would report every job in the repository as ungated.
+      #
+      # Not guarded on the event, unlike the four steps above: this rule is a pure function of the
+      # tree and the ruleset, so it has an answer on a push as well — which is what makes the
+      # first run after the seed lands say something rather than nothing.
+      #
+      # A step of this job, again, so the Organisation gains a rule rather than a second required
+      # context every repository's ruleset has to grow before its merges stop hanging.
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sh dot-github/conformance/resolve-required-checks.sh \
+            "${{ github.repository }}" required-checks
+          sh dot-github/conformance/check-gating.sh tree required-checks "${{ github.repository }}"
