@@ -5,6 +5,8 @@ seed-only	.editorconfig
 seed-only	.github/dependabot.yml
 seed-only	.github/workflows/ci.yml
 seed-only	.github/workflows/conformance.yml
+required	.github/workflows/stamp-issue-labels.yml	templates/base/.github/workflows/stamp-issue-labels.yml
+seed-only	.github/workflows/stamp-issue-labels.yml
 seed-only	.gitignore
 required	AGENTS.md	templates/base/AGENTS.md
 skeleton	AGENTS.md	200
@@ -48,7 +50,7 @@ mirrored	docs/agents/dependencies.md	02827d76b67390a27ad2ac2520f74761034793fe51d
 required	docs/agents/domain.md	docs/agents/domain.md
 mirrored	docs/agents/domain.md	f28d9074027475fa39c73faef4b4fc808ba4f4512dcabc3e62abe38bb5d654d8
 required	docs/agents/issue-tracker.md	docs/agents/issue-tracker.md
-mirrored	docs/agents/issue-tracker.md	f0c574d759b29712993332ac6a68f7833c4bde256a85ec8edac87f38996d477f
+mirrored	docs/agents/issue-tracker.md	8c09f3de32c8e7eda89b80c029627ab0da273ce81a1740147448d56ac7632685
 required	docs/agents/triage-labels.md	templates/base/docs/agents/triage-labels.md
 seed-only	docs/agents/triage-labels.md
 required	docs/agents/workflow.md	docs/agents/workflow.md
