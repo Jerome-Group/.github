@@ -152,8 +152,13 @@ Every commit message ends with an `Assisted-by:` trailer as its last, contiguous
     Assisted-by: Claude Opus 5
 
 It names the exact model that helped, with an effort suffix only where one was explicitly set —
-a mode is never recorded as one. Wrote it yourself? Then the commit needs no other trailer, but
-it still needs this one to say so.
+a mode is never recorded as one. Wrote it yourself? Then it is this, on its own:
+
+    Assisted-by: none
+
+Never no trailer at all. Every commit says who helped, including the ones where the answer is
+nobody: a rule where a missing line sometimes means "a human wrote this" and sometimes means
+"somebody forgot" has disclosed nothing either time.
 
 Add a `Co-authored-by:` beside it only for a model whose vendor address is verified, and with no
 blank line between the two. A blank line ends the trailer block, so the check would see only what
