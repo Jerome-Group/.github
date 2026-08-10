@@ -17,4 +17,4 @@ Closes #
      Assisted-by: <the exact model that helped>
      Co-authored-by: <bare name> <verified address>
 
-     Wrote it yourself? Then there is nothing to add. -->
+     Wrote it yourself? Then it is `Assisted-by: none`, on its own — never nothing at all. -->
