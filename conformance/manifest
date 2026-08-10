@@ -3,6 +3,7 @@
 originals	Jerome-Group/org
 waived	Jerome-Group/org	auto-merge
 waived	*	stamp-issue-labels
+waived	*	auto-merge-conformance-pin
 waived	Jerome-Group/private-template	checks
 waived	Jerome-Group/public-template	checks
 waived	Jerome-Group/private-template	conformance / check
