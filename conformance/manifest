@@ -11,6 +11,8 @@ waived	Jerome-Group/public-template	conformance / check
 waived	Jerome-Group/homepage	deploy
 seed-only	.editorconfig
 seed-only	.github/dependabot.yml
+required	.github/workflows/auto-merge-conformance-pin.yml	templates/base/.github/workflows/auto-merge-conformance-pin.yml
+seed-only	.github/workflows/auto-merge-conformance-pin.yml
 seed-only	.github/workflows/ci.yml
 seed-only	.github/workflows/conformance.yml
 required	.github/workflows/stamp-issue-labels.yml	templates/base/.github/workflows/stamp-issue-labels.yml
@@ -54,7 +56,7 @@ seed-only	docs/adr/0001-decisions-are-recorded-as-adrs.md
 required	docs/agents/acceptance-criteria.md	docs/agents/acceptance-criteria.md
 mirrored	docs/agents/acceptance-criteria.md	f048d5e755ce26d635bf54cb9ea32b4d5c82b05f2b01f1020dae43be8d98c7d4
 required	docs/agents/dependencies.md	docs/agents/dependencies.md
-mirrored	docs/agents/dependencies.md	02827d76b67390a27ad2ac2520f74761034793fe51d80a3808eea60695d0cd10
+mirrored	docs/agents/dependencies.md	67fdc94b3adf24aba7ad3bd1d4ed257ec4aad07af3e04d9d90c72bdc75ab8011
 required	docs/agents/domain.md	docs/agents/domain.md
 mirrored	docs/agents/domain.md	f28d9074027475fa39c73faef4b4fc808ba4f4512dcabc3e62abe38bb5d654d8
 required	docs/agents/issue-tracker.md	docs/agents/issue-tracker.md
