@@ -54,7 +54,7 @@ mirrored	SECURITY.md	6eee82396c8554a1b2e5196ded77ad1bc47108cc0954718b589f3eb3abc
 mirrored	SUPPORT.md	48a76d2b4028c23cda6832e81c960e6becd567e98cf8168268a946df6dc64460
 seed-only	docs/adr/0001-decisions-are-recorded-as-adrs.md
 required	docs/agents/acceptance-criteria.md	docs/agents/acceptance-criteria.md
-mirrored	docs/agents/acceptance-criteria.md	f048d5e755ce26d635bf54cb9ea32b4d5c82b05f2b01f1020dae43be8d98c7d4
+mirrored	docs/agents/acceptance-criteria.md	35199255df1658038e66e122845ef6248ae713c91914483ebf6ceb9084e651c3
 required	docs/agents/dependencies.md	docs/agents/dependencies.md
 mirrored	docs/agents/dependencies.md	67fdc94b3adf24aba7ad3bd1d4ed257ec4aad07af3e04d9d90c72bdc75ab8011
 required	docs/agents/domain.md	docs/agents/domain.md
