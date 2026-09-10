@@ -1,0 +1,117 @@
+{
+  "repositories": [
+    "Jerome-Group/.github",
+    "Jerome-Group/academic-os",
+    "Jerome-Group/algebra",
+    "Jerome-Group/calculus",
+    "Jerome-Group/f1-analytics",
+    "Jerome-Group/ntulearn",
+    "Jerome-Group/syrax"
+  ],
+  "counts": [
+    341,
+    304,
+    243
+  ],
+  "assistance": {
+    "Claude": 209,
+    "Codex / OpenAI": 63,
+    "Both": 2,
+    "Other / mixed": 0,
+    "Unassisted": 1,
+    "Undeclared": 29
+  },
+  "start": "2025-09-11",
+  "end": "2026-09-10",
+  "days": {
+    "2026-07-25": 27,
+    "2026-07-26": 45,
+    "2026-07-27": 8,
+    "2026-08-04": 4,
+    "2026-08-08": 1,
+    "2026-08-09": 7,
+    "2026-08-10": 89,
+    "2026-08-11": 88,
+    "2026-08-12": 41,
+    "2026-08-13": 70,
+    "2026-08-14": 83,
+    "2026-08-15": 57,
+    "2026-08-16": 71,
+    "2026-08-17": 67,
+    "2026-08-18": 79,
+    "2026-08-19": 58,
+    "2026-08-20": 29,
+    "2026-08-21": 50,
+    "2026-08-22": 59,
+    "2026-08-23": 59,
+    "2026-08-24": 23,
+    "2026-08-25": 58,
+    "2026-08-26": 52,
+    "2026-08-27": 6,
+    "2026-08-28": 1,
+    "2026-08-29": 1,
+    "2026-08-30": 3,
+    "2026-08-31": 8,
+    "2026-09-01": 4,
+    "2026-09-02": 1,
+    "2026-09-03": 2,
+    "2026-09-04": 1,
+    "2026-09-05": 6,
+    "2026-09-06": 1,
+    "2026-09-07": 29,
+    "2026-09-08": 7,
+    "2026-09-09": 55,
+    "2026-09-10": 1
+  },
+  "recent": [
+    {
+      "date": "2026-09-10T07:54:12Z",
+      "action": "PR opened",
+      "title": "Bump actions/setup-node from 6.5.0 to 7.0.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/19",
+      "repository": "Jerome-Group/algebra",
+      "number": 19
+    },
+    {
+      "date": "2026-09-09T18:34:43Z",
+      "action": "Linked issue resolved",
+      "title": "Add official logo and image previews for shared links",
+      "url": "https://github.com/Jerome-Group/algebra/issues/17",
+      "repository": "Jerome-Group/algebra",
+      "number": 17
+    },
+    {
+      "date": "2026-09-09T18:34:42Z",
+      "action": "PR merged",
+      "title": "Add Abstract Algebra logo and shared-link image previews",
+      "url": "https://github.com/Jerome-Group/algebra/pull/18",
+      "repository": "Jerome-Group/algebra",
+      "number": 18
+    },
+    {
+      "date": "2026-09-09T18:31:14Z",
+      "action": "PR opened",
+      "title": "Add Abstract Algebra logo and shared-link image previews",
+      "url": "https://github.com/Jerome-Group/algebra/pull/18",
+      "repository": "Jerome-Group/algebra",
+      "number": 18
+    },
+    {
+      "date": "2026-09-09T18:28:27Z",
+      "action": "Linked issue resolved",
+      "title": "Add a Calculus logo and illustrated link previews",
+      "url": "https://github.com/Jerome-Group/calculus/issues/12",
+      "repository": "Jerome-Group/calculus",
+      "number": 12
+    },
+    {
+      "date": "2026-09-09T18:28:26Z",
+      "action": "PR merged",
+      "title": "Add Calculus logo and image link previews",
+      "url": "https://github.com/Jerome-Group/calculus/pull/13",
+      "repository": "Jerome-Group/calculus",
+      "number": 13
+    }
+  ],
+  "updated": "10 Sep 2026 08:37 UTC"
+}
