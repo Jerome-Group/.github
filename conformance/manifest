@@ -2,6 +2,7 @@
 # The contract each seeded file is held to once it lives in a repository (ADR-0031).
 originals	Jerome-Group/org
 waived	Jerome-Group/org	auto-merge
+waived	Jerome-Group/.github	refresh
 waived	*	stamp-issue-labels
 waived	*	auto-merge-conformance-pin
 waived	Jerome-Group/private-template	checks
