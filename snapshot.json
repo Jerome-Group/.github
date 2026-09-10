@@ -9,12 +9,12 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    341,
-    304,
-    243
+    347,
+    310,
+    249
   ],
   "assistance": {
-    "Claude": 209,
+    "Claude": 215,
     "Codex / OpenAI": 63,
     "Both": 2,
     "Other / mixed": 0,
@@ -61,57 +61,57 @@
     "2026-09-07": 29,
     "2026-09-08": 7,
     "2026-09-09": 55,
-    "2026-09-10": 1
+    "2026-09-10": 25
   },
   "recent": [
     {
-      "date": "2026-09-10T07:54:12Z",
-      "action": "PR opened",
-      "title": "Bump actions/setup-node from 6.5.0 to 7.0.0",
-      "url": "https://github.com/Jerome-Group/algebra/pull/19",
-      "repository": "Jerome-Group/algebra",
-      "number": 19
-    },
-    {
-      "date": "2026-09-09T18:34:43Z",
+      "date": "2026-09-10T08:42:24Z",
       "action": "Linked issue resolved",
-      "title": "Add official logo and image previews for shared links",
-      "url": "https://github.com/Jerome-Group/algebra/issues/17",
-      "repository": "Jerome-Group/algebra",
-      "number": 17
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/237",
+      "repository": "Jerome-Group/academic-os",
+      "number": 237
     },
     {
-      "date": "2026-09-09T18:34:42Z",
+      "date": "2026-09-10T08:42:22Z",
       "action": "PR merged",
-      "title": "Add Abstract Algebra logo and shared-link image previews",
-      "url": "https://github.com/Jerome-Group/algebra/pull/18",
-      "repository": "Jerome-Group/algebra",
-      "number": 18
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/238",
+      "repository": "Jerome-Group/academic-os",
+      "number": 238
     },
     {
-      "date": "2026-09-09T18:31:14Z",
-      "action": "PR opened",
-      "title": "Add Abstract Algebra logo and shared-link image previews",
-      "url": "https://github.com/Jerome-Group/algebra/pull/18",
-      "repository": "Jerome-Group/algebra",
-      "number": 18
-    },
-    {
-      "date": "2026-09-09T18:28:27Z",
+      "date": "2026-09-10T08:41:41Z",
       "action": "Linked issue resolved",
-      "title": "Add a Calculus logo and illustrated link previews",
-      "url": "https://github.com/Jerome-Group/calculus/issues/12",
-      "repository": "Jerome-Group/calculus",
-      "number": 12
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/syrax/issues/222",
+      "repository": "Jerome-Group/syrax",
+      "number": 222
     },
     {
-      "date": "2026-09-09T18:28:26Z",
+      "date": "2026-09-10T08:41:40Z",
       "action": "PR merged",
-      "title": "Add Calculus logo and image link previews",
-      "url": "https://github.com/Jerome-Group/calculus/pull/13",
-      "repository": "Jerome-Group/calculus",
-      "number": 13
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/syrax/pull/223",
+      "repository": "Jerome-Group/syrax",
+      "number": 223
+    },
+    {
+      "date": "2026-09-10T08:40:59Z",
+      "action": "Linked issue resolved",
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/algebra/issues/20",
+      "repository": "Jerome-Group/algebra",
+      "number": 20
+    },
+    {
+      "date": "2026-09-10T08:40:58Z",
+      "action": "PR merged",
+      "title": "Adopt the Organisation's current conformance rules",
+      "url": "https://github.com/Jerome-Group/algebra/pull/21",
+      "repository": "Jerome-Group/algebra",
+      "number": 21
     }
   ],
-  "updated": "10 Sep 2026 08:37 UTC"
+  "updated": "10 Sep 2026 08:43 UTC"
 }

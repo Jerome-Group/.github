@@ -1,12 +1,12 @@
 # Organisation activity snapshot
 
-Updated 10 Sep 2026 08:37 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 10 Sep 2026 08:43 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 341 |
-| PRs merged | 304 |
-| Distinct linked issues resolved | 243 |
+| PRs opened | 347 |
+| PRs merged | 310 |
+| Distinct linked issues resolved | 249 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
@@ -23,18 +23,18 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-10 · PR opened · [Jerome-Group/algebra#19: Bump actions/setup-node from 6.5.0 to 7.0.0](https://github.com/Jerome-Group/algebra/pull/19)
-- 2026-09-09 · Linked issue resolved · [Jerome-Group/algebra#17: Add official logo and image previews for shared links](https://github.com/Jerome-Group/algebra/issues/17)
-- 2026-09-09 · PR merged · [Jerome-Group/algebra#18: Add Abstract Algebra logo and shared-link image previews](https://github.com/Jerome-Group/algebra/pull/18)
-- 2026-09-09 · PR opened · [Jerome-Group/algebra#18: Add Abstract Algebra logo and shared-link image previews](https://github.com/Jerome-Group/algebra/pull/18)
-- 2026-09-09 · Linked issue resolved · [Jerome-Group/calculus#12: Add a Calculus logo and illustrated link previews](https://github.com/Jerome-Group/calculus/issues/12)
-- 2026-09-09 · PR merged · [Jerome-Group/calculus#13: Add Calculus logo and image link previews](https://github.com/Jerome-Group/calculus/pull/13)
+- 2026-09-10 · Linked issue resolved · [Jerome-Group/academic-os#237: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/issues/237)
+- 2026-09-10 · PR merged · [Jerome-Group/academic-os#238: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/pull/238)
+- 2026-09-10 · Linked issue resolved · [Jerome-Group/syrax#222: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/issues/222)
+- 2026-09-10 · PR merged · [Jerome-Group/syrax#223: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/pull/223)
+- 2026-09-10 · Linked issue resolved · [Jerome-Group/algebra#20: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/algebra/issues/20)
+- 2026-09-10 · PR merged · [Jerome-Group/algebra#21: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/algebra/pull/21)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
-| Claude | 209 |
+| Claude | 215 |
 | Codex / OpenAI | 63 |
 | Both | 2 |
 | Other / mixed | 0 |
