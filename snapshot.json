@@ -9,12 +9,12 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    347,
-    310,
-    249
+    353,
+    316,
+    255
   ],
   "assistance": {
-    "Claude": 215,
+    "Claude": 221,
     "Codex / OpenAI": 63,
     "Both": 2,
     "Other / mixed": 0,
@@ -61,57 +61,57 @@
     "2026-09-07": 29,
     "2026-09-08": 7,
     "2026-09-09": 55,
-    "2026-09-10": 25
+    "2026-09-10": 49
   },
   "recent": [
     {
-      "date": "2026-09-10T08:42:24Z",
+      "date": "2026-09-10T08:59:36Z",
       "action": "Linked issue resolved",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/237",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/239",
       "repository": "Jerome-Group/academic-os",
-      "number": 237
+      "number": 239
     },
     {
-      "date": "2026-09-10T08:42:22Z",
+      "date": "2026-09-10T08:59:35Z",
       "action": "PR merged",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/238",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/240",
       "repository": "Jerome-Group/academic-os",
-      "number": 238
+      "number": 240
     },
     {
-      "date": "2026-09-10T08:41:41Z",
+      "date": "2026-09-10T08:59:34Z",
       "action": "Linked issue resolved",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/syrax/issues/222",
+      "url": "https://github.com/Jerome-Group/syrax/issues/224",
       "repository": "Jerome-Group/syrax",
-      "number": 222
+      "number": 224
     },
     {
-      "date": "2026-09-10T08:41:40Z",
+      "date": "2026-09-10T08:59:33Z",
       "action": "PR merged",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/syrax/pull/223",
+      "url": "https://github.com/Jerome-Group/syrax/pull/225",
       "repository": "Jerome-Group/syrax",
-      "number": 223
+      "number": 225
     },
     {
-      "date": "2026-09-10T08:40:59Z",
+      "date": "2026-09-10T08:58:54Z",
       "action": "Linked issue resolved",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/algebra/issues/20",
+      "url": "https://github.com/Jerome-Group/algebra/issues/22",
       "repository": "Jerome-Group/algebra",
-      "number": 20
+      "number": 22
     },
     {
-      "date": "2026-09-10T08:40:58Z",
+      "date": "2026-09-10T08:58:53Z",
       "action": "PR merged",
       "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/algebra/pull/21",
+      "url": "https://github.com/Jerome-Group/algebra/pull/23",
       "repository": "Jerome-Group/algebra",
-      "number": 21
+      "number": 23
     }
   ],
-  "updated": "10 Sep 2026 08:43 UTC"
+  "updated": "10 Sep 2026 09:00 UTC"
 }
