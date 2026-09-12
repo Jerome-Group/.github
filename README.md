@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 11 Sep 2026 06:36 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 12 Sep 2026 06:27 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 353 |
+| PRs opened | 354 |
 | PRs merged | 316 |
 | Distinct linked issues resolved | 255 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-12 to 2026-09-11 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-13 to 2026-09-12 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-09-11 · PR opened · [Jerome-Group/syrax#226: Bump openclaw from 2026.6.34 to 2026.9.1 in /runtime](https://github.com/Jerome-Group/syrax/pull/226)
 - 2026-09-10 · Linked issue resolved · [Jerome-Group/academic-os#239: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/issues/239)
 - 2026-09-10 · PR merged · [Jerome-Group/academic-os#240: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/pull/240)
 - 2026-09-10 · Linked issue resolved · [Jerome-Group/syrax#224: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/issues/224)
 - 2026-09-10 · PR merged · [Jerome-Group/syrax#225: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/pull/225)
 - 2026-09-10 · Linked issue resolved · [Jerome-Group/algebra#22: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/algebra/issues/22)
-- 2026-09-10 · PR merged · [Jerome-Group/algebra#23: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/algebra/pull/23)
 
 ## Declared assistance
 
