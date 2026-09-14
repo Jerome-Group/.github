@@ -9,7 +9,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    355,
+    357,
     316,
     255
   ],
@@ -21,8 +21,8 @@
     "Unassisted": 1,
     "Undeclared": 29
   },
-  "start": "2025-09-14",
-  "end": "2026-09-13",
+  "start": "2025-09-15",
+  "end": "2026-09-14",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -63,9 +63,26 @@
     "2026-09-09": 55,
     "2026-09-10": 49,
     "2026-09-11": 1,
-    "2026-09-12": 1
+    "2026-09-12": 1,
+    "2026-09-14": 2
   },
   "recent": [
+    {
+      "date": "2026-09-14T06:17:38Z",
+      "action": "PR opened",
+      "title": "Bump eslint from 10.9.1 to 10.10.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/141",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 141
+    },
+    {
+      "date": "2026-09-14T06:17:32Z",
+      "action": "PR opened",
+      "title": "Bump playwright from 1.62.1 to 1.63.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/140",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 140
+    },
     {
       "date": "2026-09-12T11:22:49Z",
       "action": "PR opened",
@@ -97,23 +114,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/pull/240",
       "repository": "Jerome-Group/academic-os",
       "number": 240
-    },
-    {
-      "date": "2026-09-10T08:59:34Z",
-      "action": "Linked issue resolved",
-      "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/syrax/issues/224",
-      "repository": "Jerome-Group/syrax",
-      "number": 224
-    },
-    {
-      "date": "2026-09-10T08:59:33Z",
-      "action": "PR merged",
-      "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/syrax/pull/225",
-      "repository": "Jerome-Group/syrax",
-      "number": 225
     }
   ],
-  "updated": "13 Sep 2026 06:44 UTC"
+  "updated": "14 Sep 2026 07:00 UTC"
 }

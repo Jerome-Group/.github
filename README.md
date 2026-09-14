@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 13 Sep 2026 06:44 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 14 Sep 2026 07:00 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 355 |
+| PRs opened | 357 |
 | PRs merged | 316 |
 | Distinct linked issues resolved | 255 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-14 to 2026-09-13 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-15 to 2026-09-14 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-09-14 · PR opened · [Jerome-Group/ntulearn#141: Bump eslint from 10.9.1 to 10.10.0](https://github.com/Jerome-Group/ntulearn/pull/141)
+- 2026-09-14 · PR opened · [Jerome-Group/ntulearn#140: Bump playwright from 1.62.1 to 1.63.0](https://github.com/Jerome-Group/ntulearn/pull/140)
 - 2026-09-12 · PR opened · [Jerome-Group/f1-analytics#85: Bump @types/node from 26.2.0 to 26.4.1](https://github.com/Jerome-Group/f1-analytics/pull/85)
 - 2026-09-11 · PR opened · [Jerome-Group/syrax#226: Bump openclaw from 2026.6.34 to 2026.9.1 in /runtime](https://github.com/Jerome-Group/syrax/pull/226)
 - 2026-09-10 · Linked issue resolved · [Jerome-Group/academic-os#239: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/issues/239)
 - 2026-09-10 · PR merged · [Jerome-Group/academic-os#240: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/pull/240)
-- 2026-09-10 · Linked issue resolved · [Jerome-Group/syrax#224: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/issues/224)
-- 2026-09-10 · PR merged · [Jerome-Group/syrax#225: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/syrax/pull/225)
 
 ## Declared assistance
 
