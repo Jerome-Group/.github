@@ -9,20 +9,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    358,
-    316,
-    255
+    367,
+    328,
+    258
   ],
   "assistance": {
     "Claude": 221,
-    "Codex / OpenAI": 63,
+    "Codex / OpenAI": 65,
     "Both": 2,
     "Other / mixed": 0,
     "Unassisted": 1,
-    "Undeclared": 29
+    "Undeclared": 39
   },
-  "start": "2025-09-16",
-  "end": "2026-09-15",
+  "start": "2025-09-17",
+  "end": "2026-09-16",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -64,57 +64,58 @@
     "2026-09-10": 49,
     "2026-09-11": 1,
     "2026-09-12": 1,
-    "2026-09-14": 3
+    "2026-09-14": 3,
+    "2026-09-15": 27
   },
   "recent": [
     {
-      "date": "2026-09-14T08:26:42Z",
-      "action": "PR opened",
-      "title": "Bump openclaw from 2026.6.34 to 2026.9.2 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/227",
-      "repository": "Jerome-Group/syrax",
-      "number": 227
-    },
-    {
-      "date": "2026-09-14T06:17:38Z",
-      "action": "PR opened",
-      "title": "Bump eslint from 10.9.1 to 10.10.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/141",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 141
-    },
-    {
-      "date": "2026-09-14T06:17:32Z",
-      "action": "PR opened",
-      "title": "Bump playwright from 1.62.1 to 1.63.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/140",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 140
-    },
-    {
-      "date": "2026-09-12T11:22:49Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.2.0 to 26.4.1",
-      "url": "https://github.com/Jerome-Group/f1-analytics/pull/85",
-      "repository": "Jerome-Group/f1-analytics",
-      "number": 85
-    },
-    {
-      "date": "2026-09-11T08:24:39Z",
-      "action": "PR opened",
-      "title": "Bump openclaw from 2026.6.34 to 2026.9.1 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/226",
-      "repository": "Jerome-Group/syrax",
-      "number": 226
-    },
-    {
-      "date": "2026-09-10T08:59:36Z",
+      "date": "2026-09-15T17:31:30Z",
       "action": "Linked issue resolved",
-      "title": "Adopt the Organisation's current conformance rules",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/239",
-      "repository": "Jerome-Group/academic-os",
-      "number": 239
+      "title": "Implement Calculus Atlas audit and verify public learning experience",
+      "url": "https://github.com/Jerome-Group/calculus/issues/18",
+      "repository": "Jerome-Group/calculus",
+      "number": 18
+    },
+    {
+      "date": "2026-09-15T17:31:29Z",
+      "action": "PR merged",
+      "title": "Improve Calculus lessons, practice and mathematical experiments",
+      "url": "https://github.com/Jerome-Group/calculus/pull/24",
+      "repository": "Jerome-Group/calculus",
+      "number": 24
+    },
+    {
+      "date": "2026-09-15T17:29:24Z",
+      "action": "PR opened",
+      "title": "Improve Calculus lessons, practice and mathematical experiments",
+      "url": "https://github.com/Jerome-Group/calculus/pull/24",
+      "repository": "Jerome-Group/calculus",
+      "number": 24
+    },
+    {
+      "date": "2026-09-15T17:20:04Z",
+      "action": "Linked issue resolved",
+      "title": "Patch development sharp dependency",
+      "url": "https://github.com/Jerome-Group/algebra/issues/26",
+      "repository": "Jerome-Group/algebra",
+      "number": 26
+    },
+    {
+      "date": "2026-09-15T17:20:04Z",
+      "action": "Linked issue resolved",
+      "title": "Repair mathematical teaching, experiments and navigation from site review",
+      "url": "https://github.com/Jerome-Group/algebra/issues/24",
+      "repository": "Jerome-Group/algebra",
+      "number": 24
+    },
+    {
+      "date": "2026-09-15T17:20:02Z",
+      "action": "PR merged",
+      "title": "Fix algebra teaching, experiments and learning navigation",
+      "url": "https://github.com/Jerome-Group/algebra/pull/25",
+      "repository": "Jerome-Group/algebra",
+      "number": 25
     }
   ],
-  "updated": "15 Sep 2026 06:38 UTC"
+  "updated": "16 Sep 2026 06:40 UTC"
 }

@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 15 Sep 2026 06:38 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 16 Sep 2026 06:40 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 358 |
-| PRs merged | 316 |
-| Distinct linked issues resolved | 255 |
+| PRs opened | 367 |
+| PRs merged | 328 |
+| Distinct linked issues resolved | 258 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-16 to 2026-09-15 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-17 to 2026-09-16 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,23 +23,23 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-14 · PR opened · [Jerome-Group/syrax#227: Bump openclaw from 2026.6.34 to 2026.9.2 in /runtime](https://github.com/Jerome-Group/syrax/pull/227)
-- 2026-09-14 · PR opened · [Jerome-Group/ntulearn#141: Bump eslint from 10.9.1 to 10.10.0](https://github.com/Jerome-Group/ntulearn/pull/141)
-- 2026-09-14 · PR opened · [Jerome-Group/ntulearn#140: Bump playwright from 1.62.1 to 1.63.0](https://github.com/Jerome-Group/ntulearn/pull/140)
-- 2026-09-12 · PR opened · [Jerome-Group/f1-analytics#85: Bump @types/node from 26.2.0 to 26.4.1](https://github.com/Jerome-Group/f1-analytics/pull/85)
-- 2026-09-11 · PR opened · [Jerome-Group/syrax#226: Bump openclaw from 2026.6.34 to 2026.9.1 in /runtime](https://github.com/Jerome-Group/syrax/pull/226)
-- 2026-09-10 · Linked issue resolved · [Jerome-Group/academic-os#239: Adopt the Organisation&#x27;s current conformance rules](https://github.com/Jerome-Group/academic-os/issues/239)
+- 2026-09-15 · Linked issue resolved · [Jerome-Group/calculus#18: Implement Calculus Atlas audit and verify public learning experience](https://github.com/Jerome-Group/calculus/issues/18)
+- 2026-09-15 · PR merged · [Jerome-Group/calculus#24: Improve Calculus lessons, practice and mathematical experiments](https://github.com/Jerome-Group/calculus/pull/24)
+- 2026-09-15 · PR opened · [Jerome-Group/calculus#24: Improve Calculus lessons, practice and mathematical experiments](https://github.com/Jerome-Group/calculus/pull/24)
+- 2026-09-15 · Linked issue resolved · [Jerome-Group/algebra#26: Patch development sharp dependency](https://github.com/Jerome-Group/algebra/issues/26)
+- 2026-09-15 · Linked issue resolved · [Jerome-Group/algebra#24: Repair mathematical teaching, experiments and navigation from site review](https://github.com/Jerome-Group/algebra/issues/24)
+- 2026-09-15 · PR merged · [Jerome-Group/algebra#25: Fix algebra teaching, experiments and learning navigation](https://github.com/Jerome-Group/algebra/pull/25)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 221 |
-| Codex / OpenAI | 63 |
+| Codex / OpenAI | 65 |
 | Both | 2 |
 | Other / mixed | 0 |
 | Unassisted | 1 |
-| Undeclared | 29 |
+| Undeclared | 39 |
 
 Each merged PR counts once, using only Assisted-by entries in its final contiguous trailer block. Claude/Anthropic names map to Claude; Codex/OpenAI/GPT and o1/o3/o4 names map to Codex / OpenAI. Both means both families were declared. Other / mixed covers other models and contradictory declarations. Unassisted requires explicit none; missing trailers are Undeclared, including unlabelled bot PRs. Percentages use all merged public PRs as the denominator. PR bodies can be edited retrospectively. This is model-family attribution, not proof of the application used, effort, code volume or authorship share. Commit trailers are not counted separately.
 
