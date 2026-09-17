@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 16 Sep 2026 06:40 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 17 Sep 2026 06:36 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 367 |
+| PRs opened | 368 |
 | PRs merged | 328 |
 | Distinct linked issues resolved | 258 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-17 to 2026-09-16 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-18 to 2026-09-17 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-09-16 · PR opened · [Jerome-Group/syrax#230: Bump openclaw from 2026.6.34 to 2026.9.3 in /runtime](https://github.com/Jerome-Group/syrax/pull/230)
 - 2026-09-15 · Linked issue resolved · [Jerome-Group/calculus#18: Implement Calculus Atlas audit and verify public learning experience](https://github.com/Jerome-Group/calculus/issues/18)
 - 2026-09-15 · PR merged · [Jerome-Group/calculus#24: Improve Calculus lessons, practice and mathematical experiments](https://github.com/Jerome-Group/calculus/pull/24)
 - 2026-09-15 · PR opened · [Jerome-Group/calculus#24: Improve Calculus lessons, practice and mathematical experiments](https://github.com/Jerome-Group/calculus/pull/24)
 - 2026-09-15 · Linked issue resolved · [Jerome-Group/algebra#26: Patch development sharp dependency](https://github.com/Jerome-Group/algebra/issues/26)
 - 2026-09-15 · Linked issue resolved · [Jerome-Group/algebra#24: Repair mathematical teaching, experiments and navigation from site review](https://github.com/Jerome-Group/algebra/issues/24)
-- 2026-09-15 · PR merged · [Jerome-Group/algebra#25: Fix algebra teaching, experiments and learning navigation](https://github.com/Jerome-Group/algebra/pull/25)
 
 ## Declared assistance
 
