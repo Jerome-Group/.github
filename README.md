@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 18 Sep 2026 06:35 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 19 Sep 2026 06:33 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 371 |
+| PRs opened | 377 |
 | PRs merged | 336 |
 | Distinct linked issues resolved | 260 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-19 to 2026-09-18 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-20 to 2026-09-19 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#172: Bump uvicorn from 0.40.0 to 0.52.4 in /search](https://github.com/Jerome-Group/syrax/pull/172)
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#174: Bump mpmath from 1.3.0 to 1.4.1 in /search](https://github.com/Jerome-Group/syrax/pull/174)
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#175: Bump numpy from 2.3.4 to 2.5.3 in /search](https://github.com/Jerome-Group/syrax/pull/175)
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#176: Bump ruff from 0.15.4 to 0.16.6 in /search](https://github.com/Jerome-Group/syrax/pull/176)
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#229: Bump oxlint from 1.79.0 to 1.82.0](https://github.com/Jerome-Group/syrax/pull/229)
-- 2026-09-17 · PR merged · [Jerome-Group/syrax#231: Bump @types/node from 26.2.0 to 26.5.1](https://github.com/Jerome-Group/syrax/pull/231)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#241: Bump onnxruntime from 1.24.1 to 1.30.0 in /search](https://github.com/Jerome-Group/syrax/pull/241)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#240: Bump openclaw from 2026.6.34 to 2026.9.4 in /runtime](https://github.com/Jerome-Group/syrax/pull/240)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#239: Bump pydantic from 2.13.4 to 2.13.5 in /search](https://github.com/Jerome-Group/syrax/pull/239)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#238: Bump pydantic-core from 2.46.4 to 2.49.0 in /search](https://github.com/Jerome-Group/syrax/pull/238)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#237: Bump sse-starlette from 3.4.8 to 3.4.11 in /search](https://github.com/Jerome-Group/syrax/pull/237)
+- 2026-09-18 · PR opened · [Jerome-Group/syrax#236: Bump huggingface-hub from 1.27.0 to 1.31.0 in /search](https://github.com/Jerome-Group/syrax/pull/236)
 
 ## Declared assistance
 
