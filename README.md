@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 19 Sep 2026 06:33 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 20 Sep 2026 06:55 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 377 |
-| PRs merged | 336 |
-| Distinct linked issues resolved | 260 |
+| PRs opened | 383 |
+| PRs merged | 341 |
+| Distinct linked issues resolved | 265 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-20 to 2026-09-19 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-21 to 2026-09-20 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#241: Bump onnxruntime from 1.24.1 to 1.30.0 in /search](https://github.com/Jerome-Group/syrax/pull/241)
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#240: Bump openclaw from 2026.6.34 to 2026.9.4 in /runtime](https://github.com/Jerome-Group/syrax/pull/240)
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#239: Bump pydantic from 2.13.4 to 2.13.5 in /search](https://github.com/Jerome-Group/syrax/pull/239)
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#238: Bump pydantic-core from 2.46.4 to 2.49.0 in /search](https://github.com/Jerome-Group/syrax/pull/238)
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#237: Bump sse-starlette from 3.4.8 to 3.4.11 in /search](https://github.com/Jerome-Group/syrax/pull/237)
-- 2026-09-18 · PR opened · [Jerome-Group/syrax#236: Bump huggingface-hub from 1.27.0 to 1.31.0 in /search](https://github.com/Jerome-Group/syrax/pull/236)
+- 2026-09-19 · PR opened · [Jerome-Group/f1-analytics#86: Bump @types/node from 26.2.0 to 26.5.1](https://github.com/Jerome-Group/f1-analytics/pull/86)
+- 2026-09-19 · Linked issue resolved · [Jerome-Group/ntulearn#150: Media Gallery title parser selects comment count](https://github.com/Jerome-Group/ntulearn/issues/150)
+- 2026-09-19 · PR merged · [Jerome-Group/ntulearn#151: Prefer recording links for Media Gallery titles](https://github.com/Jerome-Group/ntulearn/pull/151)
+- 2026-09-19 · PR opened · [Jerome-Group/ntulearn#151: Prefer recording links for Media Gallery titles](https://github.com/Jerome-Group/ntulearn/pull/151)
+- 2026-09-19 · Issue opened · [Jerome-Group/ntulearn#150: Media Gallery title parser selects comment count](https://github.com/Jerome-Group/ntulearn/issues/150)
+- 2026-09-19 · Linked issue resolved · [Jerome-Group/ntulearn#148: Extend Media Gallery title settling window](https://github.com/Jerome-Group/ntulearn/issues/148)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 221 |
-| Codex / OpenAI | 67 |
+| Codex / OpenAI | 72 |
 | Both | 2 |
 | Other / mixed | 0 |
 | Unassisted | 1 |
