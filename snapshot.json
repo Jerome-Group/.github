@@ -9,7 +9,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    383,
+    384,
     341,
     265
   ],
@@ -21,8 +21,8 @@
     "Unassisted": 1,
     "Undeclared": 45
   },
-  "start": "2025-09-21",
-  "end": "2026-09-20",
+  "start": "2025-09-22",
+  "end": "2026-09-21",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -69,9 +69,18 @@
     "2026-09-16": 1,
     "2026-09-17": 15,
     "2026-09-18": 6,
-    "2026-09-19": 21
+    "2026-09-19": 21,
+    "2026-09-21": 1
   },
   "recent": [
+    {
+      "date": "2026-09-21T06:19:39Z",
+      "action": "PR opened",
+      "title": "Bump prettier from 3.9.6 to 3.9.8",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/152",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 152
+    },
     {
       "date": "2026-09-19T11:23:38Z",
       "action": "PR opened",
@@ -111,15 +120,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/issues/150",
       "repository": "Jerome-Group/ntulearn",
       "number": 150
-    },
-    {
-      "date": "2026-09-19T10:21:55Z",
-      "action": "Linked issue resolved",
-      "title": "Extend Media Gallery title settling window",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/148",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 148
     }
   ],
-  "updated": "20 Sep 2026 06:55 UTC"
+  "updated": "21 Sep 2026 07:04 UTC"
 }
