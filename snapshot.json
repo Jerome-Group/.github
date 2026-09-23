@@ -9,20 +9,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    384,
-    341,
-    265
+    396,
+    352,
+    276
   ],
   "assistance": {
     "Claude": 221,
-    "Codex / OpenAI": 72,
+    "Codex / OpenAI": 82,
     "Both": 2,
-    "Other / mixed": 0,
+    "Other / mixed": 1,
     "Unassisted": 1,
     "Undeclared": 45
   },
-  "start": "2025-09-23",
-  "end": "2026-09-22",
+  "start": "2025-09-24",
+  "end": "2026-09-23",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -70,57 +70,58 @@
     "2026-09-17": 15,
     "2026-09-18": 6,
     "2026-09-19": 21,
-    "2026-09-21": 1
+    "2026-09-21": 1,
+    "2026-09-22": 47
   },
   "recent": [
     {
-      "date": "2026-09-21T06:19:39Z",
-      "action": "PR opened",
-      "title": "Bump prettier from 3.9.6 to 3.9.8",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/152",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 152
-    },
-    {
-      "date": "2026-09-19T11:23:38Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.2.0 to 26.5.1",
-      "url": "https://github.com/Jerome-Group/f1-analytics/pull/86",
-      "repository": "Jerome-Group/f1-analytics",
-      "number": 86
-    },
-    {
-      "date": "2026-09-19T10:43:33Z",
+      "date": "2026-09-22T23:04:21Z",
       "action": "Linked issue resolved",
-      "title": "Media Gallery title parser selects comment count",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/150",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 150
+      "title": "Use GPT-6 Luna for unattended module maintenance",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/241",
+      "repository": "Jerome-Group/academic-os",
+      "number": 241
     },
     {
-      "date": "2026-09-19T10:43:32Z",
+      "date": "2026-09-22T23:04:20Z",
       "action": "PR merged",
-      "title": "Prefer recording links for Media Gallery titles",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/151",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 151
+      "title": "Run module maintenance with GPT-6 Luna max",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/242",
+      "repository": "Jerome-Group/academic-os",
+      "number": 242
     },
     {
-      "date": "2026-09-19T10:42:56Z",
+      "date": "2026-09-22T22:53:39Z",
       "action": "PR opened",
-      "title": "Prefer recording links for Media Gallery titles",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/151",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 151
+      "title": "Run module maintenance with GPT-6 Luna max",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/242",
+      "repository": "Jerome-Group/academic-os",
+      "number": 242
     },
     {
-      "date": "2026-09-19T10:29:43Z",
+      "date": "2026-09-22T22:49:11Z",
       "action": "Issue opened",
-      "title": "Media Gallery title parser selects comment count",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/150",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 150
+      "title": "Use GPT-6 Luna for unattended module maintenance",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/241",
+      "repository": "Jerome-Group/academic-os",
+      "number": 241
+    },
+    {
+      "date": "2026-09-22T12:15:07Z",
+      "action": "Issue opened",
+      "title": "Complete action and Sylow guided units",
+      "url": "https://github.com/Jerome-Group/algebra/issues/46",
+      "repository": "Jerome-Group/algebra",
+      "number": 46
+    },
+    {
+      "date": "2026-09-22T12:13:57Z",
+      "action": "Linked issue resolved",
+      "title": "Complete Cayley words, relations and regular embedding",
+      "url": "https://github.com/Jerome-Group/algebra/issues/44",
+      "repository": "Jerome-Group/algebra",
+      "number": 44
     }
   ],
-  "updated": "22 Sep 2026 06:44 UTC"
+  "updated": "23 Sep 2026 06:36 UTC"
 }
