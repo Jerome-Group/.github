@@ -6,23 +6,24 @@
     "Jerome-Group/calculus",
     "Jerome-Group/f1-analytics",
     "Jerome-Group/ntulearn",
+    "Jerome-Group/numbertheory",
     "Jerome-Group/syrax"
   ],
   "counts": [
-    396,
-    352,
-    276
+    495,
+    449,
+    372
   ],
   "assistance": {
     "Claude": 221,
-    "Codex / OpenAI": 82,
+    "Codex / OpenAI": 176,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
-    "Undeclared": 45
+    "Undeclared": 48
   },
-  "start": "2025-09-24",
-  "end": "2026-09-23",
+  "start": "2025-09-25",
+  "end": "2026-09-24",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -71,57 +72,59 @@
     "2026-09-18": 6,
     "2026-09-19": 21,
     "2026-09-21": 1,
-    "2026-09-22": 47
+    "2026-09-22": 47,
+    "2026-09-23": 348,
+    "2026-09-24": 42
   },
   "recent": [
     {
-      "date": "2026-09-22T23:04:21Z",
+      "date": "2026-09-24T04:36:45Z",
       "action": "Linked issue resolved",
-      "title": "Use GPT-6 Luna for unattended module maintenance",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/241",
-      "repository": "Jerome-Group/academic-os",
-      "number": 241
+      "title": "Finish Atlas learning controls and release evidence",
+      "url": "https://github.com/Jerome-Group/numbertheory/issues/12",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 12
     },
     {
-      "date": "2026-09-22T23:04:20Z",
+      "date": "2026-09-24T04:36:44Z",
       "action": "PR merged",
-      "title": "Run module maintenance with GPT-6 Luna max",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/242",
-      "repository": "Jerome-Group/academic-os",
-      "number": 242
+      "title": "Finish Atlas diagnostic, Studio, and portable progress",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/13",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 13
     },
     {
-      "date": "2026-09-22T22:53:39Z",
+      "date": "2026-09-24T04:36:04Z",
       "action": "PR opened",
-      "title": "Run module maintenance with GPT-6 Luna max",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/242",
-      "repository": "Jerome-Group/academic-os",
-      "number": 242
+      "title": "Finish Atlas diagnostic, Studio, and portable progress",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/13",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 13
     },
     {
-      "date": "2026-09-22T22:49:11Z",
+      "date": "2026-09-24T04:26:08Z",
       "action": "Issue opened",
-      "title": "Use GPT-6 Luna for unattended module maintenance",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/241",
-      "repository": "Jerome-Group/academic-os",
-      "number": 241
+      "title": "Finish Atlas learning controls and release evidence",
+      "url": "https://github.com/Jerome-Group/numbertheory/issues/12",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 12
     },
     {
-      "date": "2026-09-22T12:15:07Z",
-      "action": "Issue opened",
-      "title": "Complete action and Sylow guided units",
-      "url": "https://github.com/Jerome-Group/algebra/issues/46",
-      "repository": "Jerome-Group/algebra",
-      "number": 46
-    },
-    {
-      "date": "2026-09-22T12:13:57Z",
+      "date": "2026-09-24T04:21:58Z",
       "action": "Linked issue resolved",
-      "title": "Complete Cayley words, relations and regular embedding",
-      "url": "https://github.com/Jerome-Group/algebra/issues/44",
-      "repository": "Jerome-Group/algebra",
-      "number": 44
+      "title": "Rebuild Number Theory Atlas learning experience",
+      "url": "https://github.com/Jerome-Group/numbertheory/issues/10",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 10
+    },
+    {
+      "date": "2026-09-24T04:21:57Z",
+      "action": "PR merged",
+      "title": "Rebuild Number Theory Atlas with exact learning paths and WebMCP",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/11",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 11
     }
   ],
-  "updated": "23 Sep 2026 06:36 UTC"
+  "updated": "24 Sep 2026 06:42 UTC"
 }
