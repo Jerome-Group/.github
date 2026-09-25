@@ -1,6 +1,6 @@
 # Organisation activity snapshot
 
-Updated 24 Sep 2026 06:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 25 Sep 2026 06:33 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-25 to 2026-09-24 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-26 to 2026-09-25 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
