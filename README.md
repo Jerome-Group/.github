@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 25 Sep 2026 06:33 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 26 Sep 2026 06:34 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 495 |
-| PRs merged | 449 |
-| Distinct linked issues resolved | 372 |
+| PRs opened | 525 |
+| PRs merged | 483 |
+| Distinct linked issues resolved | 401 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-26 to 2026-09-25 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-27 to 2026-09-26 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,23 +23,23 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-24 · Linked issue resolved · [Jerome-Group/numbertheory#12: Finish Atlas learning controls and release evidence](https://github.com/Jerome-Group/numbertheory/issues/12)
-- 2026-09-24 · PR merged · [Jerome-Group/numbertheory#13: Finish Atlas diagnostic, Studio, and portable progress](https://github.com/Jerome-Group/numbertheory/pull/13)
-- 2026-09-24 · PR opened · [Jerome-Group/numbertheory#13: Finish Atlas diagnostic, Studio, and portable progress](https://github.com/Jerome-Group/numbertheory/pull/13)
-- 2026-09-24 · Issue opened · [Jerome-Group/numbertheory#12: Finish Atlas learning controls and release evidence](https://github.com/Jerome-Group/numbertheory/issues/12)
-- 2026-09-24 · Linked issue resolved · [Jerome-Group/numbertheory#10: Rebuild Number Theory Atlas learning experience](https://github.com/Jerome-Group/numbertheory/issues/10)
-- 2026-09-24 · PR merged · [Jerome-Group/numbertheory#11: Rebuild Number Theory Atlas with exact learning paths and WebMCP](https://github.com/Jerome-Group/numbertheory/pull/11)
+- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#290: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/issues/290)
+- 2026-09-26 · PR merged · [Jerome-Group/syrax#295: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/pull/295)
+- 2026-09-26 · PR opened · [Jerome-Group/syrax#295: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/pull/295)
+- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#292: Upgrade the runtime while preserving delivery and failover boundaries](https://github.com/Jerome-Group/syrax/issues/292)
+- 2026-09-26 · PR merged · [Jerome-Group/syrax#294: Preserve lane failure boundaries on a zero-audit runtime](https://github.com/Jerome-Group/syrax/pull/294)
+- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#291: Confirm safe restart completion before reporting configuration landed](https://github.com/Jerome-Group/syrax/issues/291)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 221 |
-| Codex / OpenAI | 176 |
+| Codex / OpenAI | 205 |
 | Both | 2 |
 | Other / mixed | 1 |
 | Unassisted | 1 |
-| Undeclared | 48 |
+| Undeclared | 53 |
 
 Each merged PR counts once, using only Assisted-by entries in its final contiguous trailer block. Claude/Anthropic names map to Claude; Codex/OpenAI/GPT and o1/o3/o4 names map to Codex / OpenAI. Both means both families were declared. Other / mixed covers other models and contradictory declarations. Unassisted requires explicit none; missing trailers are Undeclared, including unlabelled bot PRs. Percentages use all merged public PRs as the denominator. PR bodies can be edited retrospectively. This is model-family attribution, not proof of the application used, effort, code volume or authorship share. Commit trailers are not counted separately.
 

@@ -10,20 +10,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    495,
-    449,
-    372
+    525,
+    483,
+    401
   ],
   "assistance": {
     "Claude": 221,
-    "Codex / OpenAI": 176,
+    "Codex / OpenAI": 205,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
-    "Undeclared": 48
+    "Undeclared": 53
   },
-  "start": "2025-09-26",
-  "end": "2026-09-25",
+  "start": "2025-09-27",
+  "end": "2026-09-26",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -74,57 +74,59 @@
     "2026-09-21": 1,
     "2026-09-22": 47,
     "2026-09-23": 348,
-    "2026-09-24": 42
+    "2026-09-24": 42,
+    "2026-09-25": 1,
+    "2026-09-26": 123
   },
   "recent": [
     {
-      "date": "2026-09-24T04:36:45Z",
+      "date": "2026-09-26T03:41:48Z",
       "action": "Linked issue resolved",
-      "title": "Finish Atlas learning controls and release evidence",
-      "url": "https://github.com/Jerome-Group/numbertheory/issues/12",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 12
+      "title": "Record reliability and memory audit evidence",
+      "url": "https://github.com/Jerome-Group/syrax/issues/290",
+      "repository": "Jerome-Group/syrax",
+      "number": 290
     },
     {
-      "date": "2026-09-24T04:36:44Z",
+      "date": "2026-09-26T03:41:47Z",
       "action": "PR merged",
-      "title": "Finish Atlas diagnostic, Studio, and portable progress",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/13",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 13
+      "title": "Record reliability and memory audit evidence",
+      "url": "https://github.com/Jerome-Group/syrax/pull/295",
+      "repository": "Jerome-Group/syrax",
+      "number": 295
     },
     {
-      "date": "2026-09-24T04:36:04Z",
+      "date": "2026-09-26T03:39:16Z",
       "action": "PR opened",
-      "title": "Finish Atlas diagnostic, Studio, and portable progress",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/13",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 13
+      "title": "Record reliability and memory audit evidence",
+      "url": "https://github.com/Jerome-Group/syrax/pull/295",
+      "repository": "Jerome-Group/syrax",
+      "number": 295
     },
     {
-      "date": "2026-09-24T04:26:08Z",
-      "action": "Issue opened",
-      "title": "Finish Atlas learning controls and release evidence",
-      "url": "https://github.com/Jerome-Group/numbertheory/issues/12",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 12
-    },
-    {
-      "date": "2026-09-24T04:21:58Z",
+      "date": "2026-09-26T03:36:42Z",
       "action": "Linked issue resolved",
-      "title": "Rebuild Number Theory Atlas learning experience",
-      "url": "https://github.com/Jerome-Group/numbertheory/issues/10",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 10
+      "title": "Upgrade the runtime while preserving delivery and failover boundaries",
+      "url": "https://github.com/Jerome-Group/syrax/issues/292",
+      "repository": "Jerome-Group/syrax",
+      "number": 292
     },
     {
-      "date": "2026-09-24T04:21:57Z",
+      "date": "2026-09-26T03:36:41Z",
       "action": "PR merged",
-      "title": "Rebuild Number Theory Atlas with exact learning paths and WebMCP",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/11",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 11
+      "title": "Preserve lane failure boundaries on a zero-audit runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/294",
+      "repository": "Jerome-Group/syrax",
+      "number": 294
+    },
+    {
+      "date": "2026-09-26T03:29:07Z",
+      "action": "Linked issue resolved",
+      "title": "Confirm safe restart completion before reporting configuration landed",
+      "url": "https://github.com/Jerome-Group/syrax/issues/291",
+      "repository": "Jerome-Group/syrax",
+      "number": 291
     }
   ],
-  "updated": "25 Sep 2026 06:33 UTC"
+  "updated": "26 Sep 2026 06:34 UTC"
 }
