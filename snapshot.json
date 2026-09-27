@@ -10,20 +10,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    525,
-    483,
-    401
+    527,
+    484,
+    402
   ],
   "assistance": {
     "Claude": 221,
-    "Codex / OpenAI": 205,
+    "Codex / OpenAI": 206,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
     "Undeclared": 53
   },
-  "start": "2025-09-27",
-  "end": "2026-09-26",
+  "start": "2025-09-28",
+  "end": "2026-09-27",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -76,57 +76,57 @@
     "2026-09-23": 348,
     "2026-09-24": 42,
     "2026-09-25": 1,
-    "2026-09-26": 123
+    "2026-09-26": 129
   },
   "recent": [
     {
-      "date": "2026-09-26T03:41:48Z",
+      "date": "2026-09-26T22:00:15Z",
+      "action": "Issue opened",
+      "title": "Morning report 2026-09-27",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/253",
+      "repository": "Jerome-Group/academic-os",
+      "number": 253
+    },
+    {
+      "date": "2026-09-26T16:32:15Z",
       "action": "Linked issue resolved",
-      "title": "Record reliability and memory audit evidence",
-      "url": "https://github.com/Jerome-Group/syrax/issues/290",
+      "title": "Keep heartbeat checks internal and silence markers off Telegram",
+      "url": "https://github.com/Jerome-Group/syrax/issues/296",
       "repository": "Jerome-Group/syrax",
-      "number": 290
+      "number": 296
     },
     {
-      "date": "2026-09-26T03:41:47Z",
+      "date": "2026-09-26T16:32:14Z",
       "action": "PR merged",
-      "title": "Record reliability and memory audit evidence",
-      "url": "https://github.com/Jerome-Group/syrax/pull/295",
+      "title": "Keep heartbeat checks internal and silence markers off Telegram",
+      "url": "https://github.com/Jerome-Group/syrax/pull/297",
       "repository": "Jerome-Group/syrax",
-      "number": 295
+      "number": 297
     },
     {
-      "date": "2026-09-26T03:39:16Z",
+      "date": "2026-09-26T16:30:19Z",
       "action": "PR opened",
-      "title": "Record reliability and memory audit evidence",
-      "url": "https://github.com/Jerome-Group/syrax/pull/295",
+      "title": "Keep heartbeat checks internal and silence markers off Telegram",
+      "url": "https://github.com/Jerome-Group/syrax/pull/297",
       "repository": "Jerome-Group/syrax",
-      "number": 295
+      "number": 297
     },
     {
-      "date": "2026-09-26T03:36:42Z",
-      "action": "Linked issue resolved",
-      "title": "Upgrade the runtime while preserving delivery and failover boundaries",
-      "url": "https://github.com/Jerome-Group/syrax/issues/292",
+      "date": "2026-09-26T16:27:47Z",
+      "action": "Issue opened",
+      "title": "Keep heartbeat checks internal and silence markers off Telegram",
+      "url": "https://github.com/Jerome-Group/syrax/issues/296",
       "repository": "Jerome-Group/syrax",
-      "number": 292
+      "number": 296
     },
     {
-      "date": "2026-09-26T03:36:41Z",
-      "action": "PR merged",
-      "title": "Preserve lane failure boundaries on a zero-audit runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/294",
-      "repository": "Jerome-Group/syrax",
-      "number": 294
-    },
-    {
-      "date": "2026-09-26T03:29:07Z",
-      "action": "Linked issue resolved",
-      "title": "Confirm safe restart completion before reporting configuration landed",
-      "url": "https://github.com/Jerome-Group/syrax/issues/291",
-      "repository": "Jerome-Group/syrax",
-      "number": 291
+      "date": "2026-09-26T11:23:30Z",
+      "action": "PR opened",
+      "title": "Bump @types/node from 26.2.0 to 26.6.2",
+      "url": "https://github.com/Jerome-Group/f1-analytics/pull/87",
+      "repository": "Jerome-Group/f1-analytics",
+      "number": 87
     }
   ],
-  "updated": "26 Sep 2026 06:34 UTC"
+  "updated": "27 Sep 2026 07:03 UTC"
 }

@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 26 Sep 2026 06:34 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 27 Sep 2026 07:03 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 525 |
-| PRs merged | 483 |
-| Distinct linked issues resolved | 401 |
+| PRs opened | 527 |
+| PRs merged | 484 |
+| Distinct linked issues resolved | 402 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-27 to 2026-09-26 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-28 to 2026-09-27 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#290: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/issues/290)
-- 2026-09-26 · PR merged · [Jerome-Group/syrax#295: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/pull/295)
-- 2026-09-26 · PR opened · [Jerome-Group/syrax#295: Record reliability and memory audit evidence](https://github.com/Jerome-Group/syrax/pull/295)
-- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#292: Upgrade the runtime while preserving delivery and failover boundaries](https://github.com/Jerome-Group/syrax/issues/292)
-- 2026-09-26 · PR merged · [Jerome-Group/syrax#294: Preserve lane failure boundaries on a zero-audit runtime](https://github.com/Jerome-Group/syrax/pull/294)
-- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#291: Confirm safe restart completion before reporting configuration landed](https://github.com/Jerome-Group/syrax/issues/291)
+- 2026-09-26 · Issue opened · [Jerome-Group/academic-os#253: Morning report 2026-09-27](https://github.com/Jerome-Group/academic-os/issues/253)
+- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#296: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/issues/296)
+- 2026-09-26 · PR merged · [Jerome-Group/syrax#297: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/pull/297)
+- 2026-09-26 · PR opened · [Jerome-Group/syrax#297: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/pull/297)
+- 2026-09-26 · Issue opened · [Jerome-Group/syrax#296: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/issues/296)
+- 2026-09-26 · PR opened · [Jerome-Group/f1-analytics#87: Bump @types/node from 26.2.0 to 26.6.2](https://github.com/Jerome-Group/f1-analytics/pull/87)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 221 |
-| Codex / OpenAI | 205 |
+| Codex / OpenAI | 206 |
 | Both | 2 |
 | Other / mixed | 1 |
 | Unassisted | 1 |
