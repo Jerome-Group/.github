@@ -10,7 +10,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    529,
+    537,
     484,
     402
   ],
@@ -22,8 +22,8 @@
     "Unassisted": 1,
     "Undeclared": 53
   },
-  "start": "2025-09-29",
-  "end": "2026-09-28",
+  "start": "2025-09-30",
+  "end": "2026-09-29",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -78,57 +78,58 @@
     "2026-09-25": 1,
     "2026-09-26": 129,
     "2026-09-27": 1,
-    "2026-09-28": 2
+    "2026-09-28": 11,
+    "2026-09-29": 1
   },
   "recent": [
     {
-      "date": "2026-09-28T06:19:02Z",
+      "date": "2026-09-29T02:55:42Z",
       "action": "PR opened",
-      "title": "Bump eslint from 10.9.1 to 10.11.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/154",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 154
+      "title": "Bump undici and openclaw in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/304",
+      "repository": "Jerome-Group/syrax",
+      "number": 304
     },
     {
-      "date": "2026-09-28T06:18:56Z",
+      "date": "2026-09-28T22:00:12Z",
+      "action": "Issue opened",
+      "title": "Morning report 2026-09-29",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/257",
+      "repository": "Jerome-Group/academic-os",
+      "number": 257
+    },
+    {
+      "date": "2026-09-28T14:47:18Z",
       "action": "PR opened",
-      "title": "Bump prettier from 3.9.6 to 3.9.9",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/153",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 153
-    },
-    {
-      "date": "2026-09-27T22:00:10Z",
-      "action": "Issue opened",
-      "title": "Morning report 2026-09-28",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/254",
+      "title": "Retire unused rescheduled research meeting folders",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/256",
       "repository": "Jerome-Group/academic-os",
-      "number": 254
+      "number": 256
     },
     {
-      "date": "2026-09-26T22:00:15Z",
+      "date": "2026-09-28T14:46:35Z",
       "action": "Issue opened",
-      "title": "Morning report 2026-09-27",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/253",
+      "title": "Retire unused rescheduled research meeting folders",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/255",
       "repository": "Jerome-Group/academic-os",
-      "number": 253
+      "number": 255
     },
     {
-      "date": "2026-09-26T16:32:15Z",
-      "action": "Linked issue resolved",
-      "title": "Keep heartbeat checks internal and silence markers off Telegram",
-      "url": "https://github.com/Jerome-Group/syrax/issues/296",
+      "date": "2026-09-28T08:25:55Z",
+      "action": "PR opened",
+      "title": "Bump tqdm from 4.70.0 to 4.70.1 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/303",
       "repository": "Jerome-Group/syrax",
-      "number": 296
+      "number": 303
     },
     {
-      "date": "2026-09-26T16:32:14Z",
-      "action": "PR merged",
-      "title": "Keep heartbeat checks internal and silence markers off Telegram",
-      "url": "https://github.com/Jerome-Group/syrax/pull/297",
+      "date": "2026-09-28T08:25:49Z",
+      "action": "PR opened",
+      "title": "Bump protobuf from 7.36.0 to 7.36.2 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/302",
       "repository": "Jerome-Group/syrax",
-      "number": 297
+      "number": 302
     }
   ],
-  "updated": "28 Sep 2026 07:33 UTC"
+  "updated": "29 Sep 2026 07:28 UTC"
 }

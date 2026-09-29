@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 28 Sep 2026 07:33 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 29 Sep 2026 07:28 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 529 |
+| PRs opened | 537 |
 | PRs merged | 484 |
 | Distinct linked issues resolved | 402 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-29 to 2026-09-28 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-09-30 to 2026-09-29 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-09-28 · PR opened · [Jerome-Group/ntulearn#154: Bump eslint from 10.9.1 to 10.11.0](https://github.com/Jerome-Group/ntulearn/pull/154)
-- 2026-09-28 · PR opened · [Jerome-Group/ntulearn#153: Bump prettier from 3.9.6 to 3.9.9](https://github.com/Jerome-Group/ntulearn/pull/153)
-- 2026-09-27 · Issue opened · [Jerome-Group/academic-os#254: Morning report 2026-09-28](https://github.com/Jerome-Group/academic-os/issues/254)
-- 2026-09-26 · Issue opened · [Jerome-Group/academic-os#253: Morning report 2026-09-27](https://github.com/Jerome-Group/academic-os/issues/253)
-- 2026-09-26 · Linked issue resolved · [Jerome-Group/syrax#296: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/issues/296)
-- 2026-09-26 · PR merged · [Jerome-Group/syrax#297: Keep heartbeat checks internal and silence markers off Telegram](https://github.com/Jerome-Group/syrax/pull/297)
+- 2026-09-29 · PR opened · [Jerome-Group/syrax#304: Bump undici and openclaw in /runtime](https://github.com/Jerome-Group/syrax/pull/304)
+- 2026-09-28 · Issue opened · [Jerome-Group/academic-os#257: Morning report 2026-09-29](https://github.com/Jerome-Group/academic-os/issues/257)
+- 2026-09-28 · PR opened · [Jerome-Group/academic-os#256: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/pull/256)
+- 2026-09-28 · Issue opened · [Jerome-Group/academic-os#255: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/issues/255)
+- 2026-09-28 · PR opened · [Jerome-Group/syrax#303: Bump tqdm from 4.70.0 to 4.70.1 in /search](https://github.com/Jerome-Group/syrax/pull/303)
+- 2026-09-28 · PR opened · [Jerome-Group/syrax#302: Bump protobuf from 7.36.0 to 7.36.2 in /search](https://github.com/Jerome-Group/syrax/pull/302)
 
 ## Declared assistance
 
