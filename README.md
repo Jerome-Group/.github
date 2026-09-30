@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 29 Sep 2026 07:28 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 30 Sep 2026 07:21 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 537 |
+| PRs opened | 538 |
 | PRs merged | 484 |
 | Distinct linked issues resolved | 402 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-09-30 to 2026-09-29 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-01 to 2026-09-30 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-09-29 · Issue opened · [Jerome-Group/academic-os#258: Morning report 2026-09-30](https://github.com/Jerome-Group/academic-os/issues/258)
+- 2026-09-29 · PR opened · [Jerome-Group/syrax#305: Bump oxlint from 1.83.0 to 1.85.0](https://github.com/Jerome-Group/syrax/pull/305)
 - 2026-09-29 · PR opened · [Jerome-Group/syrax#304: Bump undici and openclaw in /runtime](https://github.com/Jerome-Group/syrax/pull/304)
 - 2026-09-28 · Issue opened · [Jerome-Group/academic-os#257: Morning report 2026-09-29](https://github.com/Jerome-Group/academic-os/issues/257)
 - 2026-09-28 · PR opened · [Jerome-Group/academic-os#256: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/pull/256)
 - 2026-09-28 · Issue opened · [Jerome-Group/academic-os#255: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/issues/255)
-- 2026-09-28 · PR opened · [Jerome-Group/syrax#303: Bump tqdm from 4.70.0 to 4.70.1 in /search](https://github.com/Jerome-Group/syrax/pull/303)
-- 2026-09-28 · PR opened · [Jerome-Group/syrax#302: Bump protobuf from 7.36.0 to 7.36.2 in /search](https://github.com/Jerome-Group/syrax/pull/302)
 
 ## Declared assistance
 
