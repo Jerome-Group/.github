@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 30 Sep 2026 07:21 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 01 Oct 2026 07:44 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 538 |
+| PRs opened | 542 |
 | PRs merged | 484 |
 | Distinct linked issues resolved | 402 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-01 to 2026-09-30 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-02 to 2026-10-01 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-09-30 · PR opened · [Jerome-Group/numbertheory#16: Bump vite from 8.3.0 to 8.3.1](https://github.com/Jerome-Group/numbertheory/pull/16)
+- 2026-09-30 · PR opened · [Jerome-Group/numbertheory#15: Bump @types/node from 26.6.2 to 26.6.3](https://github.com/Jerome-Group/numbertheory/pull/15)
+- 2026-09-30 · PR opened · [Jerome-Group/numbertheory#14: Bump katex from 0.18.7 to 0.18.9](https://github.com/Jerome-Group/numbertheory/pull/14)
+- 2026-09-30 · Issue opened · [Jerome-Group/academic-os#259: Morning report 2026-10-01](https://github.com/Jerome-Group/academic-os/issues/259)
+- 2026-09-30 · PR opened · [Jerome-Group/syrax#306: Bump prettier from 3.9.8 to 3.9.9](https://github.com/Jerome-Group/syrax/pull/306)
 - 2026-09-29 · Issue opened · [Jerome-Group/academic-os#258: Morning report 2026-09-30](https://github.com/Jerome-Group/academic-os/issues/258)
-- 2026-09-29 · PR opened · [Jerome-Group/syrax#305: Bump oxlint from 1.83.0 to 1.85.0](https://github.com/Jerome-Group/syrax/pull/305)
-- 2026-09-29 · PR opened · [Jerome-Group/syrax#304: Bump undici and openclaw in /runtime](https://github.com/Jerome-Group/syrax/pull/304)
-- 2026-09-28 · Issue opened · [Jerome-Group/academic-os#257: Morning report 2026-09-29](https://github.com/Jerome-Group/academic-os/issues/257)
-- 2026-09-28 · PR opened · [Jerome-Group/academic-os#256: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/pull/256)
-- 2026-09-28 · Issue opened · [Jerome-Group/academic-os#255: Retire unused rescheduled research meeting folders](https://github.com/Jerome-Group/academic-os/issues/255)
 
 ## Declared assistance
 
