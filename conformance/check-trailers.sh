@@ -26,7 +26,8 @@
 # `AGENTS.md` carry four lines instead of thirty (#68), since the detail then arrives at the
 # moment it is wanted rather than in a document read once (ADR-0032).
 #
-# Read-only. Prints one line per offending commit naming what is wrong, and exits non-zero if any.
+# Reconstructs merge trees as Git objects; never changes the working tree or refs.
+# Prints one line per offending commit and exits non-zero if any.
 set -eu
 
 # Spelled out rather than `${1:?…}`, which exits 1 in some shells and 2 in others — and 1 is the
@@ -76,29 +77,19 @@ for sha in $commits; do
   short=$(git rev-parse --short "$sha")
   author=$(git show -s --format='%an' "$sha")
 
-  # More than one parent is a merge commit, and a merge commit in a pull request's range is the
-  # platform's rather than the contributor's: `strict_required_status_checks_policy = true` means a
-  # branch behind `main` must be updated before it can merge, and the **Update branch** button
-  # writes a `Merge branch 'main' into …` whose message GitHub composes and nobody can edit
-  # (#93, ADR-0040). Held to the rule, it blocked live merges in two repositories over text no
-  # contributor wrote — and the bot exemption below does not reach it, because that commit is
-  # authored by whoever pressed the button.
-  #
-  # Two parents rather than the message text, which is the narrower and more honest test: a
-  # contributor's commit cannot accidentally acquire a second parent, but it can very easily
-  # mention a branch merge in its subject line.
-  #
-  # Parentage alone is not enough, though, and this is the half a first cut got wrong. A merge
-  # commit can carry content of its own — a conflict resolved by hand, `-s ours`, `--no-commit`
-  # and then an edit — and a skip on parentage alone would wave that content through undisclosed,
-  # with no allowlist applied to any `Co-authored-by:` on it either. So the skip asks the combined
-  # diff, which is empty exactly when the merge took its content from its parents and added
-  # nothing: an ordinary Update-branch merge is skipped, and a merge somebody actually wrote into
-  # is held to the rule like anything else they wrote.
-  if [ "$(git show -s --format='%P' "$sha" | wc -w)" -gt 1 ] &&
-    [ -z "$(git diff-tree --cc --name-only --no-commit-id "$sha")" ]; then
-    skip "$short" "merge commit adding nothing of its own — its message is the platform's"
-    continue
+  # Exempt only an exact, conflict-free two-parent automatic merge. Combined
+  # name-only diffs can list paths even when their combined patch is empty.
+  # Conflicts, hand edits, ours merges and unsupported parent counts fail closed.
+  automatic_merge=
+  parents=$(git show -s --format='%P' "$sha")
+  if [ "$(printf '%s\n' "$parents" | wc -w)" -eq 2 ]; then
+    first=${parents%% *}
+    second=${parents#* }
+    if merged=$(git merge-tree --write-tree "$first" "$second" 2>/dev/null); then
+      if [ "$merged" = "$(git rev-parse "$sha^{tree}")" ]; then
+        automatic_merge=yes
+      fi
+    fi
   fi
 
   bot=
@@ -115,8 +106,12 @@ for sha in $commits; do
   # requirement, enforced by not treating it as a trailer.
   trailers=$(git show -s --format='%B' "$sha" | git interpret-trailers --parse)
 
-  printf '%s\n' "$trailers" | grep -qi '^Assisted-by:[[:space:]]*[^[:space:]]' ||
-    fail "$short" 'no Assisted-by: trailer as its final lines'
+  if [ -n "$automatic_merge" ]; then
+    skip "$short" "exact automatic merge — no contributor content"
+  else
+    printf '%s\n' "$trailers" | grep -qi '^Assisted-by:[[:space:]]*[^[:space:]]' ||
+      fail "$short" 'no Assisted-by: trailer as its final lines'
+  fi
 
   # Every Co-authored-by, if any, must carry an allowlisted address. Selected with `grep -i`
   # because git treats a trailer token case-insensitively — a lowercase `co-authored-by:` must not
