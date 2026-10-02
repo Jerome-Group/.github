@@ -10,7 +10,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    542,
+    543,
     484,
     402
   ],
@@ -22,8 +22,8 @@
     "Unassisted": 1,
     "Undeclared": 53
   },
-  "start": "2025-10-02",
-  "end": "2026-10-01",
+  "start": "2025-10-03",
+  "end": "2026-10-02",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -80,9 +80,27 @@
     "2026-09-27": 1,
     "2026-09-28": 11,
     "2026-09-29": 3,
-    "2026-09-30": 5
+    "2026-09-30": 5,
+    "2026-10-01": 1,
+    "2026-10-02": 1
   },
   "recent": [
+    {
+      "date": "2026-10-02T01:40:11Z",
+      "action": "PR opened",
+      "title": "Bump pyjwt from 2.13.0 to 2.15.0 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/307",
+      "repository": "Jerome-Group/syrax",
+      "number": 307
+    },
+    {
+      "date": "2026-10-01T22:00:14Z",
+      "action": "Issue opened",
+      "title": "Morning report 2026-10-02",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/260",
+      "repository": "Jerome-Group/academic-os",
+      "number": 260
+    },
     {
       "date": "2026-09-30T23:54:42Z",
       "action": "PR opened",
@@ -114,23 +132,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/issues/259",
       "repository": "Jerome-Group/academic-os",
       "number": 259
-    },
-    {
-      "date": "2026-09-30T08:23:54Z",
-      "action": "PR opened",
-      "title": "Bump prettier from 3.9.8 to 3.9.9",
-      "url": "https://github.com/Jerome-Group/syrax/pull/306",
-      "repository": "Jerome-Group/syrax",
-      "number": 306
-    },
-    {
-      "date": "2026-09-29T22:00:13Z",
-      "action": "Issue opened",
-      "title": "Morning report 2026-09-30",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/258",
-      "repository": "Jerome-Group/academic-os",
-      "number": 258
     }
   ],
-  "updated": "01 Oct 2026 07:44 UTC"
+  "updated": "02 Oct 2026 07:28 UTC"
 }
