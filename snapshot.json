@@ -3,6 +3,7 @@
     "Jerome-Group/.github",
     "Jerome-Group/academic-os",
     "Jerome-Group/algebra",
+    "Jerome-Group/calculator",
     "Jerome-Group/calculus",
     "Jerome-Group/f1-analytics",
     "Jerome-Group/ntulearn",
@@ -10,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    543,
-    484,
-    402
+    609,
+    546,
+    456
   ],
   "assistance": {
-    "Claude": 221,
-    "Codex / OpenAI": 206,
+    "Claude": 229,
+    "Codex / OpenAI": 253,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
-    "Undeclared": 53
+    "Undeclared": 60
   },
-  "start": "2025-10-03",
-  "end": "2026-10-02",
+  "start": "2025-10-04",
+  "end": "2026-10-03",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -82,57 +83,58 @@
     "2026-09-29": 3,
     "2026-09-30": 5,
     "2026-10-01": 1,
-    "2026-10-02": 1
+    "2026-10-02": 225,
+    "2026-10-03": 24
   },
   "recent": [
     {
-      "date": "2026-10-02T01:40:11Z",
-      "action": "PR opened",
-      "title": "Bump pyjwt from 2.13.0 to 2.15.0 in /search",
-      "url": "https://github.com/Jerome-Group/syrax/pull/307",
-      "repository": "Jerome-Group/syrax",
-      "number": 307
-    },
-    {
-      "date": "2026-10-01T22:00:14Z",
+      "date": "2026-10-03T06:57:40Z",
       "action": "Issue opened",
-      "title": "Morning report 2026-10-02",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/260",
-      "repository": "Jerome-Group/academic-os",
-      "number": 260
+      "title": "Preserve proven append evidence across unknown Gallery page modes",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/223",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 223
     },
     {
-      "date": "2026-09-30T23:54:42Z",
-      "action": "PR opened",
-      "title": "Bump vite from 8.3.0 to 8.3.1",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/16",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 16
-    },
-    {
-      "date": "2026-09-30T23:54:27Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.6.2 to 26.6.3",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/15",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 15
-    },
-    {
-      "date": "2026-09-30T23:54:22Z",
-      "action": "PR opened",
-      "title": "Bump katex from 0.18.7 to 0.18.9",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/14",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 14
-    },
-    {
-      "date": "2026-09-30T22:00:12Z",
+      "date": "2026-10-03T06:57:37Z",
       "action": "Issue opened",
-      "title": "Morning report 2026-10-01",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/259",
-      "repository": "Jerome-Group/academic-os",
-      "number": 259
+      "title": "Keep routine remux diagnostics within finite process bounds",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/222",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 222
+    },
+    {
+      "date": "2026-10-03T06:52:05Z",
+      "action": "Linked issue resolved",
+      "title": "Recover degenerate transcripts through preserved source candidates",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/219",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 219
+    },
+    {
+      "date": "2026-10-03T06:52:04Z",
+      "action": "PR merged",
+      "title": "Recover repetitive transcripts through preserved source candidates",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/221",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 221
+    },
+    {
+      "date": "2026-10-03T06:42:25Z",
+      "action": "PR opened",
+      "title": "Recover repetitive transcripts through preserved source candidates",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/221",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 221
+    },
+    {
+      "date": "2026-10-03T06:38:43Z",
+      "action": "Issue opened",
+      "title": "Deliver colliding attachments and announcement revisions additively",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/220",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 220
     }
   ],
-  "updated": "02 Oct 2026 07:28 UTC"
+  "updated": "03 Oct 2026 07:03 UTC"
 }
