@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 03 Oct 2026 07:03 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 04 Oct 2026 07:21 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 609 |
-| PRs merged | 546 |
-| Distinct linked issues resolved | 456 |
+| PRs opened | 644 |
+| PRs merged | 582 |
+| Distinct linked issues resolved | 491 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-04 to 2026-10-03 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-05 to 2026-10-04 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-03 · Issue opened · [Jerome-Group/ntulearn#223: Preserve proven append evidence across unknown Gallery page modes](https://github.com/Jerome-Group/ntulearn/issues/223)
-- 2026-10-03 · Issue opened · [Jerome-Group/ntulearn#222: Keep routine remux diagnostics within finite process bounds](https://github.com/Jerome-Group/ntulearn/issues/222)
-- 2026-10-03 · Linked issue resolved · [Jerome-Group/ntulearn#219: Recover degenerate transcripts through preserved source candidates](https://github.com/Jerome-Group/ntulearn/issues/219)
-- 2026-10-03 · PR merged · [Jerome-Group/ntulearn#221: Recover repetitive transcripts through preserved source candidates](https://github.com/Jerome-Group/ntulearn/pull/221)
-- 2026-10-03 · PR opened · [Jerome-Group/ntulearn#221: Recover repetitive transcripts through preserved source candidates](https://github.com/Jerome-Group/ntulearn/pull/221)
-- 2026-10-03 · Issue opened · [Jerome-Group/ntulearn#220: Deliver colliding attachments and announcement revisions additively](https://github.com/Jerome-Group/ntulearn/issues/220)
+- 2026-10-04 · Linked issue resolved · [Jerome-Group/ntulearn#287: Accept verified retained course aliases in media capacity checks](https://github.com/Jerome-Group/ntulearn/issues/287)
+- 2026-10-04 · PR merged · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
+- 2026-10-04 · PR opened · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
+- 2026-10-04 · PR merged · [Jerome-Group/numbertheory#20: Rebuild the existing number theory learning experience](https://github.com/Jerome-Group/numbertheory/pull/20)
+- 2026-10-04 · Issue opened · [Jerome-Group/ntulearn#287: Accept verified retained course aliases in media capacity checks](https://github.com/Jerome-Group/ntulearn/issues/287)
+- 2026-10-04 · Linked issue resolved · [Jerome-Group/calculator#12: Overhaul existing Calculator workflows for phone-first use](https://github.com/Jerome-Group/calculator/issues/12)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 253 |
+| Codex / OpenAI | 289 |
 | Both | 2 |
 | Other / mixed | 1 |
 | Unassisted | 1 |

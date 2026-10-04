@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    609,
-    546,
-    456
+    644,
+    582,
+    491
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 253,
+    "Codex / OpenAI": 289,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-04",
-  "end": "2026-10-03",
+  "start": "2025-10-05",
+  "end": "2026-10-04",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -84,57 +84,58 @@
     "2026-09-30": 5,
     "2026-10-01": 1,
     "2026-10-02": 225,
-    "2026-10-03": 24
+    "2026-10-03": 146,
+    "2026-10-04": 15
   },
   "recent": [
     {
-      "date": "2026-10-03T06:57:40Z",
-      "action": "Issue opened",
-      "title": "Preserve proven append evidence across unknown Gallery page modes",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/223",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 223
-    },
-    {
-      "date": "2026-10-03T06:57:37Z",
-      "action": "Issue opened",
-      "title": "Keep routine remux diagnostics within finite process bounds",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/222",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 222
-    },
-    {
-      "date": "2026-10-03T06:52:05Z",
+      "date": "2026-10-04T07:17:02Z",
       "action": "Linked issue resolved",
-      "title": "Recover degenerate transcripts through preserved source candidates",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/219",
+      "title": "Accept verified retained course aliases in media capacity checks",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/287",
       "repository": "Jerome-Group/ntulearn",
-      "number": 219
+      "number": 287
     },
     {
-      "date": "2026-10-03T06:52:04Z",
+      "date": "2026-10-04T07:17:00Z",
       "action": "PR merged",
-      "title": "Recover repetitive transcripts through preserved source candidates",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/221",
+      "title": "fix: accept verified retained course aliases in capacity checks",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/288",
       "repository": "Jerome-Group/ntulearn",
-      "number": 221
+      "number": 288
     },
     {
-      "date": "2026-10-03T06:42:25Z",
+      "date": "2026-10-04T05:52:06Z",
       "action": "PR opened",
-      "title": "Recover repetitive transcripts through preserved source candidates",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/221",
+      "title": "fix: accept verified retained course aliases in capacity checks",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/288",
       "repository": "Jerome-Group/ntulearn",
-      "number": 221
+      "number": 288
     },
     {
-      "date": "2026-10-03T06:38:43Z",
+      "date": "2026-10-04T05:38:54Z",
+      "action": "PR merged",
+      "title": "Rebuild the existing number theory learning experience",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/20",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 20
+    },
+    {
+      "date": "2026-10-04T05:25:39Z",
       "action": "Issue opened",
-      "title": "Deliver colliding attachments and announcement revisions additively",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/220",
+      "title": "Accept verified retained course aliases in media capacity checks",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/287",
       "repository": "Jerome-Group/ntulearn",
-      "number": 220
+      "number": 287
+    },
+    {
+      "date": "2026-10-04T04:24:48Z",
+      "action": "Linked issue resolved",
+      "title": "Overhaul existing Calculator workflows for phone-first use",
+      "url": "https://github.com/Jerome-Group/calculator/issues/12",
+      "repository": "Jerome-Group/calculator",
+      "number": 12
     }
   ],
-  "updated": "03 Oct 2026 07:03 UTC"
+  "updated": "04 Oct 2026 07:21 UTC"
 }
