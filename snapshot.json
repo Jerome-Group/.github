@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-05",
-  "end": "2026-10-04",
+  "start": "2025-10-06",
+  "end": "2026-10-05",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -85,9 +85,18 @@
     "2026-10-01": 1,
     "2026-10-02": 225,
     "2026-10-03": 146,
-    "2026-10-04": 15
+    "2026-10-04": 15,
+    "2026-10-05": 1
   },
   "recent": [
+    {
+      "date": "2026-10-05T00:00:17Z",
+      "action": "Issue opened",
+      "title": "Weekly maintenance review 2026-10-05",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/283",
+      "repository": "Jerome-Group/academic-os",
+      "number": 283
+    },
     {
       "date": "2026-10-04T07:17:02Z",
       "action": "Linked issue resolved",
@@ -127,15 +136,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/issues/287",
       "repository": "Jerome-Group/ntulearn",
       "number": 287
-    },
-    {
-      "date": "2026-10-04T04:24:48Z",
-      "action": "Linked issue resolved",
-      "title": "Overhaul existing Calculator workflows for phone-first use",
-      "url": "https://github.com/Jerome-Group/calculator/issues/12",
-      "repository": "Jerome-Group/calculator",
-      "number": 12
     }
   ],
-  "updated": "04 Oct 2026 07:21 UTC"
+  "updated": "05 Oct 2026 07:38 UTC"
 }

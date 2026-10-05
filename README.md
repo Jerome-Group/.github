@@ -1,6 +1,6 @@
 # Organisation activity snapshot
 
-Updated 04 Oct 2026 07:21 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 05 Oct 2026 07:38 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-05 to 2026-10-04 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-06 to 2026-10-05 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-10-05 · Issue opened · [Jerome-Group/academic-os#283: Weekly maintenance review 2026-10-05](https://github.com/Jerome-Group/academic-os/issues/283)
 - 2026-10-04 · Linked issue resolved · [Jerome-Group/ntulearn#287: Accept verified retained course aliases in media capacity checks](https://github.com/Jerome-Group/ntulearn/issues/287)
 - 2026-10-04 · PR merged · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
 - 2026-10-04 · PR opened · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
 - 2026-10-04 · PR merged · [Jerome-Group/numbertheory#20: Rebuild the existing number theory learning experience](https://github.com/Jerome-Group/numbertheory/pull/20)
 - 2026-10-04 · Issue opened · [Jerome-Group/ntulearn#287: Accept verified retained course aliases in media capacity checks](https://github.com/Jerome-Group/ntulearn/issues/287)
-- 2026-10-04 · Linked issue resolved · [Jerome-Group/calculator#12: Overhaul existing Calculator workflows for phone-first use](https://github.com/Jerome-Group/calculator/issues/12)
 
 ## Declared assistance
 
