@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    644,
+    646,
     582,
     491
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-06",
-  "end": "2026-10-05",
+  "start": "2025-10-07",
+  "end": "2026-10-06",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -86,9 +86,25 @@
     "2026-10-02": 225,
     "2026-10-03": 146,
     "2026-10-04": 15,
-    "2026-10-05": 1
+    "2026-10-05": 3
   },
   "recent": [
+    {
+      "date": "2026-10-05T08:25:43Z",
+      "action": "PR opened",
+      "title": "Bump @types/node from 26.6.2 to 26.6.3",
+      "url": "https://github.com/Jerome-Group/syrax/pull/310",
+      "repository": "Jerome-Group/syrax",
+      "number": 310
+    },
+    {
+      "date": "2026-10-05T07:56:34Z",
+      "action": "PR opened",
+      "title": "Bump actions/download-artifact from 7.0.0 to 8.0.1",
+      "url": "https://github.com/Jerome-Group/algebra/pull/82",
+      "repository": "Jerome-Group/algebra",
+      "number": 82
+    },
     {
       "date": "2026-10-05T00:00:17Z",
       "action": "Issue opened",
@@ -120,23 +136,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/pull/288",
       "repository": "Jerome-Group/ntulearn",
       "number": 288
-    },
-    {
-      "date": "2026-10-04T05:38:54Z",
-      "action": "PR merged",
-      "title": "Rebuild the existing number theory learning experience",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/20",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 20
-    },
-    {
-      "date": "2026-10-04T05:25:39Z",
-      "action": "Issue opened",
-      "title": "Accept verified retained course aliases in media capacity checks",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/287",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 287
     }
   ],
-  "updated": "05 Oct 2026 07:38 UTC"
+  "updated": "06 Oct 2026 08:04 UTC"
 }
