@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 06 Oct 2026 08:04 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 07 Oct 2026 07:41 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 646 |
+| PRs opened | 647 |
 | PRs merged | 582 |
 | Distinct linked issues resolved | 491 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-07 to 2026-10-06 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-08 to 2026-10-07 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-10-06 · PR opened · [Jerome-Group/syrax#311: Bump oxlint from 1.83.0 to 1.86.0](https://github.com/Jerome-Group/syrax/pull/311)
 - 2026-10-05 · PR opened · [Jerome-Group/syrax#310: Bump @types/node from 26.6.2 to 26.6.3](https://github.com/Jerome-Group/syrax/pull/310)
 - 2026-10-05 · PR opened · [Jerome-Group/algebra#82: Bump actions/download-artifact from 7.0.0 to 8.0.1](https://github.com/Jerome-Group/algebra/pull/82)
 - 2026-10-05 · Issue opened · [Jerome-Group/academic-os#283: Weekly maintenance review 2026-10-05](https://github.com/Jerome-Group/academic-os/issues/283)
 - 2026-10-04 · Linked issue resolved · [Jerome-Group/ntulearn#287: Accept verified retained course aliases in media capacity checks](https://github.com/Jerome-Group/ntulearn/issues/287)
 - 2026-10-04 · PR merged · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
-- 2026-10-04 · PR opened · [Jerome-Group/ntulearn#288: fix: accept verified retained course aliases in capacity checks](https://github.com/Jerome-Group/ntulearn/pull/288)
 
 ## Declared assistance
 

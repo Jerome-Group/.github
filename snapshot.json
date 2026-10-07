@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    646,
+    647,
     582,
     491
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-07",
-  "end": "2026-10-06",
+  "start": "2025-10-08",
+  "end": "2026-10-07",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -86,9 +86,18 @@
     "2026-10-02": 225,
     "2026-10-03": 146,
     "2026-10-04": 15,
-    "2026-10-05": 3
+    "2026-10-05": 3,
+    "2026-10-06": 1
   },
   "recent": [
+    {
+      "date": "2026-10-06T08:24:16Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.86.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/311",
+      "repository": "Jerome-Group/syrax",
+      "number": 311
+    },
     {
       "date": "2026-10-05T08:25:43Z",
       "action": "PR opened",
@@ -128,15 +137,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/pull/288",
       "repository": "Jerome-Group/ntulearn",
       "number": 288
-    },
-    {
-      "date": "2026-10-04T05:52:06Z",
-      "action": "PR opened",
-      "title": "fix: accept verified retained course aliases in capacity checks",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/288",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 288
     }
   ],
-  "updated": "06 Oct 2026 08:04 UTC"
+  "updated": "07 Oct 2026 07:41 UTC"
 }
