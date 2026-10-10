@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 09 Oct 2026 07:58 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 10 Oct 2026 07:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 652 |
+| PRs opened | 658 |
 | PRs merged | 582 |
 | Distinct linked issues resolved | 491 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-10 to 2026-10-09 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-11 to 2026-10-10 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-07 · PR opened · [Jerome-Group/numbertheory#24: Bump vite from 8.3.0 to 8.3.2](https://github.com/Jerome-Group/numbertheory/pull/24)
-- 2026-10-07 · PR opened · [Jerome-Group/numbertheory#23: Bump katex from 0.18.7 to 0.19.0](https://github.com/Jerome-Group/numbertheory/pull/23)
-- 2026-10-07 · PR opened · [Jerome-Group/numbertheory#22: Bump @biomejs/biome from 2.5.14 to 2.5.15](https://github.com/Jerome-Group/numbertheory/pull/22)
-- 2026-10-07 · PR opened · [Jerome-Group/numbertheory#21: Bump @types/node from 26.6.2 to 26.6.4](https://github.com/Jerome-Group/numbertheory/pull/21)
-- 2026-10-07 · PR opened · [Jerome-Group/syrax#312: Bump openclaw from 2026.8.1 to 2026.9.7 in /runtime](https://github.com/Jerome-Group/syrax/pull/312)
-- 2026-10-06 · PR opened · [Jerome-Group/syrax#311: Bump oxlint from 1.83.0 to 1.86.0](https://github.com/Jerome-Group/syrax/pull/311)
+- 2026-10-09 · PR opened · [Jerome-Group/syrax#313: Bump @types/node from 26.6.2 to 26.6.4](https://github.com/Jerome-Group/syrax/pull/313)
+- 2026-10-09 · PR opened · [Jerome-Group/calculator#20: Bump @types/node from 22.19.19 to 26.6.4](https://github.com/Jerome-Group/calculator/pull/20)
+- 2026-10-09 · PR opened · [Jerome-Group/calculator#19: Bump react and @types/react](https://github.com/Jerome-Group/calculator/pull/19)
+- 2026-10-09 · PR opened · [Jerome-Group/calculator#18: Bump @vitejs/plugin-rsc from 0.5.26 to 0.5.35](https://github.com/Jerome-Group/calculator/pull/18)
+- 2026-10-09 · PR opened · [Jerome-Group/calculator#17: Bump @tailwindcss/postcss from 4.2.1 to 4.3.3](https://github.com/Jerome-Group/calculator/pull/17)
+- 2026-10-09 · PR opened · [Jerome-Group/calculator#16: Bump prettier from 3.6.2 to 3.9.9](https://github.com/Jerome-Group/calculator/pull/16)
 
 ## Declared assistance
 
