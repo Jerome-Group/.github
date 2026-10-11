@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    658,
-    582,
-    491
+    662,
+    585,
+    494
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 289,
+    "Codex / OpenAI": 292,
     "Both": 2,
     "Other / mixed": 1,
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-11",
-  "end": "2026-10-10",
+  "start": "2025-10-12",
+  "end": "2026-10-11",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -89,57 +89,58 @@
     "2026-10-05": 3,
     "2026-10-06": 1,
     "2026-10-07": 5,
-    "2026-10-09": 6
+    "2026-10-09": 6,
+    "2026-10-10": 13
   },
   "recent": [
     {
-      "date": "2026-10-09T08:25:52Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.6.2 to 26.6.4",
-      "url": "https://github.com/Jerome-Group/syrax/pull/313",
-      "repository": "Jerome-Group/syrax",
-      "number": 313
+      "date": "2026-10-10T19:12:21Z",
+      "action": "Linked issue resolved",
+      "title": "Route learn to an explicit personal teaching folder",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/286",
+      "repository": "Jerome-Group/academic-os",
+      "number": 286
     },
     {
-      "date": "2026-10-09T08:18:57Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 22.19.19 to 26.6.4",
-      "url": "https://github.com/Jerome-Group/calculator/pull/20",
-      "repository": "Jerome-Group/calculator",
-      "number": 20
+      "date": "2026-10-10T19:12:20Z",
+      "action": "PR merged",
+      "title": "Allow learn to route to an explicit teaching folder",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/287",
+      "repository": "Jerome-Group/academic-os",
+      "number": 287
     },
     {
-      "date": "2026-10-09T08:14:07Z",
+      "date": "2026-10-10T19:08:00Z",
       "action": "PR opened",
-      "title": "Bump react and @types/react",
-      "url": "https://github.com/Jerome-Group/calculator/pull/19",
-      "repository": "Jerome-Group/calculator",
-      "number": 19
+      "title": "Allow learn to route to an explicit teaching folder",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/287",
+      "repository": "Jerome-Group/academic-os",
+      "number": 287
     },
     {
-      "date": "2026-10-09T08:13:48Z",
-      "action": "PR opened",
-      "title": "Bump @vitejs/plugin-rsc from 0.5.26 to 0.5.35",
-      "url": "https://github.com/Jerome-Group/calculator/pull/18",
-      "repository": "Jerome-Group/calculator",
-      "number": 18
+      "date": "2026-10-10T18:54:17Z",
+      "action": "Issue opened",
+      "title": "Route learn to an explicit personal teaching folder",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/286",
+      "repository": "Jerome-Group/academic-os",
+      "number": 286
     },
     {
-      "date": "2026-10-09T08:13:20Z",
+      "date": "2026-10-10T11:24:03Z",
       "action": "PR opened",
-      "title": "Bump @tailwindcss/postcss from 4.2.1 to 4.3.3",
-      "url": "https://github.com/Jerome-Group/calculator/pull/17",
-      "repository": "Jerome-Group/calculator",
-      "number": 17
+      "title": "Bump @types/node from 26.2.0 to 26.6.4",
+      "url": "https://github.com/Jerome-Group/f1-analytics/pull/91",
+      "repository": "Jerome-Group/f1-analytics",
+      "number": 91
     },
     {
-      "date": "2026-10-09T08:13:04Z",
-      "action": "PR opened",
-      "title": "Bump prettier from 3.6.2 to 3.9.9",
-      "url": "https://github.com/Jerome-Group/calculator/pull/16",
-      "repository": "Jerome-Group/calculator",
-      "number": 16
+      "date": "2026-10-10T08:12:17Z",
+      "action": "Linked issue resolved",
+      "title": "Acquire upstream attachment and page revisions without replacing originals",
+      "url": "https://github.com/Jerome-Group/ntulearn/issues/289",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 289
     }
   ],
-  "updated": "10 Oct 2026 07:42 UTC"
+  "updated": "11 Oct 2026 07:47 UTC"
 }

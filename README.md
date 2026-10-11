@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 10 Oct 2026 07:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 11 Oct 2026 07:47 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 658 |
-| PRs merged | 582 |
-| Distinct linked issues resolved | 491 |
+| PRs opened | 662 |
+| PRs merged | 585 |
+| Distinct linked issues resolved | 494 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-11 to 2026-10-10 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-12 to 2026-10-11 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-09 · PR opened · [Jerome-Group/syrax#313: Bump @types/node from 26.6.2 to 26.6.4](https://github.com/Jerome-Group/syrax/pull/313)
-- 2026-10-09 · PR opened · [Jerome-Group/calculator#20: Bump @types/node from 22.19.19 to 26.6.4](https://github.com/Jerome-Group/calculator/pull/20)
-- 2026-10-09 · PR opened · [Jerome-Group/calculator#19: Bump react and @types/react](https://github.com/Jerome-Group/calculator/pull/19)
-- 2026-10-09 · PR opened · [Jerome-Group/calculator#18: Bump @vitejs/plugin-rsc from 0.5.26 to 0.5.35](https://github.com/Jerome-Group/calculator/pull/18)
-- 2026-10-09 · PR opened · [Jerome-Group/calculator#17: Bump @tailwindcss/postcss from 4.2.1 to 4.3.3](https://github.com/Jerome-Group/calculator/pull/17)
-- 2026-10-09 · PR opened · [Jerome-Group/calculator#16: Bump prettier from 3.6.2 to 3.9.9](https://github.com/Jerome-Group/calculator/pull/16)
+- 2026-10-10 · Linked issue resolved · [Jerome-Group/academic-os#286: Route learn to an explicit personal teaching folder](https://github.com/Jerome-Group/academic-os/issues/286)
+- 2026-10-10 · PR merged · [Jerome-Group/academic-os#287: Allow learn to route to an explicit teaching folder](https://github.com/Jerome-Group/academic-os/pull/287)
+- 2026-10-10 · PR opened · [Jerome-Group/academic-os#287: Allow learn to route to an explicit teaching folder](https://github.com/Jerome-Group/academic-os/pull/287)
+- 2026-10-10 · Issue opened · [Jerome-Group/academic-os#286: Route learn to an explicit personal teaching folder](https://github.com/Jerome-Group/academic-os/issues/286)
+- 2026-10-10 · PR opened · [Jerome-Group/f1-analytics#91: Bump @types/node from 26.2.0 to 26.6.4](https://github.com/Jerome-Group/f1-analytics/pull/91)
+- 2026-10-10 · Linked issue resolved · [Jerome-Group/ntulearn#289: Acquire upstream attachment and page revisions without replacing originals](https://github.com/Jerome-Group/ntulearn/issues/289)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 289 |
+| Codex / OpenAI | 292 |
 | Both | 2 |
 | Other / mixed | 1 |
 | Unassisted | 1 |
