@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-12",
-  "end": "2026-10-11",
+  "start": "2025-10-13",
+  "end": "2026-10-12",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -90,9 +90,18 @@
     "2026-10-06": 1,
     "2026-10-07": 5,
     "2026-10-09": 6,
-    "2026-10-10": 13
+    "2026-10-10": 13,
+    "2026-10-11": 1
   },
   "recent": [
+    {
+      "date": "2026-10-11T23:46:50Z",
+      "action": "Issue opened",
+      "title": "Weekly maintenance review 2026-10-12",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/288",
+      "repository": "Jerome-Group/academic-os",
+      "number": 288
+    },
     {
       "date": "2026-10-10T19:12:21Z",
       "action": "Linked issue resolved",
@@ -132,15 +141,7 @@
       "url": "https://github.com/Jerome-Group/f1-analytics/pull/91",
       "repository": "Jerome-Group/f1-analytics",
       "number": 91
-    },
-    {
-      "date": "2026-10-10T08:12:17Z",
-      "action": "Linked issue resolved",
-      "title": "Acquire upstream attachment and page revisions without replacing originals",
-      "url": "https://github.com/Jerome-Group/ntulearn/issues/289",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 289
     }
   ],
-  "updated": "11 Oct 2026 07:47 UTC"
+  "updated": "12 Oct 2026 07:56 UTC"
 }
