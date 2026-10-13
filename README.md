@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 12 Oct 2026 07:56 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 13 Oct 2026 08:23 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 662 |
+| PRs opened | 666 |
 | PRs merged | 585 |
 | Distinct linked issues resolved | 494 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-13 to 2026-10-12 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-14 to 2026-10-13 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-10-13 · PR opened · [Jerome-Group/syrax#315: Bump openclaw from 2026.8.1 to 2026.9.8 in /runtime](https://github.com/Jerome-Group/syrax/pull/315)
+- 2026-10-13 · PR opened · [Jerome-Group/syrax#314: Bump oxlint from 1.83.0 to 1.87.0](https://github.com/Jerome-Group/syrax/pull/314)
+- 2026-10-12 · PR opened · [Jerome-Group/ntulearn#292: build(deps): bump playwright from 1.63.0 to 1.64.0](https://github.com/Jerome-Group/ntulearn/pull/292)
+- 2026-10-12 · PR opened · [Jerome-Group/ntulearn#291: build(deps-dev): bump eslint from 10.11.0 to 10.12.0](https://github.com/Jerome-Group/ntulearn/pull/291)
 - 2026-10-11 · Issue opened · [Jerome-Group/academic-os#288: Weekly maintenance review 2026-10-12](https://github.com/Jerome-Group/academic-os/issues/288)
 - 2026-10-10 · Linked issue resolved · [Jerome-Group/academic-os#286: Route learn to an explicit personal teaching folder](https://github.com/Jerome-Group/academic-os/issues/286)
-- 2026-10-10 · PR merged · [Jerome-Group/academic-os#287: Allow learn to route to an explicit teaching folder](https://github.com/Jerome-Group/academic-os/pull/287)
-- 2026-10-10 · PR opened · [Jerome-Group/academic-os#287: Allow learn to route to an explicit teaching folder](https://github.com/Jerome-Group/academic-os/pull/287)
-- 2026-10-10 · Issue opened · [Jerome-Group/academic-os#286: Route learn to an explicit personal teaching folder](https://github.com/Jerome-Group/academic-os/issues/286)
-- 2026-10-10 · PR opened · [Jerome-Group/f1-analytics#91: Bump @types/node from 26.2.0 to 26.6.4](https://github.com/Jerome-Group/f1-analytics/pull/91)
 
 ## Declared assistance
 
