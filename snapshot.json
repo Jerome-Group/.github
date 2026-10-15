@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    666,
+    680,
     585,
     494
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 60
   },
-  "start": "2025-10-15",
-  "end": "2026-10-14",
+  "start": "2025-10-16",
+  "end": "2026-10-15",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -93,57 +93,58 @@
     "2026-10-10": 13,
     "2026-10-11": 1,
     "2026-10-12": 2,
-    "2026-10-13": 2
+    "2026-10-13": 2,
+    "2026-10-14": 14
   },
   "recent": [
     {
-      "date": "2026-10-13T00:46:15Z",
+      "date": "2026-10-14T23:54:54Z",
       "action": "PR opened",
-      "title": "Bump openclaw from 2026.8.1 to 2026.9.8 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/315",
-      "repository": "Jerome-Group/syrax",
-      "number": 315
+      "title": "Bump @types/node from 26.6.2 to 26.6.5",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/27",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 27
     },
     {
-      "date": "2026-10-13T00:45:58Z",
+      "date": "2026-10-14T23:54:48Z",
       "action": "PR opened",
-      "title": "Bump oxlint from 1.83.0 to 1.87.0",
-      "url": "https://github.com/Jerome-Group/syrax/pull/314",
-      "repository": "Jerome-Group/syrax",
-      "number": 314
+      "title": "Bump vite from 8.3.0 to 8.3.4",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/26",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 26
     },
     {
-      "date": "2026-10-12T18:49:21Z",
+      "date": "2026-10-14T20:48:17Z",
       "action": "PR opened",
-      "title": "build(deps): bump playwright from 1.63.0 to 1.64.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/292",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 292
+      "title": "Bump actions/upload-artifact from 7.0.1 to 7.0.2",
+      "url": "https://github.com/Jerome-Group/calculus/pull/193",
+      "repository": "Jerome-Group/calculus",
+      "number": 193
     },
     {
-      "date": "2026-10-12T18:49:11Z",
+      "date": "2026-10-14T20:46:59Z",
       "action": "PR opened",
-      "title": "build(deps-dev): bump eslint from 10.11.0 to 10.12.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/291",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 291
-    },
-    {
-      "date": "2026-10-11T23:46:50Z",
-      "action": "Issue opened",
-      "title": "Weekly maintenance review 2026-10-12",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/288",
+      "title": "Bump actions/setup-node from 7.0.0 to 7.1.0",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/289",
       "repository": "Jerome-Group/academic-os",
-      "number": 288
+      "number": 289
     },
     {
-      "date": "2026-10-10T19:12:21Z",
-      "action": "Linked issue resolved",
-      "title": "Route learn to an explicit personal teaching folder",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/286",
-      "repository": "Jerome-Group/academic-os",
-      "number": 286
+      "date": "2026-10-14T20:46:47Z",
+      "action": "PR opened",
+      "title": "Bump actions/setup-node from 7.0.0 to 7.1.0",
+      "url": "https://github.com/Jerome-Group/calculus/pull/192",
+      "repository": "Jerome-Group/calculus",
+      "number": 192
+    },
+    {
+      "date": "2026-10-14T16:43:00Z",
+      "action": "PR opened",
+      "title": "Bump actions/setup-node from 7.0.0 to 7.1.0",
+      "url": "https://github.com/Jerome-Group/calculator/pull/22",
+      "repository": "Jerome-Group/calculator",
+      "number": 22
     }
   ],
-  "updated": "14 Oct 2026 06:39 UTC"
+  "updated": "15 Oct 2026 06:22 UTC"
 }
