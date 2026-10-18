@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    682,
-    585,
-    494
+    718,
+    637,
+    535
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 292,
+    "Codex / OpenAI": 321,
     "Both": 2,
-    "Other / mixed": 1,
+    "Other / mixed": 3,
     "Unassisted": 1,
-    "Undeclared": 60
+    "Undeclared": 81
   },
-  "start": "2025-10-18",
-  "end": "2026-10-17",
+  "start": "2025-10-19",
+  "end": "2026-10-18",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -95,57 +95,59 @@
     "2026-10-12": 2,
     "2026-10-13": 2,
     "2026-10-14": 14,
-    "2026-10-16": 2
+    "2026-10-16": 2,
+    "2026-10-17": 159,
+    "2026-10-18": 15
   },
   "recent": [
     {
-      "date": "2026-10-16T18:19:00Z",
-      "action": "PR opened",
-      "title": "Bump next from 16.3.6 to 16.3.8",
-      "url": "https://github.com/Jerome-Group/calculator/pull/23",
-      "repository": "Jerome-Group/calculator",
-      "number": 23
-    },
-    {
-      "date": "2026-10-16T08:24:44Z",
-      "action": "PR opened",
-      "title": "Bump openclaw from 2026.8.1 to 2026.9.9 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/318",
-      "repository": "Jerome-Group/syrax",
-      "number": 318
-    },
-    {
-      "date": "2026-10-14T23:54:54Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.6.2 to 26.6.5",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/27",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 27
-    },
-    {
-      "date": "2026-10-14T23:54:48Z",
-      "action": "PR opened",
-      "title": "Bump vite from 8.3.0 to 8.3.4",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/26",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 26
-    },
-    {
-      "date": "2026-10-14T20:48:17Z",
-      "action": "PR opened",
-      "title": "Bump actions/upload-artifact from 7.0.1 to 7.0.2",
-      "url": "https://github.com/Jerome-Group/calculus/pull/193",
-      "repository": "Jerome-Group/calculus",
-      "number": 193
-    },
-    {
-      "date": "2026-10-14T20:46:59Z",
-      "action": "PR opened",
-      "title": "Bump actions/setup-node from 7.0.0 to 7.1.0",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/289",
+      "date": "2026-10-18T03:19:24Z",
+      "action": "Linked issue resolved",
+      "title": "Fix large binary review-package publication",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/300",
       "repository": "Jerome-Group/academic-os",
-      "number": 289
+      "number": 300
+    },
+    {
+      "date": "2026-10-18T03:19:22Z",
+      "action": "PR merged",
+      "title": "fix(cheatsheet): publish large binary review sources",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/301",
+      "repository": "Jerome-Group/academic-os",
+      "number": 301
+    },
+    {
+      "date": "2026-10-18T02:51:33Z",
+      "action": "PR opened",
+      "title": "fix(cheatsheet): publish large binary review sources",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/301",
+      "repository": "Jerome-Group/academic-os",
+      "number": 301
+    },
+    {
+      "date": "2026-10-18T02:45:52Z",
+      "action": "Linked issue resolved",
+      "title": "docs: correct verification stage order",
+      "url": "https://github.com/Jerome-Group/calculus/issues/218",
+      "repository": "Jerome-Group/calculus",
+      "number": 218
+    },
+    {
+      "date": "2026-10-18T02:45:50Z",
+      "action": "PR merged",
+      "title": "docs(verification): correct CI stage order",
+      "url": "https://github.com/Jerome-Group/calculus/pull/219",
+      "repository": "Jerome-Group/calculus",
+      "number": 219
+    },
+    {
+      "date": "2026-10-18T02:37:39Z",
+      "action": "PR opened",
+      "title": "docs(verification): correct CI stage order",
+      "url": "https://github.com/Jerome-Group/calculus/pull/219",
+      "repository": "Jerome-Group/calculus",
+      "number": 219
     }
   ],
-  "updated": "17 Oct 2026 06:06 UTC"
+  "updated": "18 Oct 2026 06:33 UTC"
 }
