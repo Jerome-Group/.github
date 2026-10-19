@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    718,
+    719,
     637,
     535
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 81
   },
-  "start": "2025-10-19",
-  "end": "2026-10-18",
+  "start": "2025-10-20",
+  "end": "2026-10-19",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -97,9 +97,26 @@
     "2026-10-14": 14,
     "2026-10-16": 2,
     "2026-10-17": 159,
-    "2026-10-18": 15
+    "2026-10-18": 16,
+    "2026-10-19": 1
   },
   "recent": [
+    {
+      "date": "2026-10-19T06:17:07Z",
+      "action": "PR opened",
+      "title": "build(deps-dev): bump prettier from 3.9.9 to 3.9.10",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/296",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 296
+    },
+    {
+      "date": "2026-10-18T23:36:27Z",
+      "action": "Issue opened",
+      "title": "Weekly maintenance review 2026-10-19",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/302",
+      "repository": "Jerome-Group/academic-os",
+      "number": 302
+    },
     {
       "date": "2026-10-18T03:19:24Z",
       "action": "Linked issue resolved",
@@ -131,23 +148,7 @@
       "url": "https://github.com/Jerome-Group/calculus/issues/218",
       "repository": "Jerome-Group/calculus",
       "number": 218
-    },
-    {
-      "date": "2026-10-18T02:45:50Z",
-      "action": "PR merged",
-      "title": "docs(verification): correct CI stage order",
-      "url": "https://github.com/Jerome-Group/calculus/pull/219",
-      "repository": "Jerome-Group/calculus",
-      "number": 219
-    },
-    {
-      "date": "2026-10-18T02:37:39Z",
-      "action": "PR opened",
-      "title": "docs(verification): correct CI stage order",
-      "url": "https://github.com/Jerome-Group/calculus/pull/219",
-      "repository": "Jerome-Group/calculus",
-      "number": 219
     }
   ],
-  "updated": "18 Oct 2026 06:33 UTC"
+  "updated": "19 Oct 2026 06:44 UTC"
 }
