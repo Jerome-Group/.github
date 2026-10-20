@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 19 Oct 2026 06:44 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 20 Oct 2026 06:32 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 719 |
+| PRs opened | 723 |
 | PRs merged | 637 |
 | Distinct linked issues resolved | 535 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-20 to 2026-10-19 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-21 to 2026-10-20 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-10-19 · PR opened · [Jerome-Group/syrax#322: Bump mcp from 2.0.0 to 2.2.0 in /search](https://github.com/Jerome-Group/syrax/pull/322)
+- 2026-10-19 · PR opened · [Jerome-Group/syrax#321: Bump openclaw from 2026.8.1 to 2026.10.2 in /runtime](https://github.com/Jerome-Group/syrax/pull/321)
+- 2026-10-19 · PR opened · [Jerome-Group/syrax#320: Bump @types/node from 26.6.2 to 26.6.5](https://github.com/Jerome-Group/syrax/pull/320)
+- 2026-10-19 · PR opened · [Jerome-Group/syrax#319: Bump prettier from 3.9.8 to 3.9.10](https://github.com/Jerome-Group/syrax/pull/319)
 - 2026-10-19 · PR opened · [Jerome-Group/ntulearn#296: build(deps-dev): bump prettier from 3.9.9 to 3.9.10](https://github.com/Jerome-Group/ntulearn/pull/296)
 - 2026-10-18 · Issue opened · [Jerome-Group/academic-os#302: Weekly maintenance review 2026-10-19](https://github.com/Jerome-Group/academic-os/issues/302)
-- 2026-10-18 · Linked issue resolved · [Jerome-Group/academic-os#300: Fix large binary review-package publication](https://github.com/Jerome-Group/academic-os/issues/300)
-- 2026-10-18 · PR merged · [Jerome-Group/academic-os#301: fix(cheatsheet): publish large binary review sources](https://github.com/Jerome-Group/academic-os/pull/301)
-- 2026-10-18 · PR opened · [Jerome-Group/academic-os#301: fix(cheatsheet): publish large binary review sources](https://github.com/Jerome-Group/academic-os/pull/301)
-- 2026-10-18 · Linked issue resolved · [Jerome-Group/calculus#218: docs: correct verification stage order](https://github.com/Jerome-Group/calculus/issues/218)
 
 ## Declared assistance
 

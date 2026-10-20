@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    719,
+    723,
     637,
     535
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 81
   },
-  "start": "2025-10-20",
-  "end": "2026-10-19",
+  "start": "2025-10-21",
+  "end": "2026-10-20",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -98,9 +98,41 @@
     "2026-10-16": 2,
     "2026-10-17": 159,
     "2026-10-18": 16,
-    "2026-10-19": 1
+    "2026-10-19": 5
   },
   "recent": [
+    {
+      "date": "2026-10-19T18:41:22Z",
+      "action": "PR opened",
+      "title": "Bump mcp from 2.0.0 to 2.2.0 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/322",
+      "repository": "Jerome-Group/syrax",
+      "number": 322
+    },
+    {
+      "date": "2026-10-19T08:25:57Z",
+      "action": "PR opened",
+      "title": "Bump openclaw from 2026.8.1 to 2026.10.2 in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/321",
+      "repository": "Jerome-Group/syrax",
+      "number": 321
+    },
+    {
+      "date": "2026-10-19T08:25:31Z",
+      "action": "PR opened",
+      "title": "Bump @types/node from 26.6.2 to 26.6.5",
+      "url": "https://github.com/Jerome-Group/syrax/pull/320",
+      "repository": "Jerome-Group/syrax",
+      "number": 320
+    },
+    {
+      "date": "2026-10-19T08:25:27Z",
+      "action": "PR opened",
+      "title": "Bump prettier from 3.9.8 to 3.9.10",
+      "url": "https://github.com/Jerome-Group/syrax/pull/319",
+      "repository": "Jerome-Group/syrax",
+      "number": 319
+    },
     {
       "date": "2026-10-19T06:17:07Z",
       "action": "PR opened",
@@ -116,39 +148,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/issues/302",
       "repository": "Jerome-Group/academic-os",
       "number": 302
-    },
-    {
-      "date": "2026-10-18T03:19:24Z",
-      "action": "Linked issue resolved",
-      "title": "Fix large binary review-package publication",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/300",
-      "repository": "Jerome-Group/academic-os",
-      "number": 300
-    },
-    {
-      "date": "2026-10-18T03:19:22Z",
-      "action": "PR merged",
-      "title": "fix(cheatsheet): publish large binary review sources",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/301",
-      "repository": "Jerome-Group/academic-os",
-      "number": 301
-    },
-    {
-      "date": "2026-10-18T02:51:33Z",
-      "action": "PR opened",
-      "title": "fix(cheatsheet): publish large binary review sources",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/301",
-      "repository": "Jerome-Group/academic-os",
-      "number": 301
-    },
-    {
-      "date": "2026-10-18T02:45:52Z",
-      "action": "Linked issue resolved",
-      "title": "docs: correct verification stage order",
-      "url": "https://github.com/Jerome-Group/calculus/issues/218",
-      "repository": "Jerome-Group/calculus",
-      "number": 218
     }
   ],
-  "updated": "19 Oct 2026 06:44 UTC"
+  "updated": "20 Oct 2026 06:32 UTC"
 }
