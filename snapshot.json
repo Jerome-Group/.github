@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    723,
+    724,
     637,
     535
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 81
   },
-  "start": "2025-10-21",
-  "end": "2026-10-20",
+  "start": "2025-10-22",
+  "end": "2026-10-21",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -98,9 +98,18 @@
     "2026-10-16": 2,
     "2026-10-17": 159,
     "2026-10-18": 16,
-    "2026-10-19": 5
+    "2026-10-19": 5,
+    "2026-10-20": 1
   },
   "recent": [
+    {
+      "date": "2026-10-20T23:23:02Z",
+      "action": "PR opened",
+      "title": "Bump vite from 8.3.0 to 8.3.4",
+      "url": "https://github.com/Jerome-Group/calculus/pull/220",
+      "repository": "Jerome-Group/calculus",
+      "number": 220
+    },
     {
       "date": "2026-10-19T18:41:22Z",
       "action": "PR opened",
@@ -140,15 +149,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/pull/296",
       "repository": "Jerome-Group/ntulearn",
       "number": 296
-    },
-    {
-      "date": "2026-10-18T23:36:27Z",
-      "action": "Issue opened",
-      "title": "Weekly maintenance review 2026-10-19",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/302",
-      "repository": "Jerome-Group/academic-os",
-      "number": 302
     }
   ],
-  "updated": "20 Oct 2026 06:32 UTC"
+  "updated": "21 Oct 2026 06:31 UTC"
 }
