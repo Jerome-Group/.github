@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    724,
+    732,
     637,
     535
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 81
   },
-  "start": "2025-10-22",
-  "end": "2026-10-21",
+  "start": "2025-10-23",
+  "end": "2026-10-22",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -99,57 +99,59 @@
     "2026-10-17": 159,
     "2026-10-18": 16,
     "2026-10-19": 5,
-    "2026-10-20": 1
+    "2026-10-20": 1,
+    "2026-10-21": 7,
+    "2026-10-22": 1
   },
   "recent": [
     {
-      "date": "2026-10-20T23:23:02Z",
+      "date": "2026-10-22T05:28:58Z",
       "action": "PR opened",
-      "title": "Bump vite from 8.3.0 to 8.3.4",
-      "url": "https://github.com/Jerome-Group/calculus/pull/220",
-      "repository": "Jerome-Group/calculus",
-      "number": 220
+      "title": "chore(deps-dev): Bump vite from 8.0.16 to 8.1.6",
+      "url": "https://github.com/Jerome-Group/calculator/pull/37",
+      "repository": "Jerome-Group/calculator",
+      "number": 37
     },
     {
-      "date": "2026-10-19T18:41:22Z",
+      "date": "2026-10-21T23:54:43Z",
       "action": "PR opened",
-      "title": "Bump mcp from 2.0.0 to 2.2.0 in /search",
-      "url": "https://github.com/Jerome-Group/syrax/pull/322",
+      "title": "Bump @cloudflare/workers-types from 5.20261016.1 to 5.20261018.1",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/43",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 43
+    },
+    {
+      "date": "2026-10-21T23:54:33Z",
+      "action": "PR opened",
+      "title": "Bump @vitejs/plugin-react from 6.0.2 to 6.1.2",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/42",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 42
+    },
+    {
+      "date": "2026-10-21T23:54:22Z",
+      "action": "PR opened",
+      "title": "Bump drizzle-orm from 0.45.2 to 0.45.4",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/41",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 41
+    },
+    {
+      "date": "2026-10-21T19:33:43Z",
+      "action": "PR opened",
+      "title": "Bump @modelcontextprotocol/sdk and openclaw in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/325",
       "repository": "Jerome-Group/syrax",
-      "number": 322
+      "number": 325
     },
     {
-      "date": "2026-10-19T08:25:57Z",
+      "date": "2026-10-21T16:42:24Z",
       "action": "PR opened",
-      "title": "Bump openclaw from 2026.8.1 to 2026.10.2 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/321",
-      "repository": "Jerome-Group/syrax",
-      "number": 321
-    },
-    {
-      "date": "2026-10-19T08:25:31Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.6.2 to 26.6.5",
-      "url": "https://github.com/Jerome-Group/syrax/pull/320",
-      "repository": "Jerome-Group/syrax",
-      "number": 320
-    },
-    {
-      "date": "2026-10-19T08:25:27Z",
-      "action": "PR opened",
-      "title": "Bump prettier from 3.9.8 to 3.9.10",
-      "url": "https://github.com/Jerome-Group/syrax/pull/319",
-      "repository": "Jerome-Group/syrax",
-      "number": 319
-    },
-    {
-      "date": "2026-10-19T06:17:07Z",
-      "action": "PR opened",
-      "title": "build(deps-dev): bump prettier from 3.9.9 to 3.9.10",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/296",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 296
+      "title": "Bump vite from 8.2.2 to 8.3.5",
+      "url": "https://github.com/Jerome-Group/algebra/pull/99",
+      "repository": "Jerome-Group/algebra",
+      "number": 99
     }
   ],
-  "updated": "21 Oct 2026 06:31 UTC"
+  "updated": "22 Oct 2026 06:32 UTC"
 }

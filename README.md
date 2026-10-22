@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 21 Oct 2026 06:31 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 22 Oct 2026 06:32 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 724 |
+| PRs opened | 732 |
 | PRs merged | 637 |
 | Distinct linked issues resolved | 535 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-22 to 2026-10-21 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-23 to 2026-10-22 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-20 · PR opened · [Jerome-Group/calculus#220: Bump vite from 8.3.0 to 8.3.4](https://github.com/Jerome-Group/calculus/pull/220)
-- 2026-10-19 · PR opened · [Jerome-Group/syrax#322: Bump mcp from 2.0.0 to 2.2.0 in /search](https://github.com/Jerome-Group/syrax/pull/322)
-- 2026-10-19 · PR opened · [Jerome-Group/syrax#321: Bump openclaw from 2026.8.1 to 2026.10.2 in /runtime](https://github.com/Jerome-Group/syrax/pull/321)
-- 2026-10-19 · PR opened · [Jerome-Group/syrax#320: Bump @types/node from 26.6.2 to 26.6.5](https://github.com/Jerome-Group/syrax/pull/320)
-- 2026-10-19 · PR opened · [Jerome-Group/syrax#319: Bump prettier from 3.9.8 to 3.9.10](https://github.com/Jerome-Group/syrax/pull/319)
-- 2026-10-19 · PR opened · [Jerome-Group/ntulearn#296: build(deps-dev): bump prettier from 3.9.9 to 3.9.10](https://github.com/Jerome-Group/ntulearn/pull/296)
+- 2026-10-22 · PR opened · [Jerome-Group/calculator#37: chore(deps-dev): Bump vite from 8.0.16 to 8.1.6](https://github.com/Jerome-Group/calculator/pull/37)
+- 2026-10-21 · PR opened · [Jerome-Group/numbertheory#43: Bump @cloudflare/workers-types from 5.20261016.1 to 5.20261018.1](https://github.com/Jerome-Group/numbertheory/pull/43)
+- 2026-10-21 · PR opened · [Jerome-Group/numbertheory#42: Bump @vitejs/plugin-react from 6.0.2 to 6.1.2](https://github.com/Jerome-Group/numbertheory/pull/42)
+- 2026-10-21 · PR opened · [Jerome-Group/numbertheory#41: Bump drizzle-orm from 0.45.2 to 0.45.4](https://github.com/Jerome-Group/numbertheory/pull/41)
+- 2026-10-21 · PR opened · [Jerome-Group/syrax#325: Bump @modelcontextprotocol/sdk and openclaw in /runtime](https://github.com/Jerome-Group/syrax/pull/325)
+- 2026-10-21 · PR opened · [Jerome-Group/algebra#99: Bump vite from 8.2.2 to 8.3.5](https://github.com/Jerome-Group/algebra/pull/99)
 
 ## Declared assistance
 
