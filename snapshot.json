@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    789,
-    700,
-    608
+    879,
+    787,
+    713
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 379,
+    "Codex / OpenAI": 460,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
-    "Undeclared": 86
+    "Undeclared": 92
   },
-  "start": "2025-10-24",
-  "end": "2026-10-23",
+  "start": "2025-10-25",
+  "end": "2026-10-24",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -101,57 +101,59 @@
     "2026-10-19": 5,
     "2026-10-20": 1,
     "2026-10-21": 7,
-    "2026-10-22": 270
+    "2026-10-22": 270,
+    "2026-10-23": 426,
+    "2026-10-24": 1
   },
   "recent": [
     {
-      "date": "2026-10-22T22:25:05Z",
-      "action": "Linked issue resolved",
-      "title": "Refresh verification recipes for the connected argument workspace",
-      "url": "https://github.com/Jerome-Group/algebra/issues/134",
-      "repository": "Jerome-Group/algebra",
-      "number": 134
-    },
-    {
-      "date": "2026-10-22T22:25:03Z",
-      "action": "PR merged",
-      "title": "Document connected workspace verification",
-      "url": "https://github.com/Jerome-Group/algebra/pull/136",
-      "repository": "Jerome-Group/algebra",
-      "number": 136
-    },
-    {
-      "date": "2026-10-22T22:10:15Z",
-      "action": "Linked issue resolved",
-      "title": "Remove browser setup timing regression",
-      "url": "https://github.com/Jerome-Group/algebra/issues/137",
-      "repository": "Jerome-Group/algebra",
-      "number": 137
-    },
-    {
-      "date": "2026-10-22T22:10:14Z",
-      "action": "PR merged",
-      "title": "Use a pinned preinstalled browser runtime",
-      "url": "https://github.com/Jerome-Group/algebra/pull/138",
-      "repository": "Jerome-Group/algebra",
-      "number": 138
-    },
-    {
-      "date": "2026-10-22T21:58:44Z",
+      "date": "2026-10-24T00:03:14Z",
       "action": "PR opened",
-      "title": "Use a pinned preinstalled browser runtime",
-      "url": "https://github.com/Jerome-Group/algebra/pull/138",
+      "title": "fix(formal): preserve newest admitted verification outcome",
+      "url": "https://github.com/Jerome-Group/algebra/pull/179",
       "repository": "Jerome-Group/algebra",
-      "number": 138
+      "number": 179
     },
     {
-      "date": "2026-10-22T21:52:23Z",
+      "date": "2026-10-23T23:54:58Z",
       "action": "Issue opened",
-      "title": "Remove browser setup timing regression",
-      "url": "https://github.com/Jerome-Group/algebra/issues/137",
+      "title": "Allow safe parametric t expressions in the Math editor",
+      "url": "https://github.com/Jerome-Group/calculator/issues/103",
+      "repository": "Jerome-Group/calculator",
+      "number": 103
+    },
+    {
+      "date": "2026-10-23T23:49:30Z",
+      "action": "Issue opened",
+      "title": "Update vulnerable schema and overridden runtime dependencies",
+      "url": "https://github.com/Jerome-Group/algebra/issues/178",
       "repository": "Jerome-Group/algebra",
-      "number": 137
+      "number": 178
+    },
+    {
+      "date": "2026-10-23T23:47:05Z",
+      "action": "Linked issue resolved",
+      "title": "Maintain runtime verification map against audited behavior",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/336",
+      "repository": "Jerome-Group/academic-os",
+      "number": 336
+    },
+    {
+      "date": "2026-10-23T23:47:04Z",
+      "action": "PR merged",
+      "title": "Keep runtime verification claims and retained proof aligned",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/376",
+      "repository": "Jerome-Group/academic-os",
+      "number": 376
+    },
+    {
+      "date": "2026-10-23T23:45:27Z",
+      "action": "Issue opened",
+      "title": "Scheduled repository verification repair",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/377",
+      "repository": "Jerome-Group/academic-os",
+      "number": 377
     }
   ],
-  "updated": "23 Oct 2026 06:26 UTC"
+  "updated": "24 Oct 2026 06:24 UTC"
 }
