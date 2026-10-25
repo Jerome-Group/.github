@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 24 Oct 2026 06:24 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 25 Oct 2026 06:46 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 879 |
-| PRs merged | 787 |
-| Distinct linked issues resolved | 713 |
+| PRs opened | 889 |
+| PRs merged | 793 |
+| Distinct linked issues resolved | 720 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-25 to 2026-10-24 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-26 to 2026-10-25 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-24 · PR opened · [Jerome-Group/algebra#179: fix(formal): preserve newest admitted verification outcome](https://github.com/Jerome-Group/algebra/pull/179)
-- 2026-10-23 · Issue opened · [Jerome-Group/calculator#103: Allow safe parametric t expressions in the Math editor](https://github.com/Jerome-Group/calculator/issues/103)
-- 2026-10-23 · Issue opened · [Jerome-Group/algebra#178: Update vulnerable schema and overridden runtime dependencies](https://github.com/Jerome-Group/algebra/issues/178)
-- 2026-10-23 · Linked issue resolved · [Jerome-Group/academic-os#336: Maintain runtime verification map against audited behavior](https://github.com/Jerome-Group/academic-os/issues/336)
-- 2026-10-23 · PR merged · [Jerome-Group/academic-os#376: Keep runtime verification claims and retained proof aligned](https://github.com/Jerome-Group/academic-os/pull/376)
-- 2026-10-23 · Issue opened · [Jerome-Group/academic-os#377: Scheduled repository verification repair](https://github.com/Jerome-Group/academic-os/issues/377)
+- 2026-10-25 · Issue opened · [Jerome-Group/academic-os#400: Reconcile bounded ownership verification with current writers](https://github.com/Jerome-Group/academic-os/issues/400)
+- 2026-10-25 · PR opened · [Jerome-Group/academic-os#399: fix(textbooks): bind migration reviews to their Shelf](https://github.com/Jerome-Group/academic-os/pull/399)
+- 2026-10-25 · PR opened · [Jerome-Group/academic-os#398: fix(routine): own maintenance processes through log closure](https://github.com/Jerome-Group/academic-os/pull/398)
+- 2026-10-25 · Linked issue resolved · [Jerome-Group/academic-os#390: Preserve concurrent curation register appends](https://github.com/Jerome-Group/academic-os/issues/390)
+- 2026-10-25 · PR merged · [Jerome-Group/academic-os#397: fix(curation): own canonical register appends](https://github.com/Jerome-Group/academic-os/pull/397)
+- 2026-10-25 · PR opened · [Jerome-Group/academic-os#397: fix(curation): own canonical register appends](https://github.com/Jerome-Group/academic-os/pull/397)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 460 |
+| Codex / OpenAI | 466 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |

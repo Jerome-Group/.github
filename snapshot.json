@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    879,
-    787,
-    713
+    889,
+    793,
+    720
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 460,
+    "Codex / OpenAI": 466,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-25",
-  "end": "2026-10-24",
+  "start": "2025-10-26",
+  "end": "2026-10-25",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -103,57 +103,58 @@
     "2026-10-21": 7,
     "2026-10-22": 270,
     "2026-10-23": 426,
-    "2026-10-24": 1
+    "2026-10-24": 3,
+    "2026-10-25": 37
   },
   "recent": [
     {
-      "date": "2026-10-24T00:03:14Z",
+      "date": "2026-10-25T06:44:26Z",
+      "action": "Issue opened",
+      "title": "Reconcile bounded ownership verification with current writers",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/400",
+      "repository": "Jerome-Group/academic-os",
+      "number": 400
+    },
+    {
+      "date": "2026-10-25T06:43:24Z",
       "action": "PR opened",
-      "title": "fix(formal): preserve newest admitted verification outcome",
-      "url": "https://github.com/Jerome-Group/algebra/pull/179",
-      "repository": "Jerome-Group/algebra",
-      "number": 179
+      "title": "fix(textbooks): bind migration reviews to their Shelf",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/399",
+      "repository": "Jerome-Group/academic-os",
+      "number": 399
     },
     {
-      "date": "2026-10-23T23:54:58Z",
-      "action": "Issue opened",
-      "title": "Allow safe parametric t expressions in the Math editor",
-      "url": "https://github.com/Jerome-Group/calculator/issues/103",
-      "repository": "Jerome-Group/calculator",
-      "number": 103
+      "date": "2026-10-25T06:40:19Z",
+      "action": "PR opened",
+      "title": "fix(routine): own maintenance processes through log closure",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/398",
+      "repository": "Jerome-Group/academic-os",
+      "number": 398
     },
     {
-      "date": "2026-10-23T23:49:30Z",
-      "action": "Issue opened",
-      "title": "Update vulnerable schema and overridden runtime dependencies",
-      "url": "https://github.com/Jerome-Group/algebra/issues/178",
-      "repository": "Jerome-Group/algebra",
-      "number": 178
-    },
-    {
-      "date": "2026-10-23T23:47:05Z",
+      "date": "2026-10-25T06:37:48Z",
       "action": "Linked issue resolved",
-      "title": "Maintain runtime verification map against audited behavior",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/336",
+      "title": "Preserve concurrent curation register appends",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/390",
       "repository": "Jerome-Group/academic-os",
-      "number": 336
+      "number": 390
     },
     {
-      "date": "2026-10-23T23:47:04Z",
+      "date": "2026-10-25T06:37:47Z",
       "action": "PR merged",
-      "title": "Keep runtime verification claims and retained proof aligned",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/376",
+      "title": "fix(curation): own canonical register appends",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/397",
       "repository": "Jerome-Group/academic-os",
-      "number": 376
+      "number": 397
     },
     {
-      "date": "2026-10-23T23:45:27Z",
-      "action": "Issue opened",
-      "title": "Scheduled repository verification repair",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/377",
+      "date": "2026-10-25T06:25:50Z",
+      "action": "PR opened",
+      "title": "fix(curation): own canonical register appends",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/397",
       "repository": "Jerome-Group/academic-os",
-      "number": 377
+      "number": 397
     }
   ],
-  "updated": "24 Oct 2026 06:24 UTC"
+  "updated": "25 Oct 2026 06:46 UTC"
 }
