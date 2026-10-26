@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    889,
-    793,
-    720
+    897,
+    801,
+    729
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 466,
+    "Codex / OpenAI": 474,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-26",
-  "end": "2026-10-25",
+  "start": "2025-10-27",
+  "end": "2026-10-26",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -104,57 +104,58 @@
     "2026-10-22": 270,
     "2026-10-23": 426,
     "2026-10-24": 3,
-    "2026-10-25": 37
+    "2026-10-25": 74,
+    "2026-10-26": 1
   },
   "recent": [
     {
-      "date": "2026-10-25T06:44:26Z",
+      "date": "2026-10-26T06:20:50Z",
+      "action": "PR opened",
+      "title": "build(deps-dev): bump eslint from 10.12.0 to 10.13.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/342",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 342
+    },
+    {
+      "date": "2026-10-25T23:41:27Z",
       "action": "Issue opened",
-      "title": "Reconcile bounded ownership verification with current writers",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/400",
+      "title": "Weekly maintenance review 2026-10-26",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/420",
       "repository": "Jerome-Group/academic-os",
-      "number": 400
+      "number": 420
     },
     {
-      "date": "2026-10-25T06:43:24Z",
+      "date": "2026-10-25T23:40:12Z",
+      "action": "Issue opened",
+      "title": "Scheduled repository verification repair",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/419",
+      "repository": "Jerome-Group/academic-os",
+      "number": 419
+    },
+    {
+      "date": "2026-10-25T10:07:37Z",
       "action": "PR opened",
-      "title": "fix(textbooks): bind migration reviews to their Shelf",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/399",
+      "title": "docs(seed): align instructions with current contracts",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/418",
       "repository": "Jerome-Group/academic-os",
-      "number": 399
+      "number": 418
     },
     {
-      "date": "2026-10-25T06:40:19Z",
+      "date": "2026-10-25T10:07:35Z",
       "action": "PR opened",
-      "title": "fix(routine): own maintenance processes through log closure",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/398",
+      "title": "verify: bind curation ownership and run pinned TLC offline",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/417",
       "repository": "Jerome-Group/academic-os",
-      "number": 398
+      "number": 417
     },
     {
-      "date": "2026-10-25T06:37:48Z",
-      "action": "Linked issue resolved",
-      "title": "Preserve concurrent curation register appends",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/390",
+      "date": "2026-10-25T10:01:51Z",
+      "action": "Issue opened",
+      "title": "fix(capabilities): expose existing CLI verification mappings",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/416",
       "repository": "Jerome-Group/academic-os",
-      "number": 390
-    },
-    {
-      "date": "2026-10-25T06:37:47Z",
-      "action": "PR merged",
-      "title": "fix(curation): own canonical register appends",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/397",
-      "repository": "Jerome-Group/academic-os",
-      "number": 397
-    },
-    {
-      "date": "2026-10-25T06:25:50Z",
-      "action": "PR opened",
-      "title": "fix(curation): own canonical register appends",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/397",
-      "repository": "Jerome-Group/academic-os",
-      "number": 397
+      "number": 416
     }
   ],
-  "updated": "25 Oct 2026 06:46 UTC"
+  "updated": "26 Oct 2026 06:54 UTC"
 }
