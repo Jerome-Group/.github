@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    897,
+    899,
     801,
     729
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-27",
-  "end": "2026-10-26",
+  "start": "2025-10-28",
+  "end": "2026-10-27",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -105,9 +105,33 @@
     "2026-10-23": 426,
     "2026-10-24": 3,
     "2026-10-25": 74,
-    "2026-10-26": 1
+    "2026-10-26": 4
   },
   "recent": [
+    {
+      "date": "2026-10-26T23:28:12Z",
+      "action": "Issue opened",
+      "title": "Scheduled repository verification repair",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/421",
+      "repository": "Jerome-Group/academic-os",
+      "number": 421
+    },
+    {
+      "date": "2026-10-26T10:00:43Z",
+      "action": "PR opened",
+      "title": "Bump certifi from 2026.7.22 to 2026.10.19 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/327",
+      "repository": "Jerome-Group/syrax",
+      "number": 327
+    },
+    {
+      "date": "2026-10-26T07:56:10Z",
+      "action": "PR opened",
+      "title": "build(deps): Bump actions/setup-java from 5.7.0 to 6.1.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/183",
+      "repository": "Jerome-Group/algebra",
+      "number": 183
+    },
     {
       "date": "2026-10-26T06:20:50Z",
       "action": "PR opened",
@@ -131,31 +155,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/issues/419",
       "repository": "Jerome-Group/academic-os",
       "number": 419
-    },
-    {
-      "date": "2026-10-25T10:07:37Z",
-      "action": "PR opened",
-      "title": "docs(seed): align instructions with current contracts",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/418",
-      "repository": "Jerome-Group/academic-os",
-      "number": 418
-    },
-    {
-      "date": "2026-10-25T10:07:35Z",
-      "action": "PR opened",
-      "title": "verify: bind curation ownership and run pinned TLC offline",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/417",
-      "repository": "Jerome-Group/academic-os",
-      "number": 417
-    },
-    {
-      "date": "2026-10-25T10:01:51Z",
-      "action": "Issue opened",
-      "title": "fix(capabilities): expose existing CLI verification mappings",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/416",
-      "repository": "Jerome-Group/academic-os",
-      "number": 416
     }
   ],
-  "updated": "26 Oct 2026 06:54 UTC"
+  "updated": "27 Oct 2026 06:47 UTC"
 }
