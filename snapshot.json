@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    899,
+    900,
     801,
     729
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-28",
-  "end": "2026-10-27",
+  "start": "2025-10-29",
+  "end": "2026-10-28",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -105,9 +105,26 @@
     "2026-10-23": 426,
     "2026-10-24": 3,
     "2026-10-25": 74,
-    "2026-10-26": 4
+    "2026-10-26": 4,
+    "2026-10-27": 2
   },
   "recent": [
+    {
+      "date": "2026-10-27T23:22:28Z",
+      "action": "Issue opened",
+      "title": "Scheduled repository verification repair",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/422",
+      "repository": "Jerome-Group/academic-os",
+      "number": 422
+    },
+    {
+      "date": "2026-10-27T08:24:34Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.89.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/328",
+      "repository": "Jerome-Group/syrax",
+      "number": 328
+    },
     {
       "date": "2026-10-26T23:28:12Z",
       "action": "Issue opened",
@@ -139,23 +156,7 @@
       "url": "https://github.com/Jerome-Group/ntulearn/pull/342",
       "repository": "Jerome-Group/ntulearn",
       "number": 342
-    },
-    {
-      "date": "2026-10-25T23:41:27Z",
-      "action": "Issue opened",
-      "title": "Weekly maintenance review 2026-10-26",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/420",
-      "repository": "Jerome-Group/academic-os",
-      "number": 420
-    },
-    {
-      "date": "2026-10-25T23:40:12Z",
-      "action": "Issue opened",
-      "title": "Scheduled repository verification repair",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/419",
-      "repository": "Jerome-Group/academic-os",
-      "number": 419
     }
   ],
-  "updated": "27 Oct 2026 06:47 UTC"
+  "updated": "28 Oct 2026 07:20 UTC"
 }
