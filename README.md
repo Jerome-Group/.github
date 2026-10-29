@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 28 Oct 2026 07:20 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 29 Oct 2026 07:38 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 900 |
+| PRs opened | 907 |
 | PRs merged | 801 |
 | Distinct linked issues resolved | 729 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-29 to 2026-10-28 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-10-30 to 2026-10-29 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-27 · Issue opened · [Jerome-Group/academic-os#422: Scheduled repository verification repair](https://github.com/Jerome-Group/academic-os/issues/422)
-- 2026-10-27 · PR opened · [Jerome-Group/syrax#328: Bump oxlint from 1.83.0 to 1.89.0](https://github.com/Jerome-Group/syrax/pull/328)
-- 2026-10-26 · Issue opened · [Jerome-Group/academic-os#421: Scheduled repository verification repair](https://github.com/Jerome-Group/academic-os/issues/421)
-- 2026-10-26 · PR opened · [Jerome-Group/syrax#327: Bump certifi from 2026.7.22 to 2026.10.19 in /search](https://github.com/Jerome-Group/syrax/pull/327)
-- 2026-10-26 · PR opened · [Jerome-Group/algebra#183: build(deps): Bump actions/setup-java from 5.7.0 to 6.1.0](https://github.com/Jerome-Group/algebra/pull/183)
-- 2026-10-26 · PR opened · [Jerome-Group/ntulearn#342: build(deps-dev): bump eslint from 10.12.0 to 10.13.0](https://github.com/Jerome-Group/ntulearn/pull/342)
+- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#83: build(deps): Bump katex from 0.19.0 to 0.19.1](https://github.com/Jerome-Group/numbertheory/pull/83)
+- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#82: build(deps-dev): Bump @biomejs/biome from 2.5.15 to 2.6.3](https://github.com/Jerome-Group/numbertheory/pull/82)
+- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#81: build(deps-dev): Bump @cloudflare/vite-plugin from 1.64.0 to 1.65.0](https://github.com/Jerome-Group/numbertheory/pull/81)
+- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#80: build(deps-dev): Bump wrangler from 4.151.1 to 4.152.0](https://github.com/Jerome-Group/numbertheory/pull/80)
+- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#79: build(deps): Bump next from 16.4.2 to 16.4.3](https://github.com/Jerome-Group/numbertheory/pull/79)
+- 2026-10-28 · PR opened · [Jerome-Group/syrax#330: Bump opentelemetry-api from 1.44.0 to 1.45.1 in /search](https://github.com/Jerome-Group/syrax/pull/330)
 
 ## Declared assistance
 
