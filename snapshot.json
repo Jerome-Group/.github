@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    907,
+    908,
     801,
     729
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-30",
-  "end": "2026-10-29",
+  "start": "2025-10-31",
+  "end": "2026-10-30",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -107,9 +107,18 @@
     "2026-10-25": 74,
     "2026-10-26": 4,
     "2026-10-27": 2,
-    "2026-10-28": 7
+    "2026-10-28": 7,
+    "2026-10-29": 1
   },
   "recent": [
+    {
+      "date": "2026-10-29T17:43:43Z",
+      "action": "PR opened",
+      "title": "Bump filelock from 3.32.3 to 4.2.1 in /search",
+      "url": "https://github.com/Jerome-Group/syrax/pull/331",
+      "repository": "Jerome-Group/syrax",
+      "number": 331
+    },
     {
       "date": "2026-10-28T23:55:58Z",
       "action": "PR opened",
@@ -149,15 +158,7 @@
       "url": "https://github.com/Jerome-Group/numbertheory/pull/79",
       "repository": "Jerome-Group/numbertheory",
       "number": 79
-    },
-    {
-      "date": "2026-10-28T12:06:55Z",
-      "action": "PR opened",
-      "title": "Bump opentelemetry-api from 1.44.0 to 1.45.1 in /search",
-      "url": "https://github.com/Jerome-Group/syrax/pull/330",
-      "repository": "Jerome-Group/syrax",
-      "number": 330
     }
   ],
-  "updated": "29 Oct 2026 07:38 UTC"
+  "updated": "30 Oct 2026 07:42 UTC"
 }
