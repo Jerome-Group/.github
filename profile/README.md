@@ -1,65 +1,74 @@
+![An original mathematical workshop, with geometric instruments connected by a cyan circuit.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/control-room.jpg)
+
 # Jerome Group
 
-Mathematics, software, and the systems that support learning and research.
-A small, deliberately run collection of projects: shared conventions, reviewed changes,
-and organisation settings kept in code.
+Mathematics, software and the systems that support learning and research.
+A deliberately run collection of projects, with shared conventions and reviewed changes.
 
-**[Contributing](https://github.com/Jerome-Group/.github/blob/main/CONTRIBUTING.md) · [Code of Conduct](https://github.com/Jerome-Group/.github/blob/main/CODE_OF_CONDUCT.md) · [Security](https://github.com/Jerome-Group/.github/blob/main/SECURITY.md) · [Governance](https://github.com/Jerome-Group/.github/blob/main/GOVERNANCE.md) · [Support](https://github.com/Jerome-Group/.github/blob/main/SUPPORT.md)**
+[Website](https://jeromegroup.org) · [Contributing](https://github.com/Jerome-Group/.github/blob/main/CONTRIBUTING.md) · [Security](https://github.com/Jerome-Group/.github/blob/main/SECURITY.md) · [Support](https://github.com/Jerome-Group/.github/blob/main/SUPPORT.md)
 
-## How we work
 
-- **Start with an issue.** Agree on the change before writing code; use the project's issue forms.
-- **Make focused pull requests.** Explain why, link the issue, pass required checks, and resolve review comments before merging.
-- **Disclose AI assistance.** Authored commits and PRs name the model that helped, or explicitly say none did.
-- **Protect private information.** Keep credentials and private data out of repositories. Report vulnerabilities privately to **security@jeromegroup.org**.
-- **Be considerate.** Respect contributors, welcome constructive feedback, and follow the Code of Conduct.
+## Public work
 
-Repositories start from shared templates. The contributing guide gives the full workflow;
-project-specific instructions live alongside each project's code.
+[![All-time PRs opened, PRs merged and distinct linked issues resolved across current public Jerome-Group repositories. Open the timestamped snapshot for current numbers.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/counters.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data)
 
-## Organisation activity
+All contributors to current public Jerome-Group repositories, including bots.
+Linked resolutions count distinct currently closed public org issues linked to merged public org PRs, closed at or after the merge. This measures linkage, not who clicked Close.
 
-[![All-time public organisation PR and linked issue totals](https://raw.githubusercontent.com/Jerome-Group/.github/profile-data/counters.svg)](https://github.com/Jerome-Group/.github/tree/profile-data)
+[Numbers, included repositories and last successful refresh](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data) · [Daily refresh workflow](https://github.com/Jerome-Group/.github/actions/workflows/profile.yml).
+Failed refreshes retain the previous data and timestamp. GitHub can delay scheduled runs.
 
-[![365 days of public organisation issue and PR activity](https://raw.githubusercontent.com/Jerome-Group/.github/profile-data/calendar.svg)](https://github.com/Jerome-Group/.github/tree/profile-data)
+<details>
+<summary>A year of public activity and two recent events</summary>
 
-[![Recent public organisation activity](https://raw.githubusercontent.com/Jerome-Group/.github/profile-data/activity.svg)](https://github.com/Jerome-Group/.github/tree/profile-data#recent-activity)
+[![365 days of public org issue and PR activity. Text records and definitions are linked.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/calendar.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data)
 
-All contributors to public Jerome-Group repositories, including bots. The calendar counts issue/PR
-openings, PR merges, and linked issue resolutions.
-[Activity links, counts, definitions and last update](https://github.com/Jerome-Group/.github/tree/profile-data) · [Daily GitHub Actions refresh](https://github.com/Jerome-Group/.github/actions/workflows/profile.yml).
+[![Two recent public organisation events, with links in the snapshot.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/activity.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data#recent-activity)
 
-### Claude & Codex assistance
+The calendar counts issue openings, PR openings, PR merges and linked resolutions. It does not count commits, reviews or comments.
 
-[![Merged public PRs by declared Claude and Codex/OpenAI assistance](https://raw.githubusercontent.com/Jerome-Group/.github/profile-data/assistance.svg)](https://github.com/Jerome-Group/.github/tree/profile-data#declared-assistance)
+</details>
 
-Based on declared model assistance in merged PR trailers, with mixed and undeclared work shown
-separately. **PR counts, not effort or code volume.** OpenAI model names do not identify which app
-was used. [Classification details](https://github.com/Jerome-Group/.github/tree/profile-data#declared-assistance).
+![Jerome-Group project map. Mathematics includes Calculator, Number theory, Algebra and Calculus. Software includes Academic OS, NTULearn Sync, Syrax and F1 Analytics. Shared standards connect the work. Links follow below.](assets/project-map.svg)
 
 ## Mathematics
 
-### [Algebra](https://algebra.jeromegroup.org)
-
-Groups, rings, fields, and representations, with visual explanations and interactive explorations.
-[Source](https://github.com/Jerome-Group/algebra)
-
-### [Calculus](https://calculus.jeromegroup.org)
-
-From limits and derivatives to multivariable and vector calculus, with interactive graphs and 3D explorations.
-[Source](https://github.com/Jerome-Group/calculus)
+- [Calculator](https://calculator.jeromegroup.org). Symbolic computation, notebooks and plots. The site requires sign-in. [Source](https://github.com/Jerome-Group/calculator).
+- [Number theory](https://numbertheory.jeromegroup.org). An interactive atlas of elementary number theory. [Source](https://github.com/Jerome-Group/numbertheory).
+- [Algebra](https://algebra.jeromegroup.org). Groups, rings, fields and representations, with visual explanations and interactive explorations. [Source](https://github.com/Jerome-Group/algebra).
+- [Calculus](https://calculus.jeromegroup.org). Limits, derivatives, multivariable and vector calculus, with interactive graphs and 3D explorations. [Source](https://github.com/Jerome-Group/calculus).
 
 ## Software
 
-**[Academic OS](https://github.com/Jerome-Group/academic-os)** — Module and research folders, tasks, calendars, and the data behind an academic dashboard.
+- [Academic OS](https://github.com/Jerome-Group/academic-os). Module and research folders, tasks, calendars and data behind an academic dashboard.
+- [NTULearn Sync](https://github.com/Jerome-Group/ntulearn). Course pages, announcements and attachments imported into local module folders.
+- [Syrax](https://github.com/Jerome-Group/syrax). A personal chatbot system built around open-source agent tooling, with setup and runtime configuration.
+- [F1 Analytics](https://github.com/Jerome-Group/f1-analytics). A live Formula 1 session dashboard, fed by a self-hosted OpenF1 instance.
 
-**[NTULearn Sync](https://github.com/Jerome-Group/ntulearn)** — Imports course pages, announcements, and attachments into local module folders.
+## How we work
 
-**[Syrax](https://github.com/Jerome-Group/syrax)** — A personal chatbot system built around open-source agent tooling, with its setup and runtime configuration.
+Start with an issue. Make focused pull requests, pass required checks and resolve review comments before merging. Disclose AI assistance in authored commits and PRs. Keep credentials and private data out of repositories.
 
-**[F1 Analytics](https://github.com/Jerome-Group/f1-analytics)** — A live Formula 1 session dashboard, fed by a self-hosted OpenF1 instance.
+[.github](https://github.com/Jerome-Group/.github) holds our shared contribution guidelines and community policies.
+[Code of Conduct](https://github.com/Jerome-Group/.github/blob/main/CODE_OF_CONDUCT.md) · [Governance](https://github.com/Jerome-Group/.github/blob/main/GOVERNANCE.md).
+Report vulnerabilities privately to security@jeromegroup.org.
 
-## Shared standards
+<details>
+<summary>Declared assistance in merged public PRs</summary>
 
-**[.github](https://github.com/Jerome-Group/.github)** holds the organisation's contribution guidelines,
-community policies, and shared conformance workflow.
+[![Merged public PRs by declared Claude and Codex/OpenAI assistance, including mixed and undeclared work.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/assistance.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data#declared-assistance)
+
+PR counts, not effort or code volume. OpenAI model names do not identify which app was used.
+[Classification and denominator](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data#declared-assistance).
+
+</details>
+
+<details>
+<summary>How the profile refreshes</summary>
+
+![Model of two independent snapshot refreshes. Each fetches and renders, then publishes complete output or retains the previous snapshot on failure.](assets/refresh-lifecycle.svg)
+
+A bounded safety model of the existing publication workflow. It assumes complete generation and an atomic successful Git push. It does not prove source accuracy, concurrent-writer ordering, availability or live GitHub behavior.
+[Model and limits](lifecycle.md).
+
+</details>
