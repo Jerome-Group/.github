@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 30 Oct 2026 07:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 31 Oct 2026 07:28 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 908 |
+| PRs opened | 918 |
 | PRs merged | 801 |
 | Distinct linked issues resolved | 729 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-10-31 to 2026-10-30 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-01 to 2026-10-31 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-10-29 · PR opened · [Jerome-Group/syrax#331: Bump filelock from 3.32.3 to 4.2.1 in /search](https://github.com/Jerome-Group/syrax/pull/331)
-- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#83: build(deps): Bump katex from 0.19.0 to 0.19.1](https://github.com/Jerome-Group/numbertheory/pull/83)
-- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#82: build(deps-dev): Bump @biomejs/biome from 2.5.15 to 2.6.3](https://github.com/Jerome-Group/numbertheory/pull/82)
-- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#81: build(deps-dev): Bump @cloudflare/vite-plugin from 1.64.0 to 1.65.0](https://github.com/Jerome-Group/numbertheory/pull/81)
-- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#80: build(deps-dev): Bump wrangler from 4.151.1 to 4.152.0](https://github.com/Jerome-Group/numbertheory/pull/80)
-- 2026-10-28 · PR opened · [Jerome-Group/numbertheory#79: build(deps): Bump next from 16.4.2 to 16.4.3](https://github.com/Jerome-Group/numbertheory/pull/79)
+- 2026-10-31 · PR opened · [Jerome-Group/syrax#335: Bump body-parser from 2.3.0 to 2.4.0 in /runtime](https://github.com/Jerome-Group/syrax/pull/335)
+- 2026-10-31 · PR opened · [Jerome-Group/syrax#334: Bump ip-address from 10.7.2 to 10.7.5 in /runtime](https://github.com/Jerome-Group/syrax/pull/334)
+- 2026-10-30 · PR opened · [Jerome-Group/numbertheory#84: build(deps-dev): Bump fast-uri from 3.1.8 to 3.1.9](https://github.com/Jerome-Group/numbertheory/pull/84)
+- 2026-10-30 · PR opened · [Jerome-Group/syrax#333: Bump fast-uri from 3.1.8 to 3.1.9 in /runtime](https://github.com/Jerome-Group/syrax/pull/333)
+- 2026-10-30 · PR opened · [Jerome-Group/syrax#332: Bump openclaw from 2026.8.1 to 2026.10.6 in /runtime](https://github.com/Jerome-Group/syrax/pull/332)
+- 2026-10-30 · PR opened · [Jerome-Group/calculator#108: chore(deps): Bump pyodide from 0.27.7 to 314.0.7](https://github.com/Jerome-Group/calculator/pull/108)
 
 ## Declared assistance
 

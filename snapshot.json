@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    908,
+    918,
     801,
     729
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 92
   },
-  "start": "2025-10-31",
-  "end": "2026-10-30",
+  "start": "2025-11-01",
+  "end": "2026-10-31",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -108,57 +108,59 @@
     "2026-10-26": 4,
     "2026-10-27": 2,
     "2026-10-28": 7,
-    "2026-10-29": 1
+    "2026-10-29": 1,
+    "2026-10-30": 8,
+    "2026-10-31": 2
   },
   "recent": [
     {
-      "date": "2026-10-29T17:43:43Z",
+      "date": "2026-10-31T07:03:06Z",
       "action": "PR opened",
-      "title": "Bump filelock from 3.32.3 to 4.2.1 in /search",
-      "url": "https://github.com/Jerome-Group/syrax/pull/331",
+      "title": "Bump body-parser from 2.3.0 to 2.4.0 in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/335",
       "repository": "Jerome-Group/syrax",
-      "number": 331
+      "number": 335
     },
     {
-      "date": "2026-10-28T23:55:58Z",
+      "date": "2026-10-31T06:01:57Z",
       "action": "PR opened",
-      "title": "build(deps): Bump katex from 0.19.0 to 0.19.1",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/83",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 83
+      "title": "Bump ip-address from 10.7.2 to 10.7.5 in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/334",
+      "repository": "Jerome-Group/syrax",
+      "number": 334
     },
     {
-      "date": "2026-10-28T23:55:52Z",
+      "date": "2026-10-30T21:46:00Z",
       "action": "PR opened",
-      "title": "build(deps-dev): Bump @biomejs/biome from 2.5.15 to 2.6.3",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/82",
+      "title": "build(deps-dev): Bump fast-uri from 3.1.8 to 3.1.9",
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/84",
       "repository": "Jerome-Group/numbertheory",
-      "number": 82
+      "number": 84
     },
     {
-      "date": "2026-10-28T23:55:43Z",
+      "date": "2026-10-30T13:09:46Z",
       "action": "PR opened",
-      "title": "build(deps-dev): Bump @cloudflare/vite-plugin from 1.64.0 to 1.65.0",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/81",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 81
+      "title": "Bump fast-uri from 3.1.8 to 3.1.9 in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/333",
+      "repository": "Jerome-Group/syrax",
+      "number": 333
     },
     {
-      "date": "2026-10-28T23:55:25Z",
+      "date": "2026-10-30T08:24:52Z",
       "action": "PR opened",
-      "title": "build(deps-dev): Bump wrangler from 4.151.1 to 4.152.0",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/80",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 80
+      "title": "Bump openclaw from 2026.8.1 to 2026.10.6 in /runtime",
+      "url": "https://github.com/Jerome-Group/syrax/pull/332",
+      "repository": "Jerome-Group/syrax",
+      "number": 332
     },
     {
-      "date": "2026-10-28T23:55:11Z",
+      "date": "2026-10-30T08:15:28Z",
       "action": "PR opened",
-      "title": "build(deps): Bump next from 16.4.2 to 16.4.3",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/79",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 79
+      "title": "chore(deps): Bump pyodide from 0.27.7 to 314.0.7",
+      "url": "https://github.com/Jerome-Group/calculator/pull/108",
+      "repository": "Jerome-Group/calculator",
+      "number": 108
     }
   ],
-  "updated": "30 Oct 2026 07:42 UTC"
+  "updated": "31 Oct 2026 07:28 UTC"
 }
