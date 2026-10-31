@@ -1,0 +1,34 @@
+---
+title: "Independent profile snapshot refreshes"
+---
+stateDiagram-v2
+  direction LR
+  state "At the same time" as all {
+    state "Personal" as r0 {
+      s0: Awaiting refresh
+      s1: Fetching and rendering
+      s2: Previous snapshot retained
+      s3: Complete output ready
+      s4: Complete snapshot published
+      [*] --> s0
+      s0 --> s1: refresh starts
+      s1 --> s2: refresh fails
+      s1 --> s3: fetch and render succeed
+      s3 --> s2: refresh fails
+      s3 --> s4: push succeeds
+    }
+    --
+    state "Organisation" as r1 {
+      s5: Awaiting refresh
+      s6: Fetching and rendering
+      s7: Previous snapshot retained
+      s8: Complete output ready
+      s9: Complete snapshot published
+      [*] --> s5
+      s5 --> s6: refresh starts
+      s6 --> s7: refresh fails
+      s6 --> s8: fetch and render succeed
+      s8 --> s7: refresh fails
+      s8 --> s9: push succeeds
+    }
+  }
