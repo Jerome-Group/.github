@@ -23,7 +23,7 @@ Failed refreshes retain the previous data and timestamp. GitHub can delay schedu
 
 [![365 days of public org issue and PR activity. Text records and definitions are linked.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/calendar.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data)
 
-[![Two recent public organisation events, with links in the snapshot.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/activity-mobile.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data#recent-activity)
+[![Two recent public organisation events, with links in the snapshot.](https://raw.githubusercontent.com/Jerome-Group/.github/prototype/profile-refresh-20261031/prototype-data/activity-v3.svg)](https://github.com/Jerome-Group/.github/tree/prototype/profile-refresh-20261031/prototype-data#recent-activity)
 
 The calendar counts issue openings, PR openings, PR merges and linked resolutions. It does not count commits, reviews or comments.
 
