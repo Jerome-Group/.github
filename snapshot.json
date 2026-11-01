@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    918,
-    801,
-    729
+    920,
+    803,
+    731
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 474,
+    "Codex / OpenAI": 475,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
-    "Undeclared": 92
+    "Undeclared": 93
   },
-  "start": "2025-11-01",
-  "end": "2026-10-31",
+  "start": "2025-11-02",
+  "end": "2026-11-01",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -110,57 +110,57 @@
     "2026-10-28": 7,
     "2026-10-29": 1,
     "2026-10-30": 8,
-    "2026-10-31": 2
+    "2026-10-31": 11
   },
   "recent": [
     {
-      "date": "2026-10-31T07:03:06Z",
-      "action": "PR opened",
-      "title": "Bump body-parser from 2.3.0 to 2.4.0 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/335",
-      "repository": "Jerome-Group/syrax",
-      "number": 335
+      "date": "2026-10-31T23:18:03Z",
+      "action": "Linked issue resolved",
+      "title": "Keep recovery crash fixture on one clock",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/424",
+      "repository": "Jerome-Group/academic-os",
+      "number": 424
     },
     {
-      "date": "2026-10-31T06:01:57Z",
-      "action": "PR opened",
-      "title": "Bump ip-address from 10.7.2 to 10.7.5 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/334",
-      "repository": "Jerome-Group/syrax",
-      "number": 334
+      "date": "2026-10-31T23:18:01Z",
+      "action": "Linked issue resolved",
+      "title": "Allow full verification to finish bounded ownership controls",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/426",
+      "repository": "Jerome-Group/academic-os",
+      "number": 426
     },
     {
-      "date": "2026-10-30T21:46:00Z",
-      "action": "PR opened",
-      "title": "build(deps-dev): Bump fast-uri from 3.1.8 to 3.1.9",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/84",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 84
+      "date": "2026-10-31T23:18:00Z",
+      "action": "PR merged",
+      "title": "fix(tasks): resolve exact completion from explicit module attestation",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/425",
+      "repository": "Jerome-Group/academic-os",
+      "number": 425
     },
     {
-      "date": "2026-10-30T13:09:46Z",
-      "action": "PR opened",
-      "title": "Bump fast-uri from 3.1.8 to 3.1.9 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/333",
-      "repository": "Jerome-Group/syrax",
-      "number": 333
+      "date": "2026-10-31T14:55:14Z",
+      "action": "Issue opened",
+      "title": "Allow full verification to finish bounded ownership controls",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/426",
+      "repository": "Jerome-Group/academic-os",
+      "number": 426
     },
     {
-      "date": "2026-10-30T08:24:52Z",
+      "date": "2026-10-31T13:43:17Z",
       "action": "PR opened",
-      "title": "Bump openclaw from 2026.8.1 to 2026.10.6 in /runtime",
-      "url": "https://github.com/Jerome-Group/syrax/pull/332",
-      "repository": "Jerome-Group/syrax",
-      "number": 332
+      "title": "fix(tasks): resolve exact completion from explicit module attestation",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/425",
+      "repository": "Jerome-Group/academic-os",
+      "number": 425
     },
     {
-      "date": "2026-10-30T08:15:28Z",
-      "action": "PR opened",
-      "title": "chore(deps): Bump pyodide from 0.27.7 to 314.0.7",
-      "url": "https://github.com/Jerome-Group/calculator/pull/108",
-      "repository": "Jerome-Group/calculator",
-      "number": 108
+      "date": "2026-10-31T12:18:50Z",
+      "action": "Issue opened",
+      "title": "Keep recovery crash fixture on one clock",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/424",
+      "repository": "Jerome-Group/academic-os",
+      "number": 424
     }
   ],
-  "updated": "31 Oct 2026 07:28 UTC"
+  "updated": "01 Nov 2026 08:04 UTC"
 }
