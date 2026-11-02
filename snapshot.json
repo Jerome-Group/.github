@@ -11,8 +11,8 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    920,
-    803,
+    923,
+    805,
     731
   ],
   "assistance": {
@@ -21,10 +21,10 @@
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
-    "Undeclared": 93
+    "Undeclared": 95
   },
-  "start": "2025-11-02",
-  "end": "2026-11-01",
+  "start": "2025-11-03",
+  "end": "2026-11-02",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -110,57 +110,59 @@
     "2026-10-28": 7,
     "2026-10-29": 1,
     "2026-10-30": 8,
-    "2026-10-31": 11
+    "2026-10-31": 11,
+    "2026-11-01": 2,
+    "2026-11-02": 4
   },
   "recent": [
     {
-      "date": "2026-10-31T23:18:03Z",
-      "action": "Linked issue resolved",
-      "title": "Keep recovery crash fixture on one clock",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/424",
-      "repository": "Jerome-Group/academic-os",
-      "number": 424
-    },
-    {
-      "date": "2026-10-31T23:18:01Z",
-      "action": "Linked issue resolved",
-      "title": "Allow full verification to finish bounded ownership controls",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/426",
-      "repository": "Jerome-Group/academic-os",
-      "number": 426
-    },
-    {
-      "date": "2026-10-31T23:18:00Z",
+      "date": "2026-11-02T08:07:19Z",
       "action": "PR merged",
-      "title": "fix(tasks): resolve exact completion from explicit module attestation",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/425",
-      "repository": "Jerome-Group/academic-os",
-      "number": 425
+      "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/184",
+      "repository": "Jerome-Group/algebra",
+      "number": 184
     },
     {
-      "date": "2026-10-31T14:55:14Z",
-      "action": "Issue opened",
-      "title": "Allow full verification to finish bounded ownership controls",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/426",
-      "repository": "Jerome-Group/academic-os",
-      "number": 426
-    },
-    {
-      "date": "2026-10-31T13:43:17Z",
+      "date": "2026-11-02T07:56:00Z",
       "action": "PR opened",
-      "title": "fix(tasks): resolve exact completion from explicit module attestation",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/425",
-      "repository": "Jerome-Group/academic-os",
-      "number": 425
+      "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/184",
+      "repository": "Jerome-Group/algebra",
+      "number": 184
     },
     {
-      "date": "2026-10-31T12:18:50Z",
+      "date": "2026-11-02T06:21:59Z",
+      "action": "PR merged",
+      "title": "build(deps): bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/343",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 343
+    },
+    {
+      "date": "2026-11-02T06:20:58Z",
+      "action": "PR opened",
+      "title": "build(deps): bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/343",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 343
+    },
+    {
+      "date": "2026-11-01T23:10:00Z",
       "action": "Issue opened",
-      "title": "Keep recovery crash fixture on one clock",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/424",
+      "title": "Weekly maintenance review 2026-11-02",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/427",
       "repository": "Jerome-Group/academic-os",
-      "number": 424
+      "number": 427
+    },
+    {
+      "date": "2026-11-01T20:57:08Z",
+      "action": "PR opened",
+      "title": "Bump satori and vinext",
+      "url": "https://github.com/Jerome-Group/calculus/pull/287",
+      "repository": "Jerome-Group/calculus",
+      "number": 287
     }
   ],
-  "updated": "01 Nov 2026 08:04 UTC"
+  "updated": "02 Nov 2026 08:13 UTC"
 }
