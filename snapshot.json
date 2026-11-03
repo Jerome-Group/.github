@@ -11,8 +11,8 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    923,
-    805,
+    929,
+    809,
     731
   ],
   "assistance": {
@@ -21,10 +21,10 @@
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
-    "Undeclared": 95
+    "Undeclared": 99
   },
-  "start": "2025-11-03",
-  "end": "2026-11-02",
+  "start": "2025-11-04",
+  "end": "2026-11-03",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -112,57 +112,58 @@
     "2026-10-30": 8,
     "2026-10-31": 11,
     "2026-11-01": 2,
-    "2026-11-02": 4
+    "2026-11-02": 12,
+    "2026-11-03": 2
   },
   "recent": [
     {
-      "date": "2026-11-02T08:07:19Z",
+      "date": "2026-11-03T08:24:28Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.90.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/337",
+      "repository": "Jerome-Group/syrax",
+      "number": 337
+    },
+    {
+      "date": "2026-11-03T00:02:41Z",
       "action": "PR merged",
       "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
-      "url": "https://github.com/Jerome-Group/algebra/pull/184",
-      "repository": "Jerome-Group/algebra",
-      "number": 184
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/85",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 85
     },
     {
-      "date": "2026-11-02T07:56:00Z",
+      "date": "2026-11-02T23:56:00Z",
       "action": "PR opened",
       "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
-      "url": "https://github.com/Jerome-Group/algebra/pull/184",
-      "repository": "Jerome-Group/algebra",
-      "number": 184
+      "url": "https://github.com/Jerome-Group/numbertheory/pull/85",
+      "repository": "Jerome-Group/numbertheory",
+      "number": 85
     },
     {
-      "date": "2026-11-02T06:21:59Z",
+      "date": "2026-11-02T15:02:57Z",
       "action": "PR merged",
-      "title": "build(deps): bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/343",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 343
-    },
-    {
-      "date": "2026-11-02T06:20:58Z",
-      "action": "PR opened",
-      "title": "build(deps): bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/343",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 343
-    },
-    {
-      "date": "2026-11-01T23:10:00Z",
-      "action": "Issue opened",
-      "title": "Weekly maintenance review 2026-11-02",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/427",
+      "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/428",
       "repository": "Jerome-Group/academic-os",
-      "number": 427
+      "number": 428
     },
     {
-      "date": "2026-11-01T20:57:08Z",
+      "date": "2026-11-02T14:55:53Z",
       "action": "PR opened",
-      "title": "Bump satori and vinext",
-      "url": "https://github.com/Jerome-Group/calculus/pull/287",
-      "repository": "Jerome-Group/calculus",
-      "number": 287
+      "title": "build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/428",
+      "repository": "Jerome-Group/academic-os",
+      "number": 428
+    },
+    {
+      "date": "2026-11-02T08:30:56Z",
+      "action": "PR merged",
+      "title": "Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/336",
+      "repository": "Jerome-Group/syrax",
+      "number": 336
     }
   ],
-  "updated": "02 Nov 2026 08:13 UTC"
+  "updated": "03 Nov 2026 08:31 UTC"
 }
