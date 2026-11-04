@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 03 Nov 2026 08:31 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 04 Nov 2026 07:57 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 929 |
-| PRs merged | 809 |
-| Distinct linked issues resolved | 731 |
+| PRs opened | 931 |
+| PRs merged | 811 |
+| Distinct linked issues resolved | 733 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-04 to 2026-11-03 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-05 to 2026-11-04 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-03 · PR opened · [Jerome-Group/syrax#337: Bump oxlint from 1.83.0 to 1.90.0](https://github.com/Jerome-Group/syrax/pull/337)
-- 2026-11-03 · PR merged · [Jerome-Group/numbertheory#85: build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0](https://github.com/Jerome-Group/numbertheory/pull/85)
-- 2026-11-02 · PR opened · [Jerome-Group/numbertheory#85: build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0](https://github.com/Jerome-Group/numbertheory/pull/85)
-- 2026-11-02 · PR merged · [Jerome-Group/academic-os#428: build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0](https://github.com/Jerome-Group/academic-os/pull/428)
-- 2026-11-02 · PR opened · [Jerome-Group/academic-os#428: build(deps): Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0](https://github.com/Jerome-Group/academic-os/pull/428)
-- 2026-11-02 · PR merged · [Jerome-Group/syrax#336: Bump Jerome-Group/.github/.github/workflows/conformance.yml from 2.0.0 to 2.1.0](https://github.com/Jerome-Group/syrax/pull/336)
+- 2026-11-03 · Linked issue resolved · [Jerome-Group/academic-os#432: Preserve frozen template source bindings during shared upgrades](https://github.com/Jerome-Group/academic-os/issues/432)
+- 2026-11-03 · PR merged · [Jerome-Group/academic-os#431: Preserve source-bound cheatsheet template pairs during upgrades](https://github.com/Jerome-Group/academic-os/pull/431)
+- 2026-11-03 · Issue opened · [Jerome-Group/academic-os#432: Preserve frozen template source bindings during shared upgrades](https://github.com/Jerome-Group/academic-os/issues/432)
+- 2026-11-03 · PR opened · [Jerome-Group/academic-os#431: Preserve source-bound cheatsheet template pairs during upgrades](https://github.com/Jerome-Group/academic-os/pull/431)
+- 2026-11-03 · Linked issue resolved · [Jerome-Group/academic-os#405: Preserve exact text evidence across cheatsheet preparation and packaging](https://github.com/Jerome-Group/academic-os/issues/405)
+- 2026-11-03 · PR merged · [Jerome-Group/academic-os#430: Bind cheatsheet evidence and strengthen the shared authoring workflow](https://github.com/Jerome-Group/academic-os/pull/430)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 475 |
+| Codex / OpenAI | 477 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |
