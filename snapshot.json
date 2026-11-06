@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    932,
-    811,
-    733
+    950,
+    831,
+    753
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 477,
+    "Codex / OpenAI": 497,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-06",
-  "end": "2026-11-05",
+  "start": "2025-11-07",
+  "end": "2026-11-06",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -114,57 +114,58 @@
     "2026-11-01": 2,
     "2026-11-02": 12,
     "2026-11-03": 10,
-    "2026-11-05": 1
+    "2026-11-05": 59,
+    "2026-11-06": 33
   },
   "recent": [
     {
-      "date": "2026-11-05T08:24:19Z",
-      "action": "PR opened",
-      "title": "Bump @types/node from 26.6.2 to 26.6.6",
-      "url": "https://github.com/Jerome-Group/syrax/pull/338",
-      "repository": "Jerome-Group/syrax",
-      "number": 338
-    },
-    {
-      "date": "2026-11-03T15:38:53Z",
-      "action": "Linked issue resolved",
-      "title": "Preserve frozen template source bindings during shared upgrades",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/432",
-      "repository": "Jerome-Group/academic-os",
-      "number": 432
-    },
-    {
-      "date": "2026-11-03T15:38:21Z",
-      "action": "PR merged",
-      "title": "Preserve source-bound cheatsheet template pairs during upgrades",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/431",
-      "repository": "Jerome-Group/academic-os",
-      "number": 431
-    },
-    {
-      "date": "2026-11-03T15:35:27Z",
+      "date": "2026-11-06T05:37:32Z",
       "action": "Issue opened",
-      "title": "Preserve frozen template source bindings during shared upgrades",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/432",
+      "title": "Separate bootstrap catalog markers from public request ownership",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/483",
       "repository": "Jerome-Group/academic-os",
-      "number": 432
+      "number": 483
     },
     {
-      "date": "2026-11-03T15:27:19Z",
-      "action": "PR opened",
-      "title": "Preserve source-bound cheatsheet template pairs during upgrades",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/431",
+      "date": "2026-11-06T05:02:27Z",
+      "action": "Issue opened",
+      "title": "Validate intrinsic fragment hash consistency",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/482",
       "repository": "Jerome-Group/academic-os",
-      "number": 431
+      "number": 482
     },
     {
-      "date": "2026-11-03T15:07:34Z",
-      "action": "Linked issue resolved",
-      "title": "Preserve exact text evidence across cheatsheet preparation and packaging",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/405",
+      "date": "2026-11-06T04:56:16Z",
+      "action": "Issue opened",
+      "title": "Separate settlement identities across publication families",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/481",
       "repository": "Jerome-Group/academic-os",
-      "number": 405
+      "number": 481
+    },
+    {
+      "date": "2026-11-06T04:52:41Z",
+      "action": "Issue opened",
+      "title": "Preserve truthful recovery for pending generated work",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/480",
+      "repository": "Jerome-Group/academic-os",
+      "number": 480
+    },
+    {
+      "date": "2026-11-06T04:33:28Z",
+      "action": "Issue opened",
+      "title": "Reject contradictory verification decision scope consistently",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/479",
+      "repository": "Jerome-Group/academic-os",
+      "number": 479
+    },
+    {
+      "date": "2026-11-06T03:57:22Z",
+      "action": "Issue opened",
+      "title": "Add versioned Module verification controls and readers",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/478",
+      "repository": "Jerome-Group/academic-os",
+      "number": 478
     }
   ],
-  "updated": "05 Nov 2026 08:27 UTC"
+  "updated": "06 Nov 2026 08:27 UTC"
 }
