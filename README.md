@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 06 Nov 2026 08:27 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 07 Nov 2026 07:43 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 950 |
-| PRs merged | 831 |
-| Distinct linked issues resolved | 753 |
+| PRs opened | 955 |
+| PRs merged | 836 |
+| Distinct linked issues resolved | 773 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-07 to 2026-11-06 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-08 to 2026-11-07 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#483: Separate bootstrap catalog markers from public request ownership](https://github.com/Jerome-Group/academic-os/issues/483)
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#482: Validate intrinsic fragment hash consistency](https://github.com/Jerome-Group/academic-os/issues/482)
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#481: Separate settlement identities across publication families](https://github.com/Jerome-Group/academic-os/issues/481)
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#480: Preserve truthful recovery for pending generated work](https://github.com/Jerome-Group/academic-os/issues/480)
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#479: Reject contradictory verification decision scope consistently](https://github.com/Jerome-Group/academic-os/issues/479)
-- 2026-11-06 · Issue opened · [Jerome-Group/academic-os#478: Add versioned Module verification controls and readers](https://github.com/Jerome-Group/academic-os/issues/478)
+- 2026-11-06 · Linked issue resolved · [Jerome-Group/academic-os#482: Validate intrinsic fragment hash consistency](https://github.com/Jerome-Group/academic-os/issues/482)
+- 2026-11-06 · Linked issue resolved · [Jerome-Group/academic-os#479: Reject contradictory verification decision scope consistently](https://github.com/Jerome-Group/academic-os/issues/479)
+- 2026-11-06 · Linked issue resolved · [Jerome-Group/academic-os#478: Add versioned Module verification controls and readers](https://github.com/Jerome-Group/academic-os/issues/478)
+- 2026-11-06 · PR merged · [Jerome-Group/academic-os#491: Support versioned Module verification records](https://github.com/Jerome-Group/academic-os/pull/491)
+- 2026-11-06 · PR opened · [Jerome-Group/academic-os#491: Support versioned Module verification records](https://github.com/Jerome-Group/academic-os/pull/491)
+- 2026-11-06 · Linked issue resolved · [Jerome-Group/academic-os#488: Reject stale formal source-symbol line bindings](https://github.com/Jerome-Group/academic-os/issues/488)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 497 |
+| Codex / OpenAI | 502 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |
