@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 09 Nov 2026 08:38 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 10 Nov 2026 08:48 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 959 |
+| PRs opened | 960 |
 | PRs merged | 836 |
 | Distinct linked issues resolved | 773 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-10 to 2026-11-09 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-11 to 2026-11-10 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-11-10 · PR opened · [Jerome-Group/academic-os#494: Allow morning curation to finish without a deadline](https://github.com/Jerome-Group/academic-os/pull/494)
+- 2026-11-10 · Issue opened · [Jerome-Group/academic-os#493: Morning curation sessions time out before processing arrivals](https://github.com/Jerome-Group/academic-os/issues/493)
 - 2026-11-09 · PR opened · [Jerome-Group/ntulearn#346: build(deps-dev): bump eslint from 10.12.0 to 10.14.0](https://github.com/Jerome-Group/ntulearn/pull/346)
 - 2026-11-09 · PR opened · [Jerome-Group/ntulearn#345: build(deps): bump turndown from 7.2.4 to 7.2.5](https://github.com/Jerome-Group/ntulearn/pull/345)
 - 2026-11-09 · PR opened · [Jerome-Group/ntulearn#344: build(deps): bump playwright from 1.64.1 to 1.65.0](https://github.com/Jerome-Group/ntulearn/pull/344)
 - 2026-11-09 · Issue opened · [Jerome-Group/academic-os#492: Weekly maintenance review 2026-11-09](https://github.com/Jerome-Group/academic-os/issues/492)
-- 2026-11-07 · PR opened · [Jerome-Group/f1-analytics#95: Bump @types/node from 26.2.0 to 26.6.6](https://github.com/Jerome-Group/f1-analytics/pull/95)
-- 2026-11-06 · Linked issue resolved · [Jerome-Group/academic-os#482: Validate intrinsic fragment hash consistency](https://github.com/Jerome-Group/academic-os/issues/482)
 
 ## Declared assistance
 
