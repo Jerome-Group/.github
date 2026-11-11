@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    960,
+    965,
     836,
     773
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-11",
-  "end": "2026-11-10",
+  "start": "2025-11-12",
+  "end": "2026-11-11",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -118,9 +118,50 @@
     "2026-11-06": 66,
     "2026-11-07": 1,
     "2026-11-09": 4,
-    "2026-11-10": 2
+    "2026-11-10": 2,
+    "2026-11-11": 5
   },
   "recent": [
+    {
+      "date": "2026-11-11T08:14:41Z",
+      "action": "PR opened",
+      "title": "chore(deps): Bump actions/setup-java from 6.1.0 to 6.2.0",
+      "url": "https://github.com/Jerome-Group/calculator/pull/111",
+      "repository": "Jerome-Group/calculator",
+      "number": 111
+    },
+    {
+      "date": "2026-11-11T07:54:19Z",
+      "action": "PR opened",
+      "title": "build(deps): Bump actions/setup-java from 5.7.0 to 6.2.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/187",
+      "repository": "Jerome-Group/algebra",
+      "number": 187
+    },
+    {
+      "date": "2026-11-11T00:48:45Z",
+      "action": "PR opened",
+      "title": "build(deps-dev): Bump react-server-dom-webpack from 19.2.8 to 19.3.1",
+      "url": "https://github.com/Jerome-Group/algebra/pull/186",
+      "repository": "Jerome-Group/algebra",
+      "number": 186
+    },
+    {
+      "date": "2026-11-11T00:46:41Z",
+      "action": "PR opened",
+      "title": "Bump react-server-dom-webpack from 19.2.8 to 19.3.1",
+      "url": "https://github.com/Jerome-Group/calculus/pull/288",
+      "repository": "Jerome-Group/calculus",
+      "number": 288
+    },
+    {
+      "date": "2026-11-11T00:02:06Z",
+      "action": "PR opened",
+      "title": "chore(deps-dev): Bump react-server-dom-webpack from 19.3.0 to 19.3.1",
+      "url": "https://github.com/Jerome-Group/calculator/pull/110",
+      "repository": "Jerome-Group/calculator",
+      "number": 110
+    },
     {
       "date": "2026-11-10T01:30:10Z",
       "action": "PR opened",
@@ -128,47 +169,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/pull/494",
       "repository": "Jerome-Group/academic-os",
       "number": 494
-    },
-    {
-      "date": "2026-11-10T01:18:51Z",
-      "action": "Issue opened",
-      "title": "Morning curation sessions time out before processing arrivals",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/493",
-      "repository": "Jerome-Group/academic-os",
-      "number": 493
-    },
-    {
-      "date": "2026-11-09T06:22:31Z",
-      "action": "PR opened",
-      "title": "build(deps-dev): bump eslint from 10.12.0 to 10.14.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/346",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 346
-    },
-    {
-      "date": "2026-11-09T06:22:24Z",
-      "action": "PR opened",
-      "title": "build(deps): bump turndown from 7.2.4 to 7.2.5",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/345",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 345
-    },
-    {
-      "date": "2026-11-09T06:22:19Z",
-      "action": "PR opened",
-      "title": "build(deps): bump playwright from 1.64.1 to 1.65.0",
-      "url": "https://github.com/Jerome-Group/ntulearn/pull/344",
-      "repository": "Jerome-Group/ntulearn",
-      "number": 344
-    },
-    {
-      "date": "2026-11-09T00:00:49Z",
-      "action": "Issue opened",
-      "title": "Weekly maintenance review 2026-11-09",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/492",
-      "repository": "Jerome-Group/academic-os",
-      "number": 492
     }
   ],
-  "updated": "10 Nov 2026 08:48 UTC"
+  "updated": "11 Nov 2026 08:20 UTC"
 }
