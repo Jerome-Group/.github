@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    965,
+    966,
     836,
     773
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-12",
-  "end": "2026-11-11",
+  "start": "2025-11-13",
+  "end": "2026-11-12",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -119,9 +119,17 @@
     "2026-11-07": 1,
     "2026-11-09": 4,
     "2026-11-10": 2,
-    "2026-11-11": 5
+    "2026-11-11": 6
   },
   "recent": [
+    {
+      "date": "2026-11-11T08:24:29Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.91.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/339",
+      "repository": "Jerome-Group/syrax",
+      "number": 339
+    },
     {
       "date": "2026-11-11T08:14:41Z",
       "action": "PR opened",
@@ -161,15 +169,7 @@
       "url": "https://github.com/Jerome-Group/calculator/pull/110",
       "repository": "Jerome-Group/calculator",
       "number": 110
-    },
-    {
-      "date": "2026-11-10T01:30:10Z",
-      "action": "PR opened",
-      "title": "Allow morning curation to finish without a deadline",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/494",
-      "repository": "Jerome-Group/academic-os",
-      "number": 494
     }
   ],
-  "updated": "11 Nov 2026 08:20 UTC"
+  "updated": "12 Nov 2026 08:47 UTC"
 }
