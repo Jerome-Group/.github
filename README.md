@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 12 Nov 2026 08:47 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 13 Nov 2026 08:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 966 |
-| PRs merged | 836 |
-| Distinct linked issues resolved | 773 |
+| PRs opened | 972 |
+| PRs merged | 841 |
+| Distinct linked issues resolved | 778 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-13 to 2026-11-12 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-14 to 2026-11-13 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-11 · PR opened · [Jerome-Group/syrax#339: Bump oxlint from 1.83.0 to 1.91.0](https://github.com/Jerome-Group/syrax/pull/339)
-- 2026-11-11 · PR opened · [Jerome-Group/calculator#111: chore(deps): Bump actions/setup-java from 6.1.0 to 6.2.0](https://github.com/Jerome-Group/calculator/pull/111)
-- 2026-11-11 · PR opened · [Jerome-Group/algebra#187: build(deps): Bump actions/setup-java from 5.7.0 to 6.2.0](https://github.com/Jerome-Group/algebra/pull/187)
-- 2026-11-11 · PR opened · [Jerome-Group/algebra#186: build(deps-dev): Bump react-server-dom-webpack from 19.2.8 to 19.3.1](https://github.com/Jerome-Group/algebra/pull/186)
-- 2026-11-11 · PR opened · [Jerome-Group/calculus#288: Bump react-server-dom-webpack from 19.2.8 to 19.3.1](https://github.com/Jerome-Group/calculus/pull/288)
-- 2026-11-11 · PR opened · [Jerome-Group/calculator#110: chore(deps-dev): Bump react-server-dom-webpack from 19.3.0 to 19.3.1](https://github.com/Jerome-Group/calculator/pull/110)
+- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#505: fix: allow full check profile to finish selected work](https://github.com/Jerome-Group/academic-os/issues/505)
+- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#504: Resolve remaining Module audit and acquisition gaps](https://github.com/Jerome-Group/academic-os/issues/504)
+- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#503: Reconcile legacy curation history and module tooling under contract v8](https://github.com/Jerome-Group/academic-os/issues/503)
+- 2026-11-13 · Linked issue resolved · [Jerome-Group/academic-os#501: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/issues/501)
+- 2026-11-13 · PR merged · [Jerome-Group/academic-os#502: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/pull/502)
+- 2026-11-13 · PR opened · [Jerome-Group/academic-os#502: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/pull/502)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 502 |
+| Codex / OpenAI | 507 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |

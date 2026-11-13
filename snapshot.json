@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    966,
-    836,
-    773
+    972,
+    841,
+    778
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 502,
+    "Codex / OpenAI": 507,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-13",
-  "end": "2026-11-12",
+  "start": "2025-11-14",
+  "end": "2026-11-13",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -119,57 +119,59 @@
     "2026-11-07": 1,
     "2026-11-09": 4,
     "2026-11-10": 2,
-    "2026-11-11": 6
+    "2026-11-11": 6,
+    "2026-11-12": 10,
+    "2026-11-13": 14
   },
   "recent": [
     {
-      "date": "2026-11-11T08:24:29Z",
-      "action": "PR opened",
-      "title": "Bump oxlint from 1.83.0 to 1.91.0",
-      "url": "https://github.com/Jerome-Group/syrax/pull/339",
-      "repository": "Jerome-Group/syrax",
-      "number": 339
+      "date": "2026-11-13T08:42:01Z",
+      "action": "Issue opened",
+      "title": "fix: allow full check profile to finish selected work",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/505",
+      "repository": "Jerome-Group/academic-os",
+      "number": 505
     },
     {
-      "date": "2026-11-11T08:14:41Z",
-      "action": "PR opened",
-      "title": "chore(deps): Bump actions/setup-java from 6.1.0 to 6.2.0",
-      "url": "https://github.com/Jerome-Group/calculator/pull/111",
-      "repository": "Jerome-Group/calculator",
-      "number": 111
+      "date": "2026-11-13T08:24:09Z",
+      "action": "Issue opened",
+      "title": "Resolve remaining Module audit and acquisition gaps",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/504",
+      "repository": "Jerome-Group/academic-os",
+      "number": 504
     },
     {
-      "date": "2026-11-11T07:54:19Z",
-      "action": "PR opened",
-      "title": "build(deps): Bump actions/setup-java from 5.7.0 to 6.2.0",
-      "url": "https://github.com/Jerome-Group/algebra/pull/187",
-      "repository": "Jerome-Group/algebra",
-      "number": 187
+      "date": "2026-11-13T08:23:07Z",
+      "action": "Issue opened",
+      "title": "Reconcile legacy curation history and module tooling under contract v8",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/503",
+      "repository": "Jerome-Group/academic-os",
+      "number": 503
     },
     {
-      "date": "2026-11-11T00:48:45Z",
-      "action": "PR opened",
-      "title": "build(deps-dev): Bump react-server-dom-webpack from 19.2.8 to 19.3.1",
-      "url": "https://github.com/Jerome-Group/algebra/pull/186",
-      "repository": "Jerome-Group/algebra",
-      "number": 186
+      "date": "2026-11-13T04:28:24Z",
+      "action": "Linked issue resolved",
+      "title": "Interpret absent curation fields consistently",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/501",
+      "repository": "Jerome-Group/academic-os",
+      "number": 501
     },
     {
-      "date": "2026-11-11T00:46:41Z",
-      "action": "PR opened",
-      "title": "Bump react-server-dom-webpack from 19.2.8 to 19.3.1",
-      "url": "https://github.com/Jerome-Group/calculus/pull/288",
-      "repository": "Jerome-Group/calculus",
-      "number": 288
+      "date": "2026-11-13T04:28:22Z",
+      "action": "PR merged",
+      "title": "Interpret absent curation fields consistently",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/502",
+      "repository": "Jerome-Group/academic-os",
+      "number": 502
     },
     {
-      "date": "2026-11-11T00:02:06Z",
+      "date": "2026-11-13T04:25:50Z",
       "action": "PR opened",
-      "title": "chore(deps-dev): Bump react-server-dom-webpack from 19.3.0 to 19.3.1",
-      "url": "https://github.com/Jerome-Group/calculator/pull/110",
-      "repository": "Jerome-Group/calculator",
-      "number": 110
+      "title": "Interpret absent curation fields consistently",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/502",
+      "repository": "Jerome-Group/academic-os",
+      "number": 502
     }
   ],
-  "updated": "12 Nov 2026 08:47 UTC"
+  "updated": "13 Nov 2026 08:42 UTC"
 }
