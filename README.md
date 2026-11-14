@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 13 Nov 2026 08:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 14 Nov 2026 07:58 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 972 |
-| PRs merged | 841 |
-| Distinct linked issues resolved | 778 |
+| PRs opened | 979 |
+| PRs merged | 847 |
+| Distinct linked issues resolved | 784 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-14 to 2026-11-13 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-15 to 2026-11-14 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#505: fix: allow full check profile to finish selected work](https://github.com/Jerome-Group/academic-os/issues/505)
-- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#504: Resolve remaining Module audit and acquisition gaps](https://github.com/Jerome-Group/academic-os/issues/504)
-- 2026-11-13 · Issue opened · [Jerome-Group/academic-os#503: Reconcile legacy curation history and module tooling under contract v8](https://github.com/Jerome-Group/academic-os/issues/503)
-- 2026-11-13 · Linked issue resolved · [Jerome-Group/academic-os#501: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/issues/501)
-- 2026-11-13 · PR merged · [Jerome-Group/academic-os#502: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/pull/502)
-- 2026-11-13 · PR opened · [Jerome-Group/academic-os#502: Interpret absent curation fields consistently](https://github.com/Jerome-Group/academic-os/pull/502)
+- 2026-11-14 · PR opened · [Jerome-Group/syrax#342: Bump opentelemetry-api from 1.44.0 to 1.45.2 in /search](https://github.com/Jerome-Group/syrax/pull/342)
+- 2026-11-14 · Linked issue resolved · [Jerome-Group/academic-os#505: fix: allow full check profile to finish selected work](https://github.com/Jerome-Group/academic-os/issues/505)
+- 2026-11-14 · PR merged · [Jerome-Group/academic-os#507: Bound complete full verification at forty-five minutes](https://github.com/Jerome-Group/academic-os/pull/507)
+- 2026-11-13 · Linked issue resolved · [Jerome-Group/academic-os#512: Make maintenance lifecycle verification deterministic under suite load](https://github.com/Jerome-Group/academic-os/issues/512)
+- 2026-11-13 · PR merged · [Jerome-Group/academic-os#513: test(routine): synchronize maintenance lifecycle fixtures](https://github.com/Jerome-Group/academic-os/pull/513)
+- 2026-11-13 · PR opened · [Jerome-Group/academic-os#513: test(routine): synchronize maintenance lifecycle fixtures](https://github.com/Jerome-Group/academic-os/pull/513)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 507 |
+| Codex / OpenAI | 513 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |
