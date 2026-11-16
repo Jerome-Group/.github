@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    980,
+    982,
     848,
     785
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-16",
-  "end": "2026-11-15",
+  "start": "2025-11-17",
+  "end": "2026-11-16",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -122,9 +122,34 @@
     "2026-11-11": 6,
     "2026-11-12": 10,
     "2026-11-13": 33,
-    "2026-11-14": 8
+    "2026-11-14": 8,
+    "2026-11-16": 3
   },
   "recent": [
+    {
+      "date": "2026-11-16T08:28:32Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.92.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/343",
+      "repository": "Jerome-Group/syrax",
+      "number": 343
+    },
+    {
+      "date": "2026-11-16T06:24:09Z",
+      "action": "PR opened",
+      "title": "build(deps-dev): bump prettier from 3.9.10 to 3.10.1",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/349",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 349
+    },
+    {
+      "date": "2026-11-16T01:28:26Z",
+      "action": "Issue opened",
+      "title": "Weekly maintenance review 2026-11-16",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/517",
+      "repository": "Jerome-Group/academic-os",
+      "number": 517
+    },
     {
       "date": "2026-11-14T11:01:02Z",
       "action": "Linked issue resolved",
@@ -148,31 +173,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/pull/516",
       "repository": "Jerome-Group/academic-os",
       "number": 516
-    },
-    {
-      "date": "2026-11-14T09:25:16Z",
-      "action": "Issue opened",
-      "title": "Support cross-unit review exercise sets and migrate existing review material",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/515",
-      "repository": "Jerome-Group/academic-os",
-      "number": 515
-    },
-    {
-      "date": "2026-11-14T08:23:21Z",
-      "action": "Issue opened",
-      "title": "Reconcile Research-project registers with contract v3",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/514",
-      "repository": "Jerome-Group/academic-os",
-      "number": 514
-    },
-    {
-      "date": "2026-11-14T03:00:11Z",
-      "action": "PR opened",
-      "title": "Bump opentelemetry-api from 1.44.0 to 1.45.2 in /search",
-      "url": "https://github.com/Jerome-Group/syrax/pull/342",
-      "repository": "Jerome-Group/syrax",
-      "number": 342
     }
   ],
-  "updated": "15 Nov 2026 08:23 UTC"
+  "updated": "16 Nov 2026 08:32 UTC"
 }
