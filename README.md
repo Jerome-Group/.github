@@ -1,10 +1,10 @@
 # Organisation activity snapshot
 
-Updated 16 Nov 2026 08:32 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 17 Nov 2026 09:42 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 982 |
+| PRs opened | 987 |
 | PRs merged | 848 |
 | Distinct linked issues resolved | 785 |
 
@@ -13,7 +13,7 @@ public organisation PR, with its latest closure at or after that merge. Each iss
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-17 to 2026-11-16 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-18 to 2026-11-17 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,12 +23,12 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
+- 2026-11-17 · PR opened · [Jerome-Group/syrax#344: Bump oxlint from 1.83.0 to 1.93.0](https://github.com/Jerome-Group/syrax/pull/344)
+- 2026-11-17 · PR opened · [Jerome-Group/calculator#112: chore(deps): Bump next from 16.4.2 to 16.4.5](https://github.com/Jerome-Group/calculator/pull/112)
+- 2026-11-17 · PR opened · [Jerome-Group/numbertheory#86: build(deps): Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/numbertheory/pull/86)
+- 2026-11-17 · PR opened · [Jerome-Group/calculus#289: Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/calculus/pull/289)
+- 2026-11-17 · PR opened · [Jerome-Group/algebra#188: build(deps): Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/algebra/pull/188)
 - 2026-11-16 · PR opened · [Jerome-Group/syrax#343: Bump oxlint from 1.83.0 to 1.92.0](https://github.com/Jerome-Group/syrax/pull/343)
-- 2026-11-16 · PR opened · [Jerome-Group/ntulearn#349: build(deps-dev): bump prettier from 3.9.10 to 3.10.1](https://github.com/Jerome-Group/ntulearn/pull/349)
-- 2026-11-16 · Issue opened · [Jerome-Group/academic-os#517: Weekly maintenance review 2026-11-16](https://github.com/Jerome-Group/academic-os/issues/517)
-- 2026-11-14 · Linked issue resolved · [Jerome-Group/academic-os#515: Support cross-unit review exercise sets and migrate existing review material](https://github.com/Jerome-Group/academic-os/issues/515)
-- 2026-11-14 · PR merged · [Jerome-Group/academic-os#516: Support cross-unit review exercises and task provenance correction](https://github.com/Jerome-Group/academic-os/pull/516)
-- 2026-11-14 · PR opened · [Jerome-Group/academic-os#516: Support cross-unit review exercises and task provenance correction](https://github.com/Jerome-Group/academic-os/pull/516)
 
 ## Declared assistance
 
