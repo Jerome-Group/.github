@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    987,
+    988,
     848,
     785
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-19",
-  "end": "2026-11-18",
+  "start": "2025-11-20",
+  "end": "2026-11-19",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -124,9 +124,18 @@
     "2026-11-13": 33,
     "2026-11-14": 8,
     "2026-11-16": 3,
-    "2026-11-17": 5
+    "2026-11-17": 5,
+    "2026-11-19": 1
   },
   "recent": [
+    {
+      "date": "2026-11-19T08:24:18Z",
+      "action": "PR opened",
+      "title": "Bump prettier from 3.9.8 to 3.10.1",
+      "url": "https://github.com/Jerome-Group/syrax/pull/345",
+      "repository": "Jerome-Group/syrax",
+      "number": 345
+    },
     {
       "date": "2026-11-17T08:24:34Z",
       "action": "PR opened",
@@ -166,15 +175,7 @@
       "url": "https://github.com/Jerome-Group/algebra/pull/188",
       "repository": "Jerome-Group/algebra",
       "number": 188
-    },
-    {
-      "date": "2026-11-16T08:28:32Z",
-      "action": "PR opened",
-      "title": "Bump oxlint from 1.83.0 to 1.92.0",
-      "url": "https://github.com/Jerome-Group/syrax/pull/343",
-      "repository": "Jerome-Group/syrax",
-      "number": 343
     }
   ],
-  "updated": "18 Nov 2026 09:03 UTC"
+  "updated": "19 Nov 2026 09:27 UTC"
 }
