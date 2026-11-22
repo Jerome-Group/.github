@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 21 Nov 2026 08:43 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 22 Nov 2026 08:44 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 988 |
-| PRs merged | 848 |
-| Distinct linked issues resolved | 785 |
+| PRs opened | 995 |
+| PRs merged | 855 |
+| Distinct linked issues resolved | 793 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-22 to 2026-11-21 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-23 to 2026-11-22 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-19 · PR opened · [Jerome-Group/syrax#345: Bump prettier from 3.9.8 to 3.10.1](https://github.com/Jerome-Group/syrax/pull/345)
-- 2026-11-17 · PR opened · [Jerome-Group/syrax#344: Bump oxlint from 1.83.0 to 1.93.0](https://github.com/Jerome-Group/syrax/pull/344)
-- 2026-11-17 · PR opened · [Jerome-Group/calculator#112: chore(deps): Bump next from 16.4.2 to 16.4.5](https://github.com/Jerome-Group/calculator/pull/112)
-- 2026-11-17 · PR opened · [Jerome-Group/numbertheory#86: build(deps): Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/numbertheory/pull/86)
-- 2026-11-17 · PR opened · [Jerome-Group/calculus#289: Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/calculus/pull/289)
-- 2026-11-17 · PR opened · [Jerome-Group/algebra#188: build(deps): Bump next from 16.4.2 to 16.4.6](https://github.com/Jerome-Group/algebra/pull/188)
+- 2026-11-22 · Linked issue resolved · [Jerome-Group/academic-os#531: Prioritize finals content and clean up cheatsheet highlights](https://github.com/Jerome-Group/academic-os/issues/531)
+- 2026-11-22 · PR merged · [Jerome-Group/academic-os#532: feat(cheatsheet): rank finals priorities and keep highlight fills clean](https://github.com/Jerome-Group/academic-os/pull/532)
+- 2026-11-22 · PR opened · [Jerome-Group/academic-os#532: feat(cheatsheet): rank finals priorities and keep highlight fills clean](https://github.com/Jerome-Group/academic-os/pull/532)
+- 2026-11-22 · Issue opened · [Jerome-Group/academic-os#531: Prioritize finals content and clean up cheatsheet highlights](https://github.com/Jerome-Group/academic-os/issues/531)
+- 2026-11-22 · Linked issue resolved · [Jerome-Group/academic-os#529: Add selective passage backgrounds to cheatsheets](https://github.com/Jerome-Group/academic-os/issues/529)
+- 2026-11-22 · PR merged · [Jerome-Group/academic-os#530: feat(cheatsheet): add selective backgrounds for priority material](https://github.com/Jerome-Group/academic-os/pull/530)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 514 |
+| Codex / OpenAI | 521 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |

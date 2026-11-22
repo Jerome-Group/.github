@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    988,
-    848,
-    785
+    995,
+    855,
+    793
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 514,
+    "Codex / OpenAI": 521,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-22",
-  "end": "2026-11-21",
+  "start": "2025-11-23",
+  "end": "2026-11-22",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -125,57 +125,59 @@
     "2026-11-14": 8,
     "2026-11-16": 3,
     "2026-11-17": 5,
-    "2026-11-19": 1
+    "2026-11-19": 1,
+    "2026-11-21": 14,
+    "2026-11-22": 16
   },
   "recent": [
     {
-      "date": "2026-11-19T08:24:18Z",
-      "action": "PR opened",
-      "title": "Bump prettier from 3.9.8 to 3.10.1",
-      "url": "https://github.com/Jerome-Group/syrax/pull/345",
-      "repository": "Jerome-Group/syrax",
-      "number": 345
+      "date": "2026-11-22T04:59:59Z",
+      "action": "Linked issue resolved",
+      "title": "Prioritize finals content and clean up cheatsheet highlights",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/531",
+      "repository": "Jerome-Group/academic-os",
+      "number": 531
     },
     {
-      "date": "2026-11-17T08:24:34Z",
-      "action": "PR opened",
-      "title": "Bump oxlint from 1.83.0 to 1.93.0",
-      "url": "https://github.com/Jerome-Group/syrax/pull/344",
-      "repository": "Jerome-Group/syrax",
-      "number": 344
+      "date": "2026-11-22T04:59:57Z",
+      "action": "PR merged",
+      "title": "feat(cheatsheet): rank finals priorities and keep highlight fills clean",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/532",
+      "repository": "Jerome-Group/academic-os",
+      "number": 532
     },
     {
-      "date": "2026-11-17T03:43:34Z",
+      "date": "2026-11-22T04:59:30Z",
       "action": "PR opened",
-      "title": "chore(deps): Bump next from 16.4.2 to 16.4.5",
-      "url": "https://github.com/Jerome-Group/calculator/pull/112",
-      "repository": "Jerome-Group/calculator",
-      "number": 112
+      "title": "feat(cheatsheet): rank finals priorities and keep highlight fills clean",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/532",
+      "repository": "Jerome-Group/academic-os",
+      "number": 532
     },
     {
-      "date": "2026-11-17T03:40:16Z",
-      "action": "PR opened",
-      "title": "build(deps): Bump next from 16.4.2 to 16.4.6",
-      "url": "https://github.com/Jerome-Group/numbertheory/pull/86",
-      "repository": "Jerome-Group/numbertheory",
-      "number": 86
+      "date": "2026-11-22T04:51:49Z",
+      "action": "Issue opened",
+      "title": "Prioritize finals content and clean up cheatsheet highlights",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/531",
+      "repository": "Jerome-Group/academic-os",
+      "number": 531
     },
     {
-      "date": "2026-11-17T03:36:40Z",
-      "action": "PR opened",
-      "title": "Bump next from 16.4.2 to 16.4.6",
-      "url": "https://github.com/Jerome-Group/calculus/pull/289",
-      "repository": "Jerome-Group/calculus",
-      "number": 289
+      "date": "2026-11-22T04:39:08Z",
+      "action": "Linked issue resolved",
+      "title": "Add selective passage backgrounds to cheatsheets",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/529",
+      "repository": "Jerome-Group/academic-os",
+      "number": 529
     },
     {
-      "date": "2026-11-17T03:36:35Z",
-      "action": "PR opened",
-      "title": "build(deps): Bump next from 16.4.2 to 16.4.6",
-      "url": "https://github.com/Jerome-Group/algebra/pull/188",
-      "repository": "Jerome-Group/algebra",
-      "number": 188
+      "date": "2026-11-22T04:39:07Z",
+      "action": "PR merged",
+      "title": "feat(cheatsheet): add selective backgrounds for priority material",
+      "url": "https://github.com/Jerome-Group/academic-os/pull/530",
+      "repository": "Jerome-Group/academic-os",
+      "number": 530
     }
   ],
-  "updated": "21 Nov 2026 08:43 UTC"
+  "updated": "22 Nov 2026 08:44 UTC"
 }
