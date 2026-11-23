@@ -11,20 +11,20 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    995,
-    855,
-    793
+    1003,
+    859,
+    797
   ],
   "assistance": {
     "Claude": 229,
-    "Codex / OpenAI": 521,
+    "Codex / OpenAI": 525,
     "Both": 2,
     "Other / mixed": 3,
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-23",
-  "end": "2026-11-22",
+  "start": "2025-11-24",
+  "end": "2026-11-23",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -127,57 +127,58 @@
     "2026-11-17": 5,
     "2026-11-19": 1,
     "2026-11-21": 14,
-    "2026-11-22": 16
+    "2026-11-22": 32,
+    "2026-11-23": 5
   },
   "recent": [
     {
-      "date": "2026-11-22T04:59:59Z",
-      "action": "Linked issue resolved",
-      "title": "Prioritize finals content and clean up cheatsheet highlights",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/531",
-      "repository": "Jerome-Group/academic-os",
-      "number": 531
-    },
-    {
-      "date": "2026-11-22T04:59:57Z",
-      "action": "PR merged",
-      "title": "feat(cheatsheet): rank finals priorities and keep highlight fills clean",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/532",
-      "repository": "Jerome-Group/academic-os",
-      "number": 532
-    },
-    {
-      "date": "2026-11-22T04:59:30Z",
+      "date": "2026-11-23T08:23:44Z",
       "action": "PR opened",
-      "title": "feat(cheatsheet): rank finals priorities and keep highlight fills clean",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/532",
-      "repository": "Jerome-Group/academic-os",
-      "number": 532
+      "title": "chore(deps): Bump actions/setup-java from 6.1.0 to 6.3.0",
+      "url": "https://github.com/Jerome-Group/calculator/pull/113",
+      "repository": "Jerome-Group/calculator",
+      "number": 113
     },
     {
-      "date": "2026-11-22T04:51:49Z",
+      "date": "2026-11-23T07:55:35Z",
+      "action": "PR opened",
+      "title": "build(deps): Bump actions/setup-java from 5.7.0 to 6.3.0",
+      "url": "https://github.com/Jerome-Group/algebra/pull/189",
+      "repository": "Jerome-Group/algebra",
+      "number": 189
+    },
+    {
+      "date": "2026-11-23T06:26:31Z",
+      "action": "PR opened",
+      "title": "build(deps): bump playwright from 1.64.1 to 1.65.1",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/351",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 351
+    },
+    {
+      "date": "2026-11-23T06:26:23Z",
+      "action": "PR opened",
+      "title": "build(deps-dev): bump eslint from 10.12.0 to 10.15.0",
+      "url": "https://github.com/Jerome-Group/ntulearn/pull/350",
+      "repository": "Jerome-Group/ntulearn",
+      "number": 350
+    },
+    {
+      "date": "2026-11-23T01:26:43Z",
       "action": "Issue opened",
-      "title": "Prioritize finals content and clean up cheatsheet highlights",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/531",
+      "title": "Weekly maintenance review 2026-11-23",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/541",
       "repository": "Jerome-Group/academic-os",
-      "number": 531
+      "number": 541
     },
     {
-      "date": "2026-11-22T04:39:08Z",
+      "date": "2026-11-22T16:50:04Z",
       "action": "Linked issue resolved",
-      "title": "Add selective passage backgrounds to cheatsheets",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/529",
+      "title": "Require complete, course-rigorous worked solutions across Academic OS",
+      "url": "https://github.com/Jerome-Group/academic-os/issues/539",
       "repository": "Jerome-Group/academic-os",
-      "number": 529
-    },
-    {
-      "date": "2026-11-22T04:39:07Z",
-      "action": "PR merged",
-      "title": "feat(cheatsheet): add selective backgrounds for priority material",
-      "url": "https://github.com/Jerome-Group/academic-os/pull/530",
-      "repository": "Jerome-Group/academic-os",
-      "number": 530
+      "number": 539
     }
   ],
-  "updated": "22 Nov 2026 08:44 UTC"
+  "updated": "23 Nov 2026 09:42 UTC"
 }
