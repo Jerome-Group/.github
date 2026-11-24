@@ -11,7 +11,7 @@
     "Jerome-Group/syrax"
   ],
   "counts": [
-    1003,
+    1004,
     859,
     797
   ],
@@ -23,8 +23,8 @@
     "Unassisted": 1,
     "Undeclared": 99
   },
-  "start": "2025-11-24",
-  "end": "2026-11-23",
+  "start": "2025-11-25",
+  "end": "2026-11-24",
   "days": {
     "2026-07-25": 27,
     "2026-07-26": 45,
@@ -128,9 +128,18 @@
     "2026-11-19": 1,
     "2026-11-21": 14,
     "2026-11-22": 32,
-    "2026-11-23": 5
+    "2026-11-23": 5,
+    "2026-11-24": 1
   },
   "recent": [
+    {
+      "date": "2026-11-24T08:24:26Z",
+      "action": "PR opened",
+      "title": "Bump oxlint from 1.83.0 to 1.94.0",
+      "url": "https://github.com/Jerome-Group/syrax/pull/346",
+      "repository": "Jerome-Group/syrax",
+      "number": 346
+    },
     {
       "date": "2026-11-23T08:23:44Z",
       "action": "PR opened",
@@ -170,15 +179,7 @@
       "url": "https://github.com/Jerome-Group/academic-os/issues/541",
       "repository": "Jerome-Group/academic-os",
       "number": 541
-    },
-    {
-      "date": "2026-11-22T16:50:04Z",
-      "action": "Linked issue resolved",
-      "title": "Require complete, course-rigorous worked solutions across Academic OS",
-      "url": "https://github.com/Jerome-Group/academic-os/issues/539",
-      "repository": "Jerome-Group/academic-os",
-      "number": 539
     }
   ],
-  "updated": "23 Nov 2026 09:42 UTC"
+  "updated": "24 Nov 2026 11:34 UTC"
 }
