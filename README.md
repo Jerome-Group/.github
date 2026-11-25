@@ -1,19 +1,19 @@
 # Organisation activity snapshot
 
-Updated 24 Nov 2026 11:34 UTC. Public Jerome-Group repositories; all contributors, including bots.
+Updated 25 Nov 2026 10:24 UTC. Public Jerome-Group repositories; all contributors, including bots.
 
 | All-time metric | Count |
 | --- | ---: |
-| PRs opened | 1004 |
-| PRs merged | 859 |
-| Distinct linked issues resolved | 797 |
+| PRs opened | 1008 |
+| PRs merged | 863 |
+| Distinct linked issues resolved | 801 |
 
 A linked resolution is a currently closed public organisation issue referenced by a merged
 public organisation PR, with its latest closure at or after that merge. Each issue counts once.
 This measures linkage, not causal proof or who clicked Close. Links and reopened issues can
 change historical totals. Deleted records and repositories no longer public are excluded.
 
-The calendar spans 2025-11-25 to 2026-11-24 inclusive, in UTC. Each issue opening,
+The calendar spans 2025-11-26 to 2026-11-25 inclusive, in UTC. Each issue opening,
 PR opening, PR merge and distinct linked resolution counts as one event. It is not GitHub's
 personal contribution calendar; commits, reviews and comments are not included.
 Recent activity shows the six latest events from the same complete collection.
@@ -23,19 +23,19 @@ snapshot and its timestamp. Historical snapshots contain information public when
 
 ## Recent activity
 
-- 2026-11-24 · PR opened · [Jerome-Group/syrax#346: Bump oxlint from 1.83.0 to 1.94.0](https://github.com/Jerome-Group/syrax/pull/346)
-- 2026-11-23 · PR opened · [Jerome-Group/calculator#113: chore(deps): Bump actions/setup-java from 6.1.0 to 6.3.0](https://github.com/Jerome-Group/calculator/pull/113)
-- 2026-11-23 · PR opened · [Jerome-Group/algebra#189: build(deps): Bump actions/setup-java from 5.7.0 to 6.3.0](https://github.com/Jerome-Group/algebra/pull/189)
-- 2026-11-23 · PR opened · [Jerome-Group/ntulearn#351: build(deps): bump playwright from 1.64.1 to 1.65.1](https://github.com/Jerome-Group/ntulearn/pull/351)
-- 2026-11-23 · PR opened · [Jerome-Group/ntulearn#350: build(deps-dev): bump eslint from 10.12.0 to 10.15.0](https://github.com/Jerome-Group/ntulearn/pull/350)
-- 2026-11-23 · Issue opened · [Jerome-Group/academic-os#541: Weekly maintenance review 2026-11-23](https://github.com/Jerome-Group/academic-os/issues/541)
+- 2026-11-24 · Linked issue resolved · [Jerome-Group/academic-os#544: Reconcile a recorded curation destination without rewriting history](https://github.com/Jerome-Group/academic-os/issues/544)
+- 2026-11-24 · PR merged · [Jerome-Group/academic-os#545: fix(curation): reconcile a historical destination omission](https://github.com/Jerome-Group/academic-os/pull/545)
+- 2026-11-24 · PR opened · [Jerome-Group/academic-os#545: fix(curation): reconcile a historical destination omission](https://github.com/Jerome-Group/academic-os/pull/545)
+- 2026-11-24 · Issue opened · [Jerome-Group/academic-os#544: Reconcile a recorded curation destination without rewriting history](https://github.com/Jerome-Group/academic-os/issues/544)
+- 2026-11-24 · Linked issue resolved · [Jerome-Group/academic-os#542: Make the morning curation handoff deterministic](https://github.com/Jerome-Group/academic-os/issues/542)
+- 2026-11-24 · PR merged · [Jerome-Group/academic-os#543: fix(curation): make morning file delivery accountable](https://github.com/Jerome-Group/academic-os/pull/543)
 
 ## Declared assistance
 
 | Merged PR category | Count |
 | --- | ---: |
 | Claude | 229 |
-| Codex / OpenAI | 525 |
+| Codex / OpenAI | 529 |
 | Both | 2 |
 | Other / mixed | 3 |
 | Unassisted | 1 |
